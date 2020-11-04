@@ -214,7 +214,6 @@ function makeStimsContext() {
           stimulus = {
 		      "item" : item,
 		      "condition" : condition,
-		      "s" : sentence,
 		      "sentence" : sentence,
 		      "question" : question,
 		      "answer" : answer
@@ -367,9 +366,9 @@ for(var w=0; w<28; w++) {
 }
 
      
-     addStimulus(fillers, "filler", "filler", "Since when it storms, the grass gets wet, the landscaper can't cut the grass, the garden will be overgrown.", "Will the garden be cut?", "N")
+     addStimulus(fillers, "filler", "filler", "Since when it storm, the grass gets wet.", "Will the garden be cut?", "N")
      addStimulus(fillers, "filler", "filler", "The lecturer spoke to the man in the classroom wearing a blue suit which had good seating and blackboards.", "Was the man wearing a blue suit?", "Y") // Extraposition
-     addStimulus(fillers, "filler", "filler", "The librarian delivered the books with many photographs to the building which depicted horses.", "Did the librarian deliver the books?", "Y") // Extraposition
+     addStimulus(fillers, "filler", "filler", "The librarian delivered the books which horses depicted.", "Did the librarian deliver the books?", "Y") // Extraposition
      addStimulus(fillers, "filler", "filler", "The astronaut flew the spaceship with two tanks to the moon which were filled with fuel.", "Did the spaceship have three tanks?", "N") // Extraposition
      addStimulus(fillers, "filler", "filler", "The delivery man left the package with two labels on the porch which were printed with an address.", "Was the package left in the mailbox?", "N") // Extraposition
      addStimulus(fillers, "filler", "filler", "Jonathan will buy the red sports car as soon as he returns from his vacation in the Caribbean.", "Was Jonathan vacationing in the Caribbean?", "Y")
@@ -379,32 +378,25 @@ for(var w=0; w<28; w++) {
      addStimulus(fillers, "filler", "filler", "The board of directors announced that the business acquisition strategy was proceeding as planned.", "Did the board of directors make an announcement?", "Y")
      addStimulus(fillers, "filler", "filler", "In 1945, Germany and Japan surrendered to the Allied forces, ending one of the bloodiest conflicts in history.", "Did Japan surrender to Germany?", "N")
      addStimulus(fillers, "filler", "filler", "Harvard University recently purchased a large tract of land to be used as a new boathouse for the rowing team.", "Did Stanford University purchase land?", "N")
-     addStimulus(fillers, "filler", "filler", "Maple trees are classified as deciduous, whereas Norwegian pines are considered to be evergreen.", "Are maple and Norwegian pine trees classified similarly?", "N")
+     addStimulus(fillers, "filler", "filler", "Maple trees is nothing pines Norwegian evergreen.", "Are maple and Norwegian pine trees classified similarly?", "N")
      addStimulus(fillers, "filler", "filler", "The two children walked slowly in front of their mother as they gradually approached the playground.", "Did the children run in front of their mother?", "N")
      addStimulus(fillers, "filler", "filler", "The city of San Francisco is considered an expensive place to live, as rental rates routinely approach thousands of dollars.", "Is San Francisco considered an inexpensive place to live?", "N")
      addStimulus(fillers, "filler", "filler", "The team decided that the strategy that the visitors from Arkansas that were known to be troublemakers had used to win the tournament was a form of cheating.", "Were the visitors from Arkansas known to be troublemakers?", "Y")
      addStimulus(fillers, "filler", "filler", "The man that drove the car that had the paint job that was peeling ran into a pedestrian.", "Did the man run into a pedestrian?", "Y")
      addStimulus(fillers, "filler", "filler", "When the boat reached the shore Philip tried to start the engine and escape from the soldiers.", "Did Philip try to escape from the soldiers?", "Y")
-     addStimulus(fillers, "filler", "filler", "Because if when the baby is crying, the mother gets upset, the father will help, the grandmother can rest easily.", "Will the father help?", "Y")
+     addStimulus(fillers, "filler", "filler", "Because if when after besides since the baby is crying, the mother gets upset.", "Will the father help?", "Y")
      addStimulus(fillers, "filler", "filler", "The professor said that the student that the committee that was visiting picked would present at the conference.", null, null)
      addStimulus(fillers, "filler", "filler", "The student petitioned the instructor about the college who was writing a thesis on Philosophy.", null, null)
-     addStimulus(fillers, "filler", "filler", "The parent called the teacher about the class who was giving bad grades to foreign students.", "Were foreign students given good grades?", "N")
+     addStimulus(fillers, "filler", "filler", "The parent called the teacher about the class who was being giving bad grades to foreign students.", "Were foreign students given good grades?", "N")
      addStimulus(fillers, "filler", "filler", "The neighbor approached the owner about the dog who was building a doghouse over the property line.", null, null)
      addStimulus(fillers, "filler", "filler", "The policeman questioned the driver about the bus who was directing tourists to the restricted ruins.", null, null)
      addStimulus(fillers, "filler", "filler", "The chairman consulted the executive about the company who was playing golf at the country club.", null, null)
-     addStimulus(fillers, "filler", "filler", "The republican challenged the president about the nation who was elected by the left-wing opposition.", null, null)
      addStimulus(fillers, "filler", "filler", "The reporter approached the victim about the attack who was injured by the suicide bomber.", null, null)
      addStimulus(fillers, "filler", "filler", "The principal questioned the member about the clique who was mouthing off to teachers.", null, null)
      addStimulus(fillers, "filler", "filler", "The homeowner consulted the architect about the house who was worried about being behind schedule.", null, null)
-     addStimulus(fillers, "filler", "filler", "The sportscaster interviewed the captain about the team who was leading his team to the championship.", null, null)
+     addStimulus(fillers, "filler", "filler", "The sportscaster interviewed by the captain about the team who were leading his team to the championship.", null, null)
      addStimulus(fillers, "filler", "filler", "The colonel cautioned the commander about the platoon who was ordering the troops to continue fighting.", null, null)
-     addStimulus(fillers, "filler", "filler", "The critic complimented the director about the play who was asked to write the screenplay.", null, null)
-     addStimulus(fillers, "filler", "filler", "The salesman called the buyer about the rifle who was looking for antiques from the war.", null, null)
-     addStimulus(fillers, "filler", "filler", "The activist petitioned the sponsor about the bill who was speaking out against immigration.", null, null)
-     addStimulus(fillers, "filler", "filler", "The officer cautioned the driver about the explorer who was talking on the phone while driving.", null, null)
-     addStimulus(fillers, "filler", "filler", "The scientist challenged the inventor about the drug who was claiming to have found a cure for cancer.", null, null)
-     addStimulus(fillers, "filler", "filler", "The host complimented the author about the book who was being interviewed on all the talk shows.", null, null)
-
+     addStimulus(fillers, "filler", "filler", "The book that no critic liked found any fans.", null, null)
 
      addStimulus(fillers, "filler", "filler", "Ron gave the letter to Nancy to the postman.", null, null) // (Gibson 1991)
      addStimulus(fillers, "filler", "filler", "The cook placed the cake in the oven onto the table.", null, null) // (Gibson 1991)
@@ -415,15 +407,9 @@ for(var w=0; w<28; w++) {
      addStimulus(fillers, "filler", "filler", "The book read the little girl.", null, null)
      addStimulus(fillers, "filler", "filler", "The cook baked a cake Lucy.", null, null)
      addStimulus(fillers, "filler", "filler", "Onto the cat jumped a table as Mary entered the room.", "Did Mary enter the room?", "Y")
-     addStimulus(fillers, "filler", "filler", "The guest ate with a giant spoon the broccoli.", "Did the guest use a fork?", "N")
-//     addStimulus(fillers, "filler", "filler", "The monkeys chased out of the cage a large group of rats.", null, null) // (Gibson 1991)
-//     addStimulus(fillers, "filler", "filler", "The monkeys chased out of the cage ran to the forest.", null, null) // (Gibson 1991)
-
-
-     // from Vasishth et al 2010
-     addStimulus(fillers, "filler", "filler", "The rebels who were in the jungle captured the diplomat after they threatened to kill his family for not complying with their demands.", null, null)
+     addStimulus(fillers, "filler", "filler", "The guest ate a giant spoon with the broccoli.", "Did the guest use a fork?", "N")
+     addStimulus(fillers, "filler", "filler", "The rebels who were the jungle were captured the diplomat after they threatened his family.", null, null)
      addStimulus(fillers, "filler", "filler", "The company was sure that its new product, which its researchers had developed, would soon be sold out.", null, null)
- //    addStimulus(fillers, "filler", "filler", "The natives on the island captured the anthropologist because she had information that could help the tribe.", null, null)
      addStimulus(fillers, "filler", "filler", "The cartoonist who the readers supported pressured the dean because she thought that censorship was never appropriate.", null, null)
      addStimulus(fillers, "filler", "filler", "The hippies who the police at the concert arrested complained to the officials while the last act was going on stage.", null, null)
      addStimulus(fillers, "filler", "filler", "The prisoner who the guard attacked tackled the warden although he had no intention of trying to escape.", null, null)
@@ -446,20 +432,7 @@ for(var w=0; w<28; w++) {
      addStimulus(fillers, "filler", "filler", "The coach smiled at the player tossed a frisbee.", "Was the coach smiling?", "Y") 
      addStimulus(fillers, "filler", "filler", "Because he always jogs a mile seems a short distance to him.", null, null)
 
-
-//Dan convinced the child that was frightened of dogs that cats are good pets (Gibson 1991)
-//
-//The students believe that Rick ate a sandwich larger than his head to be impressive. (Gibson 1991)
-//
-//The county buses most of the grade school children to another county. (Gibson 1991)
-//
-//The superintendent talked to the boy that owns three dogs about the latest incident. (Gibson 1991)
-//
-//The superintendent talked to the boy that owns the dog that is always chasing cats about the latest incident. (Gibson 1991)
-//
-//
      addStimulus(fillers, "filler", "filler", "Because if Steven checks the mail, he doesn't wear his robe, Steven's neighbors complain.", "Does Steven complain?", "N") //(Gibson 1991)
-//Steven's neighbors complain, because if Steven checks the mail, then he doesn't wear his robe.
 
      addStimulus(fillers, "filler", "filler", "Yesterday, a patient complained who had missed his noon appointment so the doctor agreed to see him early tomorrow.", null, null)
      addStimulus(fillers, "filler", "filler", "This morning, a manager stayed who is rarely in the office so the employees were very well behaved.", null, null)
@@ -480,52 +453,19 @@ addStimulus(fillers, "filler", "filler", "The customer who was on the phone cont
 addStimulus(fillers, "filler", "filler", "The spider that the boy who was in the yard captured scared the dog since it was larger than the average spider.", "Did the dog scare the spider?", "N")
 addStimulus(fillers, "filler", "filler", "The speaker who the historian offended kicked a chair after the talk was over and everyone had left the room.", null, null)
 addStimulus(fillers, "filler", "filler", "The engineer who the lawyer who was by the elevator scolded blamed the secretary but nobody listened to his complaints.", null, null)
-addStimulus(fillers, "filler", "filler", "The driver who the police arrested ran a light because he was under the influence of alcohol.", "Did the police let the driver go?", "N")
+addStimulus(fillers, "filler", "filler", "The driver who arrested by the police were run a light because.", "Did the police let the driver go?", "N")
 addStimulus(fillers, "filler", "filler", "The casino hired the daredevil because he was confident that everything would go according to plan.", "Did the casino hire the daredevil?", "Y")
-addStimulus(fillers, "filler", "filler", "The janitor who the doorman who was at the hotel chatted with bothered a guest but the manager decided not to fire him for it.", null, null)
-addStimulus(fillers, "filler", "filler", "The firemen at the scene apprehended the arsonist because there was a great deal of evidence pointing to his guilt.", "Did the fireman consider the arsonist innocent?", "N")
-addStimulus(fillers, "filler", "filler", "The gangster who the detective at the club followed implicated the waitress because the police suspected he had murdered the shopkeeper.", null, null)
-addStimulus(fillers, "filler", "filler", "The manager who the baker loathed spoke to the new pastry chef because he had instituted a new dress code for all employees.", "Was there a new dress code?", "Y")
+addStimulus(fillers, "filler", "filler", "The janitor who knew the was guilty doorman.", null, null)
+addStimulus(fillers, "filler", "filler", "The firemen at the scene were apprehended the arsonist because there was a great deal of evidence pointing to his guilt.", "Did the fireman consider the arsonist innocent?", "N")
+addStimulus(fillers, "filler", "filler", "The gangster implicated the waitress because the police suspected he had murdered the shopkeeper.", null, null)
+addStimulus(fillers, "filler", "filler", "The manager because he have instituted a new dress code for all employees.", "Was there a new dress code?", "Y")
 addStimulus(fillers, "filler", "filler", "The cook who the servant in the kitchen hired offended the butler and then left the mansion early to see a movie at the local theater.", null, null)
-addStimulus(fillers, "filler", "filler", "The trainee knew that the task which the director had set for him was impossible to finish within a week.", "Was it possible to finish the task within a week?", "N")
+addStimulus(fillers, "filler", "filler", "The trainee knew director the task had set for him was impossible within to finish a week.", "Was it possible to finish the task within a week?", "N")
 addStimulus(fillers, "filler", "filler", "The administrator who the nurse from the clinic supervised scolded the medic while a patient was brought into the emergency room.", null, null)
-addStimulus(fillers, "filler", "filler", "The surgeon who the detective who was on the case consulted questioned the coroner because the markings on the body were difficult to explain.", "Did someone question the coroner?", "Y")
+addStimulus(fillers, "filler", "filler", "The surgeon who John asked why was famous had no clue.", "Did someone question the coroner?", "Y")
 addStimulus(fillers, "filler", "filler", "The environmentalist who the demonstrators at the rally supported calmed the crowd until security came and sent everyone home.", "Did the demonstrators support the environmentalist?", "Y")
-addStimulus(fillers, "filler", "filler", "The astronaut that the journalists who were at the launch worshipped criticized the administrators after he discovered a potential leak in the fuel tank.", "Was there a potential leak in the tank?", "Y")
+addStimulus(fillers, "filler", "filler", "Mary asked which astronaut who the journalists worshipped.", "Was there a potential leak in the tank?", "Y")
 addStimulus(fillers, "filler", "filler", "The mathematician at the banquet baffled the philosopher although she rarely needed anyone else's help.", "Did the philosopher baffle the mathematician?", "N")
-//addStimulus(fillers, "filler", "filler", "The divorcee has come to love her life ever since she got divorced."
-//addStimulus(fillers, "filler", "filler", "The passer-by threw the cardboard box into the trash-can with great force."
-//addStimulus(fillers, "filler", "filler", "The milkman punctually delivers the milk at the door every day."
-//addStimulus(fillers, "filler", "filler", "The intern comforted the patient because he was in great pain."
-//addStimulus(fillers, "filler", "filler", "The students studied the surgeon whenever he performed an important operation."
-//addStimulus(fillers, "filler", "filler", "The roommate takes out the garbage every week."
-//addStimulus(fillers, "filler", "filler", "The bully punched the kid after all the kids had to leave to go to class."
-
-//	// 10 difficult ones
-//"During the party everybody was dancing to rock music."
-//"The sportsman goes jogging in the park regularly."
-//"The company was sure that its new product, which its researchers had developed, would soon be sold out."
-//"Yesterday the swimmer saw only a turtle at the beach."
-//"The natives on the island captured the anthropologist because she had information that could help the tribe."
-//"The salesman feared that the printer which the customer bought was damaged."
-//"The cartoonist who the readers supported pressured the dean because she thought that censorship was never appropriate."
-//"The hippies who the police at the concert arrested complained to the officials while the last act was going on stage."
-//"The prisoner who the guard attacked tackled the warden although he had no intention of trying to escape."
-//"The woman who was in the apartment hired the plumber despite the fact that he couldn't fix the toilet."
-//"The rebels who were in the jungle captured the diplomat after they threatened to kill his family for not complying with their demands."
-//"The student quickly finished his homework assignments."
-//"The fans at the concert loved the guitarist because he played with so much energy."
-//"The dragon wounded the knight although he was far too crippled to protect the princess."
-//"The defender is constantly scolding the keeper."
-//"The beggar is often scrounging for cigarettes."
-//"The citizens of France eat oysters."
-//"After the argument, the husband ignored his wife."
-//"The technician at the show repaired the robot while people were taking a break for coffee."
-//"The producer shoots a new movie every year."
-//"The quarterback dated the cheerleader although this hurt her reputation around school."
-//"The audience who was at the club booed the singer before the owner of the bar could remove him from the stage."
-//"During the season, the choir holds rehearsals in the church regularly."
-
 
 
 
@@ -536,7 +476,7 @@ addStimulus(fillers, "filler", "filler", "The mathematician at the banquet baffl
      addStimulus(practice, "filler", "filler", "The next sentence will start the experiment.", null, null)
      addStimulus(practice, "filler", "filler", "The semester will start next week, but the students and teachers are not ready.", null, null)
      addStimulus(practice, "filler", "filler", "The mother of the prisoner sent him packages that contained cookies and novels.", null, null)
-     addStimulus(practice, "filler", "filler", "The reporter had dinner yesterday with the baseball player who Kevin admired.", null, null)
+     addStimulus(practice, "filler", "filler", "The reporter had dinner yesterday with the baseball player who Kevin.", null, null)
      addStimulus(practice, "filler", "filler", "The therapist set up a meeting with the upset woman and her husband yesterday.", null, null)
 
 function separatedShuffle(x, y) {

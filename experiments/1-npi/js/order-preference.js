@@ -1105,11 +1105,11 @@ function make_slides(f) {
       console.log(stim);
 	    this.stim = stim;
 	//    console.log(stim);
-	this.words = this.stim.s.split(" ")
+	this.words = this.stim.sentence.split(" ")
 	this.order = [];
 this.mazeResults = [];
 		this.correct = [];
-	    this.words = ["", "+++", "+++", "+++", "+++", "", ""].concat(this.words);
+	    this.words = ["", "+++", "+++", "+++", "", ""].concat(this.words);
 	    console.log(this.words);
         var t = this;
         var repeat = true;
@@ -1209,7 +1209,7 @@ this.mazeResults = [];
 	    document.removeEventListener( 'keydown', this.listener);
 	    byWords = [];
        dataForThisTrial = {
-          "sentence" : this.stim.s,
+          "sentence" : this.stim.sentence,
           "item" : this.stim.item,
           "condition" : this.stim.condition,
 	  "byWords" : byWords,
@@ -1302,7 +1302,7 @@ xhr = new XMLHttpRequest();
 	    //
 	    // // send rquest with JSON payload
 	     xhr.send(JSON.stringify(exp.data));
-      $(".redirect_prolific").html("Please click on this link to record your participation: <br><br><b><a href='https://app.prolific.co/submissions/complete?cc=C40116BE'>Record Participation</a></b><br><br>If you do not do this, you will NOT GET PAID.");
+      $(".redirect_prolific").html("Please click on this link to record your participation: <br><br><b><a href='https://app.prolific.co/submissions/complete?cc=27CAA9CF'>Record Participation</a></b><br><br>If you do not do this, you will NOT GET PAID.");
 
     }
   });
@@ -1344,8 +1344,8 @@ repeatWorker = false;
     };
   //blocks of the experiment:
    exp.structure=[];
-//exp.structure.push('i0')
-//exp.structure.push('consent')
+exp.structure.push('i0')
+exp.structure.push('consent')
 exp.structure.push( 'instructions1')
 exp.structure.push( 'instructions2')
    exp.structure.push( 'maze')

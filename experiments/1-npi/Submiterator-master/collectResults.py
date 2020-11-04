@@ -17,11 +17,11 @@ with open("/afs/.ir.stanford.edu/users/m/h/mhahn2/cgi-bin/experiments/serverByTr
                   continue
  #             print(list(data))
               if "trial" in data:
-                  print(data)
+#                  print(data)
                   url = data["experiment"]["ProlificURL"]
               else:
                   url = data["ProlificURL"]
-              if "203-noise-pro" in url and "preview=1" not in url and "PROLIFIC_PID" in url:
+              if "1-npi" in url and "preview=1" not in url and "PROLIFIC_PID" in url:
                   if "trial" in data:
                       trialsDataPerURL[url].append(data["trial"])
                   else:
@@ -30,9 +30,10 @@ with open("/afs/.ir.stanford.edu/users/m/h/mhahn2/cgi-bin/experiments/serverByTr
 #                  if "101-noise-pro" in url and "preview=1" not in url:
 #                      dataPerGroups.append({group : data[group] for group in groups})
           elif line.startswith("=="):
-              assert "RECEIVED" in line or len(set(line.strip())) == 1
+              if not "RECEIVED" in line or len(set(line.strip())) == 1:
+                  print("PROBLEM", line)
           elif line.startswith("##"):
-              assert len(set(line.strip())) == 1
+              assert len(set(line.strip())) == 1, line
           else:
              try:
                  timeStamp = float(line.strip())
@@ -56,6 +57,7 @@ for x in trialsDataPerURL:
      subjectDataPerURL[x][0]["trials"] = trialsDataPerURL[x]
      subjectDataPerURL[x] = subjectDataPerURL[x][0]
 dataPerGroups = sorted([y for _, y in subjectDataPerURL.items() if len(y) > 0], key=lambda x:x["ProlificURL"])
+print(str(dataPerGroups)[:100])
 for group in groups:
   with open(group+".tsv", "w") as outFile:
     dataForGroup = [x[group] for x in dataPerGroups]
