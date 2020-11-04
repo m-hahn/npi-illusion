@@ -48,18 +48,7 @@ function make_slides(f) {
      console.log(radio_button_list);
      var radio_button;
      var count;
-	   rating = ""
-     for(count = 0; count<radio_button_list.length; count++) {
-	     if(radio_button_list[count].checked) {
-		     rating = count+1;
-	     }
-     };
-     if(rating == 1) { 
          exp.go(); //use exp.go() if and only if there is no "present" data.
-     } else {
-         $(".err").show();
-
-     }
     }
   });
 
@@ -528,7 +517,7 @@ function make_slides(f) {
 
   slides.production = slide({
     name : "production",
-    present : _.shuffle(production_block_1).concat(_.shuffle(production_block_2.concat(production_block_3, production_block_4))),
+    present : [],
     present_handle : present_handle_production,
     button : button_production,
     button_3 : button_3_production,
@@ -538,7 +527,7 @@ function make_slides(f) {
 
   slides.production2 = slide({
     name : "production",
-    present : _.shuffle(production_block_1).concat(_.shuffle(production_block_2.concat(production_block_3, production_block_4))),
+    present : [],
     present_handle : present_handle_production,
     button : button_production,
     button_3 : button_3_production,
@@ -549,7 +538,7 @@ function make_slides(f) {
 
   slides.production_click = slide({
     name : "production_click",
-    present : _.shuffle(production_block_1).concat(_.shuffle(production_block_2.concat(production_block_3, production_block_4))),
+    present : [],
     present_handle : function(stim) {
       $("#score_field_click").html(exp.current_score_click+" Points <br>"+Math.floor(((exp.total_quiz_trials_click > 0) ? ((exp.current_score_click*100)/exp.total_quiz_trials_click) : 100))+"% Correct");
       $(".alien_production").html('<img id="pngFrame" src="images/'+(_.sample(["alien-1.jpg", "alien-2.png"]))+'" style="width:130px;">');
@@ -1117,7 +1106,6 @@ function make_slides(f) {
 	    this.stim = stim;
 	//    console.log(stim);
 	this.words = this.stim.s.split(" ")
-	this.alts = this.stim.a.split(" ")
 	this.order = [];
 this.mazeResults = [];
 		this.correct = [];
@@ -1127,12 +1115,33 @@ this.mazeResults = [];
         var repeat = true;
 	this.currentWord = 0;
 	this.stoppingPoint = this.words.length
-                         $(".Maze-lword").hide();
-                         $(".Maze-rword").hide();
-                         $(".Maze-larrow").hide();
-                         $(".Maze-rarrow").hide();
-                         $(".Maze-error").hide();
+        $(".Maze-lword").hide();
+        $(".Maze-rword").hide();
+        $(".Maze-larrow").hide();
+        $(".Maze-rarrow").hide();
+        $(".Maze-error").hide();
+        $(".Question").hide();
 
+        $(".rvsp-word").html("Please press any key to read the next sentence.");
+
+        this.start_listener = function(event) {
+            console.log(event);
+            console.log(t.currentWord);
+            var time = new Date().getTime();
+            var code = event.keyCode;
+//            if (code == 69 || code==73) {
+//		    t.response = code;
+			    t.start_button();
+//	    }
+        }
+        document.addEventListener( 'keydown', t.start_listener);
+
+    this.start_button = function() {
+	    console.log("CALL BUTTON");
+        document.removeEventListener( 'keydown', this.start_listener);
+        t.advancePresentation();
+
+    }
 
 	this.advancePresentation = function() {
 		console.log("ADVANCE PRESENTATION");
@@ -1141,6 +1150,8 @@ this.mazeResults = [];
 		t.currentWord++;
 		 window.setTimeout(t.advancePresentation, 300);
 	     } else {
+        $(".Question").show();
+
 	                 $(".rvsp-word").html("");
 	                              $(".Maze-lword").show();
                          $(".Maze-rword").show();
@@ -1152,7 +1163,6 @@ this.mazeResults = [];
 
 	     }
 	};
-	    this.advancePresentation();
         this.listener = function(event) {
             console.log(event);
             console.log(t.currentWord);
@@ -1177,7 +1187,13 @@ this.mazeResults = [];
 	    t.response = "None";
         document.removeEventListener( 'keydown', this.listener);
                          $(".Maze-error").show();
-        window.setTimeout(t.button, 3000);
+        $(".Maze-lword").hide();
+        $(".Maze-rword").hide();
+        $(".Maze-larrow").hide();
+        $(".Maze-rarrow").hide();
+         window.setTimeout(t.button, 3000);
+
+
 	
     }
 
@@ -1330,7 +1346,8 @@ repeatWorker = false;
    exp.structure=[];
 //exp.structure.push('i0')
 //exp.structure.push('consent')
-//exp.structure.push( 'instructions1')
+exp.structure.push( 'instructions1')
+exp.structure.push( 'instructions2')
    exp.structure.push( 'maze')
 
 exp.structure.push( 'subj_info')

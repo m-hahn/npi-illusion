@@ -214,6 +214,7 @@ function makeStimsContext() {
           stimulus = {
 		      "item" : item,
 		      "condition" : condition,
+		      "s" : sentence,
 		      "sentence" : sentence,
 		      "question" : question,
 		      "answer" : answer
@@ -247,6 +248,41 @@ function makeStimsContext() {
      console.log(conditionAssignment); 
     
 
+nounsAndVerbs = []
+nounsAndVerbs.push(["the school principal",       "the teacher",        "had an affair with",                     "had been fired",                     "was quoted in the newspaper", "Was the XXXX quoted in the newspaper?", "Y"])
+nounsAndVerbs.push(["the famous sculptor",        "the painter",        "admired more than anyone",            "wasn't talented",                    "was completely untrue", "Was the XXXX untrue?", "Y"])
+nounsAndVerbs.push(["the marketing whiz",  "the artist",         "had hired",                  "was a fraud",                        "shocked everyone", "Did the XXXX shock everyone?", "Y"])
+nounsAndVerbs.push(["the marathon runner",         "the psychiatrist",       "treated for his illness",                "was actually doping",            "was ridiculous", "Was the XXXX ridiculous?", "Y"])
+nounsAndVerbs.push(["the frightened child",           "the medic",          "rescued from the flood",    "was completely unharmed",            "relieved everyone", "Did the XXXX relieve everyone?", "Y"])
+nounsAndVerbs.push(["the alleged criminal",        "the officer",        "arrested after the murder",                  "was not in fact guilty",             "was entirely bogus", "Was the XXXX bogus?", "Y"])
+nounsAndVerbs.push(["the college student",         "the professor",      "accused of cheating",                     "was dropping the class",             "made the professor happy", "Did the XXXX make the professor happy?", "Y"])
+nounsAndVerbs.push(["the suspected mobster",         "the media",          "portrayed in detail",               "was on the run",                     "turned out to be true", "Did the XXXX turn out to be true?", "Y"])
+nounsAndVerbs.push(["the leading man", 	         "the starlet",        "fell in love with",                    "would miss the show",                "almost made her cry", "Did the XXXX almost make her cry?", "Y"])
+nounsAndVerbs.push(["the old preacher",        "the parishioners",   "fired yesterday",                     "stole money from the church",        "proved to be true", "Did the XXXX prove to be true?", "Y"])
+nounsAndVerbs.push(["the young violinist",      "the sponsors",       "backed financially",                    "abused drugs",                       "is likely true", "Was the XXXX likely true?", "Y"])
+nounsAndVerbs.push(["the conservative senator",        "the diplomat",       "opposed in the election",                   "won in the run-off",                   "really made him angry", "Did the XXXX make him angry?", "Y"])
+nounsAndVerbs.push(["the military commander",        "the president",       "appointed last month",   "was pushing for war",         "troubled people", "Did the XXXX trouble people?", "Y"])
+nounsAndVerbs.push(["the injured victims",        "the criminal",       "had assaulted",   "were going to survive",         "calmed everyone down", "Did the XXXX calm everyone down?", "Y"])
+nounsAndVerbs.push(["the savvy politician",        "the banker",       "gave thousands of dollars",   "was laundering money",         "came as a shock to his supporters", "Did the XXXX come as a shock?", "Y"])
+nounsAndVerbs.push(["the famous surgeon",        "the patient",       "accused of malpractice",   "had a fake degree",         "was not a surprise", "Was the XXXX unsurprising?", "Y"])
+nounsAndVerbs.push(["the violent extremist",        "the agent",       "had just tracked down",                   "was going to get an award",         "was disconcerting", "Was the XXXX disconcerting?", "Y"])
+nounsAndVerbs.push(["the office clerk",        "the customer",       "called on the phone",   "was a super hero",         "seemed absurd", "Did the XXXX seem absurd?", "Y"])
+nounsAndVerbs.push(["the shady trader",        "the businessman",       "consulted for advice",   "acted on insider information",         "was confirmed", "Was the XXXX confirmed?", "Y"])
+nounsAndVerbs.push(["the successful CEO",        "the employee",       "impressed with his enthusiam",   "wanted to retire",         "was entirely correct", "Was the XXXX correct?", "Y"])
+nounsAndVerbs.push(["the taxi driver", "the tourist", "asked for directions", "was lying", "seemed hard to believe", "", "Y"])
+nounsAndVerbs.push(["the angry bookseller", "the thief", "stole ten books from", "got a heart attack", "shocked his family", "", "Y"])
+nounsAndVerbs.push(["the odd neighbor", "the woman", "shouted at yesterday", "killed her dog", "was a lie", "", "Y"])
+nounsAndVerbs.push(["the mad scientist", "the mayor", "trusted with everything", "had faked data", "was only a malicious smear", "", "Y"])
+nounsAndVerbs.push(["the ambitious student", "the bully", "beat up every day", "plagiarized his homework",  "devastated his parents", "", "Y"])
+nounsAndVerbs.push(["the cunning trickster", "the woman", "recognized in the store", "was finally caught", "calmed people down", "", "Y"])
+nounsAndVerbs.push(["the aspiring entrepreneur", "the philanthropist", "lent millions", "wasted everything on a yacht", "came as a disappointment", "", "Y"])
+nounsAndVerbs.push(["the courageous lifesaver", "the swimmer", "called in desperation", "saved the drowning children", "impressed the whole city", "", "Y"])
+
+
+nounsAndVerbs = _.shuffle(nounsAndVerbs)
+
+// can also make this a more balanced set
+// but make sure it's the same number as the nouns+verbs
 topNouns = []
 
 topNouns.push("report")
@@ -259,17 +295,17 @@ topNouns.push("remark")
 topNouns.push("news")
 topNouns.push("allegation")
 topNouns.push("information")
-//topNouns.push("evidence")
-//topNouns.push("proof")
-//topNouns.push("finding")
-//topNouns.push("indication")
+topNouns.push("evidence")
+topNouns.push("proof")
+topNouns.push("finding")
+topNouns.push("indication")
 
 
 
-//topNouns.push("claim")
-//topNouns.push("conclusion")
-//topNouns.push("suggestion")
-//topNouns.push("speculation")
+topNouns.push("claim")
+topNouns.push("conclusion")
+topNouns.push("suggestion")
+topNouns.push("speculation")
 topNouns.push("suspicion")
 topNouns.push("revelation")
 topNouns.push("presumption")
@@ -280,157 +316,278 @@ topNouns.push("assumption")
 topNouns.push("inkling")
 topNouns.push("belief")
 topNouns.push("fact")
+//
 
-nouns = [];
-critical = []
-for(i = 0; i<20; i++) {
-	critical[i] = []
-        nouns.push(i);
+
+//123           report         10.235450        9.6436800        5.7071103 --------------------
+//146            story         11.709249       10.6950537        7.2167095 --------------------
+//3          admission          8.057377        6.5012897        3.5835189 ----------------------
+//38       declaration          8.729397        7.1016760        4.9272537 ----------------------
+//161       disclosure          7.122867        4.8362819        3.6375862 ------------------------
+//31      confirmation          7.343426        5.3327188        4.0073332 ------------------------
+//121           remark          8.114624        6.3297209        4.8362819 ----------------------------
+//88              news         10.979837        9.4131996        7.9131552 ----------------------------
+//4         allegation          9.034319        6.7900972        6.0354814 -------------------------------
+//73       information         10.052080        8.0904023        7.1131421 --------------------------
+//	52          evidence          9.568085        7.7497534        6.6982681 -------------------------
+//107            proof          8.118505        7.1292975        5.2678582 ---------------------------
+//59           finding          8.777710        7.6774004        6.0684256 -----------------------------
+//71        indication          6.302619        4.5538769        3.7135721 -------------------------------
+
+//27           concern          8.507345        6.3135480        5.9454206 --------------------------------
+//122         reminder          5.517453        2.5649494        3.0445224 ----------------------------
+//136            rumor          7.832014        6.0707377        5.4249500 -------------------------------
+//7       announcement          9.387733        8.0133432        7.0942348 --------------------------------
+//162          thought          8.602820        6.1590954        6.4085288 -----------------------------
+//145        statement          9.136155        7.8148034        7.0012456 ------------------------------
+//57           feeling          8.745762        6.0980743        6.7546041 ----------------------------------
+//68              idea         11.519057       10.0081178        9.6440689 -------------------------------
+
+//23             claim          9.891364        7.8200380        8.1356399 -------------------------------
+//28        conclusion         10.319596        7.3492308        8.5883970 -------------------------------
+//148       suggestion          8.925986        6.4922398        7.2320103 --------------------------------
+//143      speculation          6.559615        4.9487599        4.9416424 ------------------------------
+//149        suspicion          7.346655        4.9767337        5.8998974 -----------------------------------
+//130       revelation          8.242493        6.4754327        6.8469431 --------------------------------------
+//102      presumption          6.854355        4.7621739        5.7462032 ----------------------------------------
+//13         assurance          6.530878        3.0445224        5.4510385 -----------------------------
+//115      realization          8.120886        5.4930614        7.1436176 --------------------------------------
+//10         assertion          7.488294        5.4205350        6.7190132 -----------------------------------
+//12        assumption          8.961366        6.6707663        8.3848040 -----------------------------------
+//74           inkling          1.945910        1.0986123        1.3862944 ----------------------------------------
+//15            belief          9.418086        6.8638034        8.9621354 ---------------------------------------
+//55              fact         11.771621        9.5173102       11.3993199 ---------------------------------------
+//
+
+
+	criticalStims = []
+
+for(var w=0; w<28; w++) {
+   processCritical(w , critical, conditionAssignment, w, topNouns[w], nounsAndVerbs[w])
 }
-nouns = _.shuffle(nouns);
 
-critical[0].push({s: "The "+topNouns[nouns[0]]+" that the principal who the teacher liked was fired was quoted in the newspaper.", a:"x-x-x imposes soul ago involving glad holy instead chest cent medal lake brooks let camp involving."})
-critical[0].push({s: "The "+topNouns[nouns[0]]+" that the principal who the teacher liked was quoted in the newspaper.", a:"x-x-x imposes soul ago involving glad holy instead chest lake brooks let camp involving."})
-critical[1].push({s: "The "+topNouns[nouns[1]]+" that the sculptor who the painter admired wasn't talented was completely untrue.", a:"x-x-x compiles join map competed okay wide extends grilled strong threaten mid commission toured."})
-critical[1].push({s: "The "+topNouns[nouns[1]]+" that the sculptor who the painter admired was completely untrue.", a:"x-x-x compiles join map competed okay wide extends grilled mid commission toured."})
-critical[2].push({s: "The "+topNouns[nouns[2]]+" that the consultant who the artist hired was a fraud shocked everyone.", a:"x-x-x unlocks boy okay irrelevant us eye asleep smell east bill mills tourist consider."})
-critical[2].push({s: "The "+topNouns[nouns[2]]+" that the consultant who the artist hired shocked everyone.", a:"x-x-x unlocks boy okay irrelevant us eye asleep smell tourist consider."})
-critical[3].push({s: "The "+topNouns[nouns[3]]+" that the runner who the psychiatrist treated was doping was ridiculous.", a:"x-x-x narrates pro buy detect holy lord enthusiastic ongoing sun bidder cent exhibition."})
-critical[3].push({s: "The "+topNouns[nouns[3]]+" that the runner who the psychiatrist treated was ridiculous.", a:"x-x-x narrates pro buy detect holy lord enthusiastic ongoing cent exhibition."})
-critical[4].push({s: "The "+topNouns[nouns[4]]+" that the child who the medic rescued was unharmed relieved everyone.", a:"x-x-x symbolizes wish what there trip hot vases fascist link tortoise tracking involved."})
-critical[4].push({s: "The "+topNouns[nouns[4]]+" that the child who the medic rescued relieved everyone.", a:"x-x-x symbolizes wish what there trip hot vases fascist tracking involved."})
-critical[5].push({s: "The "+topNouns[nouns[5]]+" that the criminal who the officer arrested was guilty was entirely bogus.", a:"x-x-x violates ice him together foot map however identity data vision mean universe maids."})
-critical[5].push({s: "The "+topNouns[nouns[5]]+" that the criminal who the officer arrested was entirely bogus.", a:"x-x-x violates ice him together foot map however identity mean universe maids."})
-critical[6].push({s: "The "+topNouns[nouns[6]]+" that the student who the professor hated dropped out made the professor happy.", a:"x-x-x protects sea mom towards me true including brush license ass pick ass everybody gonna."})
-critical[6].push({s: "The "+topNouns[nouns[6]]+" that the student who the professor hated made the professor happy.", a:"x-x-x protects sea mom towards me true including brush pick ass everybody gonna."})
-critical[7].push({s: "The "+topNouns[nouns[7]]+" that the mobster who the media portrayed had disappeared turned out to be true.", a:"x-x-x realizes slow hear agrees oh cent which footsteps trip importantly summer week cup sick rate."})
-critical[7].push({s: "The "+topNouns[nouns[7]]+" that the mobster who the media portrayed turned out to be true.", a:"x-x-x realizes slow hear agrees oh cent which footsteps summer week cup sick rate."})
-critical[8].push({s: "The "+topNouns[nouns[8]]+" that the actor who the starlet loved was missing made her cry.", a:"x-x-x commemorates wild ass forth holy wide retains miles note comment walk mid gear."})
-critical[8].push({s: "The "+topNouns[nouns[8]]+" that the actor who the starlet loved made her cry.", a:"x-x-x commemorates wild ass forth holy wide retains miles walk mid gear."})
-critical[9].push({s: "The "+topNouns[nouns[9]]+" that the preacher who the parishioners fired stole money proved to be true.", a:"x-x-x assumes vote hear donating yeah jobs mysteriously medal float click desert wall wife am."})
-critical[9].push({s: "The "+topNouns[nouns[9]]+" that the preacher who the parishioners fired proved to be true.", a:"x-x-x assumes vote hear donating yeah jobs mysteriously medal desert wall wife am."})
-critical[10].push({s: "The "+topNouns[nouns[10]]+" that the violinist who the sponsors backed abused drugs is likely true.", a:"x-x-x reappears slow hear isolating dad port hurries victor phases brain sir finish year."})
-critical[10].push({s: "The "+topNouns[nouns[10]]+" that the violinist who the sponsors backed is likely true.", a:"x-x-x reappears slow hear isolating dad port hurries victor sir finish year."})
-critical[11].push({s: "The "+topNouns[nouns[11]]+" that the senator who the diplomat opposed was winning really made him angry.", a:"x-x-x endorses air me confirm ass ways rewarded masters bus century happen web wall drama."})
-critical[11].push({s: "The "+topNouns[nouns[11]]+" that the senator who the diplomat opposed really made him angry.", a:"x-x-x endorses air me confirm ass ways rewarded masters happen web wall drama."})
-critical[12].push({s: "The "+topNouns[nouns[12]]+" that the commander who the president appointed was corrupt troubled people.", a:"x-x-x stimulates tax apt wondering hall tree therefore emergency idea tourism organic listen."})
-critical[12].push({s: "The "+topNouns[nouns[12]]+" that the commander who the president appointed troubled people.", a:"x-x-x stimulates tax apt wondering hall tree therefore emergency organic listen."})
-critical[13].push({s: "The "+topNouns[nouns[13]]+" that the victims who the criminal assaulted were surviving calmed everyone down.", a:"x-x-x derives yeah wow connect lake mid continue accessing sort animation duplex standing ha."})
-critical[13].push({s: "The "+topNouns[nouns[13]]+" that the victims who the criminal assaulted calmed everyone down.", a:"x-x-x derives yeah wow connect lake mid continue accessing duplex standing ha."})
-critical[14].push({s: "The "+topNouns[nouns[14]]+" that the politician who the banker bribed laundered money came as a shock to his supporters.", a:"x-x-x avoids ice eyes emphasized fine but bamboo nieces catalysis stuff yeah camp eat meets eyes born vegetables."})
-critical[14].push({s: "The "+topNouns[nouns[14]]+" that the politician who the banker bribed came as a shock to his supporters.", a:"x-x-x avoids ice eyes emphasized fine but bamboo nieces yeah camp eat meets eyes born vegetables."})
-critical[15].push({s: "The "+topNouns[nouns[15]]+" that the surgeon who the patient thanked had no degree was not a surprise.", a:"x-x-x instructs food lot extends hot lake selling leaking fear vote remain ball walk sun sections."})
-critical[15].push({s: "The "+topNouns[nouns[15]]+" that the surgeon who the patient thanked was not a surprise.", a:"x-x-x instructs food lot extends hot lake selling leaking ball walk sun sections."})
-critical[16].push({s: "The "+topNouns[nouns[16]]+" that the extremist who the agent caught got an award was disconcerting.", a:"x-x-x approximates fire hear interpret sick okay apply battle mid kids throw wind psychoanalyst."})
-critical[16].push({s: "The "+topNouns[nouns[16]]+" that the extremist who the agent caught was disconcerting.", a:"x-x-x approximates fire hear interpret sick okay apply battle wind psychoanalyst."})
-critical[17].push({s: "The "+topNouns[nouns[17]]+" that the clerk who the customer called was a hero seemed absurd.", a:"x-x-x berates old see acres wind old reaching forget anti win rid levels circus."})
-critical[17].push({s: "The "+topNouns[nouns[17]]+" that the clerk who the customer called seemed absurd.", a:"x-x-x berates old see acres wind old reaching forget levels circus."})
-critical[18].push({s: "The "+topNouns[nouns[18]]+" that the trader who the businessman consulted had insider information was confirmed.", a:"x-x-x specializes sad hear pushes laws yeah constraints patiently wall cyclone competitive anti afternoon."})
-critical[18].push({s: "The "+topNouns[nouns[18]]+" that the trader who the businessman consulted was confirmed.", a:"x-x-x specializes sad hear pushes laws yeah constraints patiently anti afternoon."})
-critical[19].push({s: "The "+topNouns[nouns[19]]+" that the CEO who the employee impressed was retiring was entirely correct.", a:"x-x-x befriends lord oh Ms ways okay annoying ancestors okay scissors send agencies command."})
-critical[19].push({s: "The "+topNouns[nouns[19]]+" that the CEO who the employee impressed was entirely correct.", a:"x-x-x befriends lord oh Ms ways okay annoying ancestors send agencies command."})
+     
+     addStimulus(fillers, "filler", "filler", "Since when it storms, the grass gets wet, the landscaper can't cut the grass, the garden will be overgrown.", "Will the garden be cut?", "N")
+     addStimulus(fillers, "filler", "filler", "The lecturer spoke to the man in the classroom wearing a blue suit which had good seating and blackboards.", "Was the man wearing a blue suit?", "Y") // Extraposition
+     addStimulus(fillers, "filler", "filler", "The librarian delivered the books with many photographs to the building which depicted horses.", "Did the librarian deliver the books?", "Y") // Extraposition
+     addStimulus(fillers, "filler", "filler", "The astronaut flew the spaceship with two tanks to the moon which were filled with fuel.", "Did the spaceship have three tanks?", "N") // Extraposition
+     addStimulus(fillers, "filler", "filler", "The delivery man left the package with two labels on the porch which were printed with an address.", "Was the package left in the mailbox?", "N") // Extraposition
+     addStimulus(fillers, "filler", "filler", "Jonathan will buy the red sports car as soon as he returns from his vacation in the Caribbean.", "Was Jonathan vacationing in the Caribbean?", "Y")
+     addStimulus(fillers, "filler", "filler", "The soccer team easily defeated their opponents with an impressive show of speed, cleverness and tenacity.", "Did the soccer team defeat their opponents?", "Y")
+     addStimulus(fillers, "filler", "filler", "When my father lived in Australia, he would often go surfing along the coastal waters of Melbourne.", "Did my father surf?", "Y")
+     addStimulus(fillers, "filler", "filler", "The police officer will guard the crosswalk as the children pass by on the way to elementary school.", "Will the police officer guard the crosswalk?", "Y")
+     addStimulus(fillers, "filler", "filler", "The board of directors announced that the business acquisition strategy was proceeding as planned.", "Did the board of directors make an announcement?", "Y")
+     addStimulus(fillers, "filler", "filler", "In 1945, Germany and Japan surrendered to the Allied forces, ending one of the bloodiest conflicts in history.", "Did Japan surrender to Germany?", "N")
+     addStimulus(fillers, "filler", "filler", "Harvard University recently purchased a large tract of land to be used as a new boathouse for the rowing team.", "Did Stanford University purchase land?", "N")
+     addStimulus(fillers, "filler", "filler", "Maple trees are classified as deciduous, whereas Norwegian pines are considered to be evergreen.", "Are maple and Norwegian pine trees classified similarly?", "N")
+     addStimulus(fillers, "filler", "filler", "The two children walked slowly in front of their mother as they gradually approached the playground.", "Did the children run in front of their mother?", "N")
+     addStimulus(fillers, "filler", "filler", "The city of San Francisco is considered an expensive place to live, as rental rates routinely approach thousands of dollars.", "Is San Francisco considered an inexpensive place to live?", "N")
+     addStimulus(fillers, "filler", "filler", "The team decided that the strategy that the visitors from Arkansas that were known to be troublemakers had used to win the tournament was a form of cheating.", "Were the visitors from Arkansas known to be troublemakers?", "Y")
+     addStimulus(fillers, "filler", "filler", "The man that drove the car that had the paint job that was peeling ran into a pedestrian.", "Did the man run into a pedestrian?", "Y")
+     addStimulus(fillers, "filler", "filler", "When the boat reached the shore Philip tried to start the engine and escape from the soldiers.", "Did Philip try to escape from the soldiers?", "Y")
+     addStimulus(fillers, "filler", "filler", "Because if when the baby is crying, the mother gets upset, the father will help, the grandmother can rest easily.", "Will the father help?", "Y")
+     addStimulus(fillers, "filler", "filler", "The professor said that the student that the committee that was visiting picked would present at the conference.", null, null)
+     addStimulus(fillers, "filler", "filler", "The student petitioned the instructor about the college who was writing a thesis on Philosophy.", null, null)
+     addStimulus(fillers, "filler", "filler", "The parent called the teacher about the class who was giving bad grades to foreign students.", "Were foreign students given good grades?", "N")
+     addStimulus(fillers, "filler", "filler", "The neighbor approached the owner about the dog who was building a doghouse over the property line.", null, null)
+     addStimulus(fillers, "filler", "filler", "The policeman questioned the driver about the bus who was directing tourists to the restricted ruins.", null, null)
+     addStimulus(fillers, "filler", "filler", "The chairman consulted the executive about the company who was playing golf at the country club.", null, null)
+     addStimulus(fillers, "filler", "filler", "The republican challenged the president about the nation who was elected by the left-wing opposition.", null, null)
+     addStimulus(fillers, "filler", "filler", "The reporter approached the victim about the attack who was injured by the suicide bomber.", null, null)
+     addStimulus(fillers, "filler", "filler", "The principal questioned the member about the clique who was mouthing off to teachers.", null, null)
+     addStimulus(fillers, "filler", "filler", "The homeowner consulted the architect about the house who was worried about being behind schedule.", null, null)
+     addStimulus(fillers, "filler", "filler", "The sportscaster interviewed the captain about the team who was leading his team to the championship.", null, null)
+     addStimulus(fillers, "filler", "filler", "The colonel cautioned the commander about the platoon who was ordering the troops to continue fighting.", null, null)
+     addStimulus(fillers, "filler", "filler", "The critic complimented the director about the play who was asked to write the screenplay.", null, null)
+     addStimulus(fillers, "filler", "filler", "The salesman called the buyer about the rifle who was looking for antiques from the war.", null, null)
+     addStimulus(fillers, "filler", "filler", "The activist petitioned the sponsor about the bill who was speaking out against immigration.", null, null)
+     addStimulus(fillers, "filler", "filler", "The officer cautioned the driver about the explorer who was talking on the phone while driving.", null, null)
+     addStimulus(fillers, "filler", "filler", "The scientist challenged the inventor about the drug who was claiming to have found a cure for cancer.", null, null)
+     addStimulus(fillers, "filler", "filler", "The host complimented the author about the book who was being interviewed on all the talk shows.", null, null)
 
 
+     addStimulus(fillers, "filler", "filler", "Ron gave the letter to Nancy to the postman.", null, null) // (Gibson 1991)
+     addStimulus(fillers, "filler", "filler", "The cook placed the cake in the oven onto the table.", null, null) // (Gibson 1991)
 
-criticalChosen = []
-	for(i = 0; i<20; i++) {
-//		if(conditionAssignment[nouns[i]] == 0) {
-			criticalChosen.push(critical[i][0])
-                        critical[i][0].noun = topNouns[nouns[i]];
-                        critical[i][0].item = "Critical_"+i
-                        critical[i][0].condition = "grammatical"
-//		} else {
-//			criticalChosen.push(critical[i][1])
-//                        critical[i][1].noun = topNouns[nouns[i]];
-//                        critical[i][1].item = "Critical_"+i
-//                        critical[i][1].condition = "ungrammatical"
-//		}
+     // Obviously bad/weird
+     addStimulus(fillers, "filler", "filler", "Pat and Kim walks together in the park every Thursday afternoon.", null, null)
+     addStimulus(fillers, "filler", "filler", "The child ate a bowl of international trade for breakfast.", null, null)
+     addStimulus(fillers, "filler", "filler", "The book read the little girl.", null, null)
+     addStimulus(fillers, "filler", "filler", "The cook baked a cake Lucy.", null, null)
+     addStimulus(fillers, "filler", "filler", "Onto the cat jumped a table as Mary entered the room.", "Did Mary enter the room?", "Y")
+     addStimulus(fillers, "filler", "filler", "The guest ate with a giant spoon the broccoli.", "Did the guest use a fork?", "N")
+//     addStimulus(fillers, "filler", "filler", "The monkeys chased out of the cage a large group of rats.", null, null) // (Gibson 1991)
+//     addStimulus(fillers, "filler", "filler", "The monkeys chased out of the cage ran to the forest.", null, null) // (Gibson 1991)
+
+
+     // from Vasishth et al 2010
+     addStimulus(fillers, "filler", "filler", "The rebels who were in the jungle captured the diplomat after they threatened to kill his family for not complying with their demands.", null, null)
+     addStimulus(fillers, "filler", "filler", "The company was sure that its new product, which its researchers had developed, would soon be sold out.", null, null)
+ //    addStimulus(fillers, "filler", "filler", "The natives on the island captured the anthropologist because she had information that could help the tribe.", null, null)
+     addStimulus(fillers, "filler", "filler", "The cartoonist who the readers supported pressured the dean because she thought that censorship was never appropriate.", null, null)
+     addStimulus(fillers, "filler", "filler", "The hippies who the police at the concert arrested complained to the officials while the last act was going on stage.", null, null)
+     addStimulus(fillers, "filler", "filler", "The prisoner who the guard attacked tackled the warden although he had no intention of trying to escape.", null, null)
+//     addStimulus(fillers, "filler", "filler", "The woman who was in the apartment hired the plumber despite the fact that he couldn't fix the toilet.", null, null)
+//     addStimulus(fillers, "filler", "filler", "The audience who was at the club booed the singer before the owner of the bar could remove him from the stage.", null, null)
+
+//"The book, John had read it from front to back in a single day."
+
+     // Other
+     //addStimulus(fillers, "filler", "filler", "Talent John has, money he has not."
+
+//"In went Mr X"
+//
+//"It was with enormous pleasure that the judge announced the verdict."
+//
+//'Only after dinner did I make up my mind to go there' 
+
+     addStimulus(fillers, "filler", "filler", "The dog walked to the park was chasing the squirrel.", "Was the dog chasing the squirrel?", "Y") //(Gibson 1991)
+     addStimulus(fillers, "filler", "filler", "John gave the boy the dog bit a dollar.", "Did the boy bite John?", "N") // (Gibson 1991)
+     addStimulus(fillers, "filler", "filler", "The coach smiled at the player tossed a frisbee.", "Was the coach smiling?", "Y") 
+     addStimulus(fillers, "filler", "filler", "Because he always jogs a mile seems a short distance to him.", null, null)
+
+
+//Dan convinced the child that was frightened of dogs that cats are good pets (Gibson 1991)
+//
+//The students believe that Rick ate a sandwich larger than his head to be impressive. (Gibson 1991)
+//
+//The county buses most of the grade school children to another county. (Gibson 1991)
+//
+//The superintendent talked to the boy that owns three dogs about the latest incident. (Gibson 1991)
+//
+//The superintendent talked to the boy that owns the dog that is always chasing cats about the latest incident. (Gibson 1991)
+//
+//
+     addStimulus(fillers, "filler", "filler", "Because if Steven checks the mail, he doesn't wear his robe, Steven's neighbors complain.", "Does Steven complain?", "N") //(Gibson 1991)
+//Steven's neighbors complain, because if Steven checks the mail, then he doesn't wear his robe.
+
+     addStimulus(fillers, "filler", "filler", "Yesterday, a patient complained who had missed his noon appointment so the doctor agreed to see him early tomorrow.", null, null)
+     addStimulus(fillers, "filler", "filler", "This morning, a manager stayed who is rarely in the office so the employees were very well behaved.", null, null)
+     addStimulus(fillers, "filler", "filler", "The reporter interviewed the actors about the movie.", "Did the reporter interview the actors?", "Y")
+     addStimulus(fillers, "filler", "filler", "The student petitioned the professors regarding the course.", null, null)
+     addStimulus(fillers, "filler", "filler", "The agent approached the publicists about the photo-shoot.", null, null)
+     addStimulus(fillers, "filler", "filler", "The socialite praised the hostesses for the party which was held yesterday in a luxurious ballroom.", "Was the party held in a ballroom?", "Y")
+     addStimulus(fillers, "filler", "filler", "The publisher complimented the editors on the magazine.", null, null)
+     addStimulus(fillers, "filler", "filler", "The counselor consoled the students about the competition.", null, null)
+addStimulus(fillers, "filler", "filler", "The locksmith can crack the safe easily.", null, null)
+addStimulus(fillers, "filler", "filler", "Dinosaurs ate other reptiles during the stone age.", null, null)
+addStimulus(fillers, "filler", "filler", "The private tutor explained the assignment carefully.", null, null)
+addStimulus(fillers, "filler", "filler", "The showman travels to different cities every month.", "Does the showman stay in the same city throughout the year?", "N")
+addStimulus(fillers, "filler", "filler", "The photographer processed the film on time.", "Did the photographer process the film?", "Y")
+addStimulus(fillers, "filler", "filler", "The office-worker worked through the stack of files on his desk quickly, which had been piling up for weeks.", null, null)
+addStimulus(fillers, "filler", "filler", "The teacher doubted that the test that had taken him a long time to design would be easy to answer, but the students proved him wrong.", "Was the test easy to answer?", "Y")
+addStimulus(fillers, "filler", "filler", "The customer who was on the phone contacted the operator because the new long-distance pricing plan was extremely inconvenient.", "Was the new plan convenient?", "N")
+addStimulus(fillers, "filler", "filler", "The spider that the boy who was in the yard captured scared the dog since it was larger than the average spider.", "Did the dog scare the spider?", "N")
+addStimulus(fillers, "filler", "filler", "The speaker who the historian offended kicked a chair after the talk was over and everyone had left the room.", null, null)
+addStimulus(fillers, "filler", "filler", "The engineer who the lawyer who was by the elevator scolded blamed the secretary but nobody listened to his complaints.", null, null)
+addStimulus(fillers, "filler", "filler", "The driver who the police arrested ran a light because he was under the influence of alcohol.", "Did the police let the driver go?", "N")
+addStimulus(fillers, "filler", "filler", "The casino hired the daredevil because he was confident that everything would go according to plan.", "Did the casino hire the daredevil?", "Y")
+addStimulus(fillers, "filler", "filler", "The janitor who the doorman who was at the hotel chatted with bothered a guest but the manager decided not to fire him for it.", null, null)
+addStimulus(fillers, "filler", "filler", "The firemen at the scene apprehended the arsonist because there was a great deal of evidence pointing to his guilt.", "Did the fireman consider the arsonist innocent?", "N")
+addStimulus(fillers, "filler", "filler", "The gangster who the detective at the club followed implicated the waitress because the police suspected he had murdered the shopkeeper.", null, null)
+addStimulus(fillers, "filler", "filler", "The manager who the baker loathed spoke to the new pastry chef because he had instituted a new dress code for all employees.", "Was there a new dress code?", "Y")
+addStimulus(fillers, "filler", "filler", "The cook who the servant in the kitchen hired offended the butler and then left the mansion early to see a movie at the local theater.", null, null)
+addStimulus(fillers, "filler", "filler", "The trainee knew that the task which the director had set for him was impossible to finish within a week.", "Was it possible to finish the task within a week?", "N")
+addStimulus(fillers, "filler", "filler", "The administrator who the nurse from the clinic supervised scolded the medic while a patient was brought into the emergency room.", null, null)
+addStimulus(fillers, "filler", "filler", "The surgeon who the detective who was on the case consulted questioned the coroner because the markings on the body were difficult to explain.", "Did someone question the coroner?", "Y")
+addStimulus(fillers, "filler", "filler", "The environmentalist who the demonstrators at the rally supported calmed the crowd until security came and sent everyone home.", "Did the demonstrators support the environmentalist?", "Y")
+addStimulus(fillers, "filler", "filler", "The astronaut that the journalists who were at the launch worshipped criticized the administrators after he discovered a potential leak in the fuel tank.", "Was there a potential leak in the tank?", "Y")
+addStimulus(fillers, "filler", "filler", "The mathematician at the banquet baffled the philosopher although she rarely needed anyone else's help.", "Did the philosopher baffle the mathematician?", "N")
+//addStimulus(fillers, "filler", "filler", "The divorcee has come to love her life ever since she got divorced."
+//addStimulus(fillers, "filler", "filler", "The passer-by threw the cardboard box into the trash-can with great force."
+//addStimulus(fillers, "filler", "filler", "The milkman punctually delivers the milk at the door every day."
+//addStimulus(fillers, "filler", "filler", "The intern comforted the patient because he was in great pain."
+//addStimulus(fillers, "filler", "filler", "The students studied the surgeon whenever he performed an important operation."
+//addStimulus(fillers, "filler", "filler", "The roommate takes out the garbage every week."
+//addStimulus(fillers, "filler", "filler", "The bully punched the kid after all the kids had to leave to go to class."
+
+//	// 10 difficult ones
+//"During the party everybody was dancing to rock music."
+//"The sportsman goes jogging in the park regularly."
+//"The company was sure that its new product, which its researchers had developed, would soon be sold out."
+//"Yesterday the swimmer saw only a turtle at the beach."
+//"The natives on the island captured the anthropologist because she had information that could help the tribe."
+//"The salesman feared that the printer which the customer bought was damaged."
+//"The cartoonist who the readers supported pressured the dean because she thought that censorship was never appropriate."
+//"The hippies who the police at the concert arrested complained to the officials while the last act was going on stage."
+//"The prisoner who the guard attacked tackled the warden although he had no intention of trying to escape."
+//"The woman who was in the apartment hired the plumber despite the fact that he couldn't fix the toilet."
+//"The rebels who were in the jungle captured the diplomat after they threatened to kill his family for not complying with their demands."
+//"The student quickly finished his homework assignments."
+//"The fans at the concert loved the guitarist because he played with so much energy."
+//"The dragon wounded the knight although he was far too crippled to protect the princess."
+//"The defender is constantly scolding the keeper."
+//"The beggar is often scrounging for cigarettes."
+//"The citizens of France eat oysters."
+//"After the argument, the husband ignored his wife."
+//"The technician at the show repaired the robot while people were taking a break for coffee."
+//"The producer shoots a new movie every year."
+//"The quarterback dated the cheerleader although this hurt her reputation around school."
+//"The audience who was at the club booed the singer before the owner of the bar could remove him from the stage."
+//"During the season, the choir holds rehearsals in the church regularly."
+
+
+
+
+     practice = [];
+     addStimulus(practice, "filler", "filler", "This is a simple sentence to get you started.", null, null)
+     addStimulus(practice, "filler", "filler", "This sense no sense makes and is unacceptable.", null, null)
+     addStimulus(practice, "filler", "filler", "Remember to keep your fingers on the e and i keys and provide an answer quickly.", null, null)
+     addStimulus(practice, "filler", "filler", "The next sentence will start the experiment.", null, null)
+     addStimulus(practice, "filler", "filler", "The semester will start next week, but the students and teachers are not ready.", null, null)
+     addStimulus(practice, "filler", "filler", "The mother of the prisoner sent him packages that contained cookies and novels.", null, null)
+     addStimulus(practice, "filler", "filler", "The reporter had dinner yesterday with the baseball player who Kevin admired.", null, null)
+     addStimulus(practice, "filler", "filler", "The therapist set up a meeting with the upset woman and her husband yesterday.", null, null)
+
+function separatedShuffle(x, y) {
+	indices_x = [...Array(x.length).keys()].map(function(x){ return ["x",x]})
+	indices_y = [...Array(y.length).keys()].map(function(x){ return ["y",x]})
+	if(indices_x.length <= indices_y.length+5) {
+		CRASH()
 	}
-
-fillers = []
-fillers.push({s:"The divorcee has come to love her life ever since she got divorced.", a:"x-x-x nearly else bed took fell lord cup air stand base web keyboard."}) 
-fillers.push({s:"The mathematician at the banquet baffled the philosopher although she rarely needed anyone else's help.", a:"x-x-x rebelling trip lot corpses audible kept inspections appeared card branch moving happen polish oh."}) 
-fillers.push({s:"The showman travels to different cities every month.", a:"x-x-x citing terrain hall certainly listen write rates."}) 
-fillers.push({s:"The roommate takes out the garbage every week.", a:"x-x-x attest doubt sold lose enables worst anti."}) 
-fillers.push({s:"The dragon wounded the knight although he was far too crippled to protect the princess.", a:"x-x-x endorses funding plan borrow question walk tree pop key teammate stay society map indicate."}) 
-fillers.push({s:"The office-worker worked through the stack of files on his desk quickly.", a:"x-x-x appreciating forget arrived lady prone wife treat fall born rain western."}) 
-fillers.push({s:"The firemen at the scene apprehended the arsonist because there was a great deal of evidence pointing to his guilt.", a:"x-x-x originate war sure among outsourcing cent deviance anymore mouth fun us enter laws yes produced observer plus bill weigh."}) 
-fillers.push({s:"During the season, the choir holds rehearsals in the church regularly.", a:"x-x-x nice called, us haunt anger prophecies laws thus issues customers."}) 
-fillers.push({s:"The speaker who the historian offended kicked a chair after the talk was over and everyone had left the room.", a:"x-x-x criticises holy sad activated fraction upside mom files cases lot know port lord holy products port van guy how."}) 
-fillers.push({s:"The milkman punctually delivers the milk at the door every day.", a:"x-x-x obstruct clerestory lesbians lose quit ass nor took weird join."}) 
-fillers.push({s:"The quarterback dated the cheerleader although this hurt her reputation around school.", a:"x-x-x empties fairy sit propagation violence tell east lake represents access placed."}) 
-fillers.push({s:"The citizens of France eat oysters.", a:"x-x-x allege anti Amount girl lattice."}) 
-fillers.push({s:"The bully punched the kid after all the kids had to leave to go to class.", a:"x-x-x arousing rituals eat what birth felt ha ha sun lake forms link jack size feels."}) 
-fillers.push({s:"After the argument, the husband ignored his wife.", a:"x-x-x plus suggests, cent without harmony seen here."}) 
-fillers.push({s:"The engineer who the lawyer who was by the elevator scolded blamed the secretary but nobody listened to his complaints.", a:"x-x-x succumbing oh ha defend feet mine ones ha shouting rescind ounces sort including ass happen infantry laws far protecting."}) 
-fillers.push({s:"The librarian put the book onto the shelf.", a:"x-x-x impede east grow this wave grow bacon."}) 
-fillers.push({s:"The photographer processed the film on time.", a:"x-x-x prematurely eliminate ago yes non nor."}) 
-fillers.push({s:"The spider that the boy who was in the yard captured scared the dog since it was larger than the average spider.", a:"x-x-x enclosing sad cent been hell pro say jack earn resource expert file gets ended list per decide lady anti imagine quotes."}) 
-fillers.push({s:"The sportsman goes jogging in the park regularly.", a:"x-x-x incurring hear outback hope fell been processes."}) 
-fillers.push({s:"The customer who was on the phone contacted the operator because the new long-distance pricing plan was extremely inconvenient.", a:"x-x-x equates okay yeah bill sun maybe desperate wish wondered married link an unfortunately chronic miss yes residence inscriptions."}) 
-fillers.push({s:"The private tutor explained the assignment carefully.", a:"x-x-x reproduce bumps amendment lot kilometers centuries."}) 
-fillers.push({s:"The audience who was at the club booed the singer before the owner of the bar could remove him from the stage.", a:"x-x-x solidly anti mid sir why me levee glad argued larger rich lying east done yes worse allows term file rose there."}) 
-fillers.push({s:"The defender is constantly scolding the keeper.", a:"x-x-x disembark sick definition dilation yeah albeit."}) 
-fillers.push({s:"The hippies who the police at the concert arrested complained to the officials while the last act was going on stage.", a:"x-x-x possesses sale room anyone oh fit writers resource completion kill cup discussed worst damn yes grow sick worry sir older."}) 
-fillers.push({s:"The natives on the island captured the anthropologist because she had information that could help the tribe.", a:"x-x-x emanating fat else forget managers plan misconceptions release pick away combination die gonna damn gets shake."}) 
-fillers.push({s:"The trainee knew that the task which the director had set for him was impossible to finish within a week.", a:"x-x-x recursively easy jack eat earn prime note together wind word lose anti girl commission gun served degree cup thus."}) 
-fillers.push({s:"The administrator who the nurse from the clinic supervised scolded the medic while a patient was brought into the emergency room.", a:"x-x-x unmask hell fact forth none anti scales detectives pungent nice smoky match lake islands boys imagine view luck recommend able."}) 
-fillers.push({s:"The company was sure that its new product, which its researchers had developed, would soon be sold out.", a:"x-x-x closely mind dad sir cent nor another, throw drug accompanied eyes everybody, south page ha trip whom."}) 
-fillers.push({s:"The astronaut that the journalists who were at the launch worshipped criticized the administrators after he discovered a potential leak in the fuel tank.", a:"x-x-x supervises oh oh necessarily bed sure size yeah hungry vigorously calculated died reinforcements gotta rose electrical kept countries dean pain told laid cat."}) 
-fillers.push({s:"The janitor who the doorman who was at the hotel chatted with bothered a guest but the manager decided not to fire him for it.", a:"x-x-x conclude fat us intakes east ones miss ha today bedding mid tendency vote woods oh law however healthy rest kid wide road lake jack."}) 
-fillers.push({s:"The technician at the show repaired the robot while people were taking a break for coffee.", a:"x-x-x devoting hate been guys comrades cup sells sweet stupid sale policy met today sale cannot."}) 
-fillers.push({s:"The salesman feared that the printer which the customer bought was damaged.", a:"x-x-x dosing robust walk bar knocked weeks mid sciences impact map premier."}) 
-fillers.push({s:"The students studied the surgeon whenever he performed an important operation.", a:"x-x-x reused summary stay advised indicate file something cent president companies."}) 
-fillers.push({s:"The locksmith can crack the safe easily.", a:"x-x-x exert okay firms met took agreed."}) 
-fillers.push({s:"The woman who was in the apartment hired the plumber despite the fact that he couldn't fix the toilet.", a:"x-x-x seeking cool sea hear ass basically plain lie jerseys reached eyes came mom sit football bell cent enters."}) 
-fillers.push({s:"Yesterday the swimmer saw only a turtle at the beach.", a:"x-x-x nice hurdles ways fund web intake anti sold china."}) 
-fillers.push({s:"The surgeon who the detective who was on the case consulted questioned the coroner because the markings on the body were difficult to explain.", a:"x-x-x responding way web belonging bad girl ways soul hope databases profitable soul bullion playing hour explores ball won fun hope statement town windows."}) 
-fillers.push({s:"The gangster who the detective at the club followed implicated the waitress because the police suspected he had murdered the shopkeeper.", a:"x-x-x rejoining lack how arbitrary far came held economic contracted park realizes animals read except religions bed case displays size furthering."}) 
-fillers.push({s:"During the party everybody was dancing to rock music.", a:"x-x-x buy comes otherwise few monster pay ago agree."}) 
-fillers.push({s:"The fans at the concert loved the guitarist because he played with so much energy.", a:"x-x-x besting holy via citizen older seat cooperate limited keep cancer sit does mass months."}) 
-fillers.push({s:"The intern comforted the patient because he was in great pain.", a:"x-x-x predate receptive wind noticed percent kid move park basis win."}) 
-fillers.push({s:"The casino hired the daredevil because he was confident that everything would go according to plan.", a:"x-x-x commences sword yes universes protect does her describes add understand china six authority ways down."}) 
-fillers.push({s:"The beggar is often scrounging for cigarettes.", a:"x-x-x officially mid feels concourses fan agreements."}) 
-fillers.push({s:"The cartoonist who the readers supported pressured the dean because she thought that censorship was never appropriate.", a:"x-x-x diversifying heat god whoever communist legalized jack den perfect keep account oh affiliates feet learn description."}) 
-fillers.push({s:"The prisoner who the guard attacked tackled the warden although he had no intention of trying to escape.", a:"x-x-x certainly luck fine aimed suitable teaming mind invent congress mom grow boy describes pick author walk poetry."}) 
-fillers.push({s:"The passer-by threw the cardboard box into the trash-can with great force.", a:"x-x-x succumbs quiet draw equitable his lord wish quarterly born agree agree."}) 
-fillers.push({s:"The biker who the police arrested ran a light since he was driving under the influence of alcohol.", a:"x-x-x rehabilitate risk glad except breaking pain goal exist reach till loss opinion rules nor presented find discuss."}) 
-fillers.push({s:"The scientists who were in the lab studied the alien while the blood sample was run through the computer.", a:"x-x-x evict holy yes add goes bob monster son lacks wanna lie agree update wish ha reality note everyone."}) 
-fillers.push({s:"The student quickly finished his homework assignments.", a:"x-x-x putting healthy southern wife airports magistrates."}) 
-fillers.push({s:"The environmentalist who the demonstrators at the rally supported calmed the crowd until security came and sent everyone home.", a:"x-x-x angering yeah sad perpendicular bed lot valve marketing spills best laugh spend contract me sure mom function hair."}) 
-fillers.push({s:"The producer shoots a new movie every year.", a:"x-x-x shortly pierce page anti enjoy peace mom."}) 
-fillers.push({s:"The rebels who were in the jungle captured the diplomat after they threatened to kill his family for not complying with their demands.", a:"x-x-x memorably girl body soul girl visits memories card nuisance feels guys scientists says able move please pain ball nostalgic sir learn drivers."}) 
-fillers.push({s:"Dinosaurs ate other reptiles during the stone age.", a:"x-x-x earl write exporter minute guys wants dad."}) 
-fillers.push({s:"The manager who the baker loathed spoke to the new pastry chef because he had instituted a new dress code for all employees.", a:"x-x-x contemplates anti map walks tenuous voted ass goal anti devoid skip weekend star mind veterinary lose dad sides want rose knew indicates."}) 
-fillers.push({s:"The teacher doubted that the test that had taken him a long time to design would be easy to answer.", a:"x-x-x totalling grinder star feet them your miss miles song anti oh her ha posted enjoy door fund foot county."}) 
-fillers.push({s:"The cook who the servant in the kitchen hired offended the butler and then left the mansion early to see a movie at the local theater.", a:"x-x-x admirably trip cell justify cool lose wanting rough collapse runs thirds gold term miss rate evolved ideas bill code mean miles yeah hear their acquire."}) 
-
-for(i=0; i<fillers.length; i++) {
-	fillers[i].condition = "filler"
-	fillers[i].item = "Filler_"+i
+	console.log(indices_x);
+	console.log(indices_y);
+	result = indices_x.concat(indices_y);
+	attempts_order = 0;
+	console.log("SHUFFLING");
+	result = _.shuffle(result);
+	for(i=0; i+1<result.length; i++) {
+		if(result[i][0] == "y" && result[i+1][0] == "y") {
+			candidate_positions = [];
+	                for(j=0; j+2<result.length; j++) {
+                           if(result[j][0] == "x" && result[j+1][0] == "x" && result[j+2][0] == "x") {
+				   candidate_positions.push(j+1);
+			   }
+			}
+			console.log(i, "CANDIDATES", candidate_positions);
+			SELECTED_NEW_POSITION = _.sample(candidate_positions, 1)[0];
+			X = result[i];
+			Y = result[SELECTED_NEW_POSITION]
+			result[SELECTED_NEW_POSITION] = X;
+			result[i] = Y;
+		}
+	}
+	for(i=0; i+1<result.length; i++) {
+		if(result[i][0] == "y" && result[i+1][0] == "y") {
+			console.log("THIS SHOULD NOT HAPPEN", i);
+		}
+	}
+	result_ = []
+	for(i = 0; i<result.length; i++) {
+		if(result[i][0] == "x") {
+			result_.push(x[result[i][1]]);
+		} else {
+			result_.push(y[result[i][1]]);
+		}
+	}
+	return result_;
 }
 
-	practice = [];
+     fillersAndCritical = separatedShuffle(fillers, critical);
 
-practice.push({s:"The semester will start next week, but the students and teachers are not ready.", a:"x-x-x thrives anti wages body sold, sin sky entitled sky concrete oil him goods."})
-practice.push({s:"The mother of the prisoner sent him packages that contained cookies and novels.", a:"x-x-x defraud dry arm amounted rare nor rhythmic fund authority blossom me defect."})
-practice.push({s:"The reporter had dinner yesterday with the baseball player who Kevin admired.", a:"x-x-x quantify joy reduce organisms rise sum attained tended sin Troop flowing."})
-practice.push({s:"The therapist set up a meeting with the upset woman and her husband yesterday.", a:"x-x-x forestall ten sit sum absence wave ran keeps exist dry sum settled remainder."})
-
-for(i=0; i<practice.length; i++) {
-	practice[i].condition = "filler"
-	practice[i].item = "Practice_"+i
-}
-
-
-
-
-
-
-
-
-
-     fullStimuli = _.shuffle(practice).concat(_.shuffle(fillers.concat(criticalChosen)));
+     fullStimuli = (practice).concat(fillersAndCritical);
+console.log(fillers.length, critical.length);
+console.log(fillersAndCritical.length);
      console.log( fullStimuli);
      return fullStimuli;
      

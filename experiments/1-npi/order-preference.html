@@ -64,38 +64,28 @@
     <h3>Instructions</h3>
 You will read a series of English sentences.
 <br><br>
-For this experiment, please place your left index finger on the 'e' key and your right index finger on the 'i' key.</p><p> You will read sentences word by word. On each screen you will see two options: one will be the next word in the sentence, and one will not. Select the word that continues the sentence by pressing 'e' (left-hand) for the word on the left or pressing 'i' (right-hand) for the word on the right.</p><p>Select the best word as quickly as you can, but without making too many errors.</p>
+For this experiment, please place your left index finger on the 'e' key and your right index finger on the 'i' key.</p><p> You will read sentences word by word. 
+After each sentence, we ask you to judge whether the sentence is an acceptable sentence of English.
+You will see two options: Yes (Acceptable), and No (Unacceptable). Press `e' (left hand) to indicate `Yes', and `i' (right hand) to indicate `No'.
+</p><p> You have 3 seconds for providing your answer. Make your choice quickly, but without making too many errors.</p>
+<p>The system will alert you if you are making many errors. If you keep making too many errors, we might deny payment.</p>
     </p>
     <button onclick="_s.button()">Continue</button>
   </div>
 
   <div class="slide" id="instructions2">
     <h3>Example</h3>
-    Please read the following sentence:
-    <br><br><br>
-    <span class="sentence">The librarian put the book onto the shelf.</span>
-<br><br><br>
-In the experiment, you will be asked to rate: How hard is this sentence to understand?
-<br><br>
-    <table>
-	    <tr>
-		    <td>Easy to understand</td>
-<td><input type="radio" name="rating2" id="foo" value="1"> 1</td>
-<td><input type="radio" name="rating2" id="foo" value="2"> 2</td>
-<td><input type="radio" name="rating2" id="foo" value="3"> 3</td>
-<td><input type="radio" name="rating2" id="foo" value="4"> 4</td>
-<td><input type="radio" name="rating2" id="foo" value="5"> 5</td>
-	<td>Hard to understand</td>
-	    </tr>    </table>
-    <br><br>
-
-
-This sentence is simple and easy to understand.
-`1' would be an appropriate score.
-Please select `1' and press `Continue'.
+    In the task, you will judge whether sentences are <b>acceptable English sentences</b>. That is, judge whether these are sentences that someone might say.
+    <br>
+    <br/>
+    The following are some examples of <b>ACCEPTABLE</b> sentences:
+    <p>Kim has two gray dogs, and she takes them out every day.</p>
+    <p>Peter was greeted by the odd neighbor that he hadn't seen in a year.</p>
+    <br/>
+    The following are some examples of <b>UNACCEPTABLE</b> sentences:
+    <p>The child are reading a book.</p>
+    <p>The scientist who Mary thought was intelligent.</p>
 <br>
-<br>
-    <div class="err"  style="color:red">Please provide a correct answer before continuing.</div>
     <button onclick="_s.button()">Continue</button>
   </div>
 
@@ -359,7 +349,6 @@ How hard is this sentence to understand?
 	<td>Hard to understand</td>
 	    </tr>    </table>
     <br><br>
-Please remember to read each sentence only once, and make your rating on the basis of your first impression.
   </div>
     <br><br>
     <div id="question_div">
@@ -367,6 +356,8 @@ Please remember to read each sentence only once, and make your rating on the bas
 <br>
 <br>
 <br>
+
+
 <span class="question">100 %</span>
 <td><input type="radio" name="response" id="foo" value="Y">Yes</td>
 <td><input type="radio" name="response" id="foo" value="N">No</td>
@@ -386,7 +377,13 @@ Please remember to read each sentence only once, and make your rating on the bas
   <div class="slide" id="maze">
 
 
-	  <div style="text-align: center;"><div class="Maze-counter">Words so far: 0</div><div class="Maze-words"><div class="Maze-lword">Yes</div><div class="Maze-rword">No</div></div><div class="Maze-arrow"><div class="Maze-larrow">e</div><div class="Maze-rarrow">i</div></div><div class="Maze-error">Response too slow!</div></div>
+	  <div style="text-align: center;">
+		  
+		  <div  style="text-align: center;" class="Question" id="Question"><br><br>Is this an acceptable English sentence?</div>
+
+		  
+		  
+		  <div class="Maze-words"><div class="Maze-lword">Yes</div><div class="Maze-rword">No</div></div><div class="Maze-arrow"><div class="Maze-larrow">e</div><div class="Maze-rarrow">i</div></div><div class="Maze-error">Response too slow!</div></div>
 
 	  <div class="rvsp-word">Words so far: 0</div>
 
