@@ -1,0 +1,1177 @@
+workerid	byWords	condition	item	response	sentence	slide_number
+0	[]	filler	filler	69	This is a simple sentence to get you started.	5
+0	[]	filler	filler	69	The next sentence will start the experiment.	7
+0	[]	2	3	73	No declaration that the librarians helped the students has ever made the rounds.	10
+0	[]	filler	filler	69	The horses that no jockey wanted to ride were sold to nearby farms and rented out to trainers.	11
+0	[]	filler	filler	69	The professor's speculation that no practical counter-examples would turn up in the article was justified.	13
+0	[]	filler	filler	69	The rocky roads that no regular sedan could handle were quite easy to drive on in a large truck.	15
+0	[]	filler	filler	73	The programmer that work for the largest computer server corporation have could many experience in customer service	18
+0	[]	filler	filler	69	The electrician's estimation that no building on the block would need to be rewired was made clear to her boss.	19
+0	[]	filler	filler	73	The papers that the students wants to write for the introductory course have no errors at all.	20
+0	[]	filler	filler	69	The items that no family member needed were sold at the neighborhood yard sale.	21
+0	[]	filler	filler	69	The senator's opinion that no farm subsidies could stimulate the economy was strongly disputed in the debate.	22
+0	[]	filler	filler	69	The nurse's hunch that no abnormalities would be found in the brain scan was debated by his supervisor.	23
+0	[]	2	4	69	No disclosure that the lawyers received criticism for a bad trial has ever been disputed. 	24
+0	[]	filler	filler	69	The minivans that no families wanted to purchase were redesigned to be more affordable and attractive.	25
+0	[]	0	9	73	The information that no medic rescued the victim has never caused outrage.	26
+0	[]	filler	filler	69	The psychologist's opinion that no individual could succeed without a college education was mentioned in the university brochure.	27
+0	[]	filler	filler	73	No historian's conjecture that a consensus would emerge on how to ration food fairly was supported by historical data.	28
+0	[]	filler	filler	69	No conservationist's admission that an energy shortage would be caused by the new drilling technique was questioned by the committee.	29
+0	[]	2	0	69	No report that the ambassadors consulted the diplomats has ever been acknowledged.	30
+0	[]	filler	filler	69	No environmentalist's conjecture that the local wildlife would be affected by the oil spill was discussed with the Coast Guard.	31
+0	[]	filler	filler	69	The secretary's intuition that no emails would reach the employees during the system upgrade was revealed in his weekly meeting with the boss.	32
+0	[]	2	18	73	No fact that the professors wanted any negativity in a class debate has ever been claimed.	33
+0	[]	filler	filler	69	The apartments that no family wanted to inhabit are rumored to be haunted by a mean ghost.	34
+0	[]	0	13	69	The realization that no comments caused any bitterness toward the media has ever been substantiated.	35
+0	[]	filler	filler	69	The secret documents that no spy could find were hidden in an underground vault.	36
+0	[]	2	17	69	No belief that the customers expressed any optimism for a full refund has ever been reported in the newspaper.	37
+0	[]	filler	filler	69	Most parks that the forest rangers have patrolled vigilantly during the summer has had forest fires.	38
+0	[]	0	19	73	The undefined that no accountant saw a rise in the quarterly profits has ever been claimed.	39
+0	[]	filler	filler	69	The accountant's speculation that no tax cuts would be made in the near future was quite troubling for many small businesses.	40
+0	[]	filler	filler	69	No geologist's premonition that evacuations would be necessary to avoid the volcano's lava flow was relayed to the island town.	41
+0	[]	filler	filler	69	The firefighter's hunch that no nearby buildings would be safe from the massive fire was communicated to her chief.	42
+0	[]	0	16	73	The inkling that no teacher sparked any inspiration in the students has ever concerned the parents.	43
+0	[]	filler	filler	69	The courses that no college student wanted to attend were often taught by inexperienced teaching assistants.	44
+1	[]	filler	filler	69	Remember to keep your fingers on the e and i keys and provide an answer quickly.	6
+1	[]	filler	filler	69	The minivans that no families wanted to purchase were redesigned to be more affordable and attractive.	8
+1	[]	filler	filler	69	The pilot's estimation that there would be no turbulence during the flight was communicated to her passengers.	9
+1	[]	2	11	69	No presumption that the critics recommended the best-selling novel has ever been proven.	10
+1	[]	filler	filler	73	The students that has good grades often feel that they should had get into a good school.	11
+1	[]	0	4	69	The disclosure that no teacher punished the students for cheating has ever been proven true	12
+1	[]	filler	filler	69	No blogger's hunch that a main character from the hit show would die next season was given much consideration by the show's producers.	13
+1	[]	filler	filler	73	The nuclear physicists that were hired to work on the reactor are allowed to knows details about the plant's projects	14
+1	[]	filler	filler	73	The books that the elementary school board approved for class were ever banned from reading lists nationwide.	15
+1	[]	filler	filler	73	The papers that the students wants to write for the introductory course have no errors at all.	16
+1	[]	0	10	None	The revelation that no comments caused any bitterness toward the media has ever been substantiated.	18
+1	[]	filler	filler	73	The soccer players that could won the tournament were very upset with their coach.	19
+1	[]	filler	filler	73	The secretary's unsettlingly premonition that no raises would be given this year was mentioned to his coworkers during the lunch break.	21
+1	[]	filler	filler	73	Most poets that are considered to be extremely famous has written  poems about current events. 	22
+1	[]	filler	filler	69	The mayor's argument that no local residents would experience noise from the airport was discussed in a city council meeting.	25
+1	[]	2	13	69	No realization that the librarians helped the students has ever made the rounds.	26
+1	[]	filler	filler	69	The professor's speculation that no practical counter-examples would turn up in the article was justified.	27
+1	[]	filler	filler	69	The lectures that no students wanted to attend were often taught by very boring professors.	28
+1	[]	2	16	69	No inkling that the customers expressed any optimism for a full refund has ever been reported in the newspaper.	29
+1	[]	filler	filler	69	The programmer's opinion that no software would sell without attractive packaging was taken seriously by the retailers.	30
+1	[]	0	14	69	The assertion that no medic rescued the victim has never caused outrage.	31
+1	[]	filler	filler	69	The statistician's conclusion that no fish stocks in the U.S. would be overfished until 2012 was welcome in the small port town.	32
+1	[]	filler	filler	69	The secretary's intuition that no emails would reach the employees during the system upgrade was revealed in his weekly meeting with the boss.	33
+1	[]	2	19	73	No undefined that the actors were hurt in the dangerous stunt has ever been proven to be bogus.	34
+1	[]	filler	filler	69	The secret documents that no spy could find were hidden in an underground vault.	35
+1	[]	filler	filler	69	The flowers that no customer wanted to buy were donated to the nearby funeral home.	36
+1	[]	filler	filler	69	The astronomer's contention that no telescope would have enough power to capture the distant galaxy was debated at the national space conference.	37
+1	[]	filler	filler	69	No historian's conjecture that a consensus would emerge on how to ration food fairly was supported by historical data.	38
+1	[]	filler	filler	73	The companies that needs young business often advertise in the magazines that many men enjoys reading.	39
+1	[]	filler	filler	69	The sailor's judgment that no ship would reach land before the storm was mentioned in the log that she kept daily.	40
+1	[]	0	0	73	The report that no employee was kind to the rude customers has ever been reported to the manager.	41
+1	[]	filler	filler	73	The electrician's estimation that no building on the block would need to be rewired was made clear to her boss.	42
+1	[]	filler	filler	69	The nurse's hunch that no abnormalities would be found in the brain scan was debated by his supervisor.	43
+1	[]	0	7	69	The news that no student succeeded in the math class has ever been taken seriously by the principal.	44
+1	[]	filler	filler	73	The exhibits that no tourist visited during summer vacation were advertised very poorly.	45
+1	[]	2	1	69	No story that the suspect was nervous in the court room has ever been reported.	46
+1	[]	filler	filler	69	The senator's opinion that no farm subsidies could stimulate the economy was strongly disputed in the debate.	47
+1	[]	filler	filler	69	The firefighter's hunch that no nearby buildings would be safe from the massive fire was communicated to her chief.	48
+1	[]	0	18	69	The fact that no diplomats supported the war has ever turned out to be false.	49
+1	[]	filler	filler	73	The boat that have took all of the international tourists out for the fishing expedition have new life jackets aboard.	50
+1	[]	2	5	69	No confirmation that the nurse showed patience in the operating room has ever been known outside the hospital.	51
+1	[]	filler	filler	69	The items that no family member needed were sold at the neighborhood yard sale.	52
+1	[]	filler	filler	69	No conservationist's admission that an energy shortage would be caused by the new drilling technique was questioned by the committee.	53
+1	[]	filler	filler	69	The actors that plays in recent major films are paid millions of dollars for his talent.	54
+1	[]	filler	filler	73	Most parks that the forest rangers have patrolled vigilantly during the summer has had forest fires.	55
+1	[]	0	8	69	The allegation that no detergent caused damage to the delicate clothing has ever been debunked.	57
+1	[]	filler	filler	73	Most computers that the senior citizens are capable of using correctly have uses outdated technology.	58
+1	[]	0	17	69	The belief that no professors wanted any negativity in a class debate has ever been claimed.	59
+1	[]	filler	filler	69	The rocky roads that no regular sedan could handle were quite easy to drive on in a large truck.	60
+1	[]	filler	filler	73	The rainforests that were the subject of much debate has been unders federal protection.	61
+1	[]	2	9	69	No information that the lawyers received criticism for a bad trial has ever been disputed. 	62
+1	[]	filler	filler	69	The flight attendant that were aboard the intercontinental flight had no time to sleep before landing.	63
+1	[]	filler	filler	69	The beautician's statement that no other salon in town would give a better deal was quite reassuring for his clients.	64
+1	[]	filler	filler	69	The computer files that no employee could access were corrupted beyond recovery and had to be deleted.	65
+1	[]	2	6	69	No remark that the accountant saw a rise in the quarterly profits has ever been claimed.	66
+1	[]	filler	filler	69	No environmentalist's conjecture that the local wildlife would be affected by the oil spill was discussed with the Coast Guard.	67
+1	[]	filler	filler	73	The programmer that work for the largest computer server corporation have could many experience in customer service	68
+1	[]	filler	filler	69	The apartments that no family wanted to inhabit are rumored to be haunted by a mean ghost.	69
+1	[]	filler	filler	69	No farmer's admission that food additives are necessary to preserve freshness was confirmed by the Food Safety Administration.	70
+1	[]	0	12	69	The assurance that no teacher sparked any inspiration in the students has ever concerned the parents.	71
+1	[]	filler	filler	69	The psychologist's opinion that no individual could succeed without a college education was mentioned in the university brochure.	72
+1	[]	filler	filler	69	No conservationist's admission that an energy shortage would be caused by the new drilling technique was questioned by the committee.	73
+1	[]	filler	filler	69	No analyst's projection that an increased lending rate would stimulate the economy was communicated to the financial executives.	74
+1	[]	2	15	69	No assumption that the ambassadors consulted the diplomats has ever been acknowledged.	75
+1	[]	filler	filler	69	The courses that no college student wanted to attend were often taught by inexperienced teaching assistants.	76
+1	[]	filler	filler	69	No geologist's premonition that evacuations would be necessary to avoid the volcano's lava flow was relayed to the island town.	77
+2	[]	filler	filler	69	This is a simple sentence to get you started.	5
+2	[]	filler	filler	69	Remember to keep your fingers on the e and i keys and provide an answer quickly.	6
+2	[]	filler	filler	69	The next sentence will start the experiment.	7
+2	[]	filler	filler	69	The secretary's intuition that no emails would reach the employees during the system upgrade was revealed in his weekly meeting with the boss.	9
+2	[]	2	3	73	No declaration that the comments caused any bitterness toward the media has ever been substantiated.	10
+2	[]	filler	filler	69	The apartments that no family wanted to inhabit are rumored to be haunted by a mean ghost.	11
+2	[]	filler	filler	73	The students that has good grades often feel that they should had get into a good school.	12
+2	[]	filler	filler	69	The horses that no jockey wanted to ride were sold to nearby farms and rented out to trainers.	13
+2	[]	filler	filler	73	Most poets that are considered to be extremely famous has written  poems about current events. 	14
+2	[]	filler	filler	69	The computer files that no employee could access were corrupted beyond recovery and had to be deleted.	15
+2	[]	filler	filler	73	No farmer's admission that food additives are necessary to preserve freshness was confirmed by the Food Safety Administration.	16
+2	[]	filler	filler	73	No analyst's projection that an increased lending rate would stimulate the economy was communicated to the financial executives.	18
+2	[]	2	0	None	No report that the coach drafted the player has ever made him nervous.	19
+2	[]	filler	filler	73	No historian's conjecture that a consensus would emerge on how to ration food fairly was supported by historical data.	20
+2	[]	0	14	69	The assertion that no lawyers received criticism for a bad trial has ever been disputed. 	21
+2	[]	filler	filler	69	The sailor's judgment that no ship would reach land before the storm was mentioned in the log that she kept daily.	22
+2	[]	filler	filler	73	Most computers that the senior citizens are capable of using correctly have uses outdated technology.	23
+2	[]	filler	filler	69	The accountant's speculation that no tax cuts would be made in the near future was quite troubling for many small businesses.	24
+2	[]	filler	filler	73	The rainforests that were the subject of much debate has been unders federal protection.	25
+2	[]	0	18	73	The fact that no diplomats supported the war has ever turned out to be false.	26
+2	[]	filler	filler	73	The books that the elementary school board approved for class were ever banned from reading lists nationwide.	27
+2	[]	filler	filler	69	The exhibits that no tourist visited during summer vacation were advertised very poorly.	29
+2	[]	0	4	73	The disclosure that no teacher sparked any inspiration in the students has ever concerned the parents.	30
+2	[]	filler	filler	69	The courses that no college student wanted to attend were often taught by inexperienced teaching assistants.	31
+2	[]	filler	filler	69	The items that no family member needed were sold at the neighborhood yard sale.	32
+2	[]	2	15	69	No assumption that the ambassadors consulted the diplomats has ever been acknowledged.	33
+2	[]	filler	filler	73	The actors that plays in recent major films are paid millions of dollars for his talent.	34
+2	[]	filler	filler	73	No conservationist's admission that an energy shortage would be caused by the new drilling technique was questioned by the committee.	35
+2	[]	0	1	73	The story that no librarians helped the students has ever made the rounds.	36
+2	[]	filler	filler	69	The pilot's estimation that there would be no turbulence during the flight was communicated to her passengers.	37
+2	[]	0	7	69	The news that no customers expressed any optimism for a full refund has ever been reported in the newspaper.	39
+2	[]	filler	filler	73	No conservationist's admission that an energy shortage would be caused by the new drilling technique was questioned by the committee.	40
+2	[]	0	2	69	The admission that no medic rescued the victim has never caused outrage.	41
+2	[]	filler	filler	73	The programmer that work for the largest computer server corporation have could many experience in customer service	42
+2	[]	filler	filler	69	The psychologist's opinion that no individual could succeed without a college education was mentioned in the university brochure.	43
+2	[]	2	9	69	No information that the detergent caused damage to the delicate clothing has ever been debunked.	44
+2	[]	filler	filler	69	The lectures that no students wanted to attend were often taught by very boring professors.	45
+2	[]	2	19	73	No undefined that the critics recommended the best-selling novel has ever been proven.	46
+2	[]	filler	filler	69	The mayor's argument that no local residents would experience noise from the airport was discussed in a city council meeting.	49
+2	[]	filler	filler	73	The rocky roads that no regular sedan could handle were quite easy to drive on in a large truck.	50
+2	[]	2	5	69	No confirmation that the politician was trusted by the rural communities has ever caused concern.	51
+2	[]	filler	filler	73	The boat that have took all of the international tourists out for the fishing expedition have new life jackets aboard.	52
+2	[]	filler	filler	69	The flowers that no customer wanted to buy were donated to the nearby funeral home.	53
+2	[]	filler	filler	73	The professor's speculation that no practical counter-examples would turn up in the article was justified.	54
+2	[]	filler	filler	69	The firefighter's hunch that no nearby buildings would be safe from the massive fire was communicated to her chief.	55
+2	[]	2	6	69	No remark that the accountant saw a rise in the quarterly profits has ever been claimed.	56
+2	[]	filler	filler	73	The nuclear physicists that were hired to work on the reactor are allowed to knows details about the plant's projects	57
+2	[]	filler	filler	69	The secret documents that no spy could find were hidden in an underground vault.	58
+2	[]	filler	filler	73	Most parks that the forest rangers have patrolled vigilantly during the summer has had forest fires.	59
+2	[]	filler	filler	73	No geologist's premonition that evacuations would be necessary to avoid the volcano's lava flow was relayed to the island town.	60
+2	[]	2	10	69	No revelation that the teacher punished the students for cheating has ever been proven true	61
+2	[]	filler	filler	73	No blogger's hunch that a main character from the hit show would die next season was given much consideration by the show's producers.	62
+2	[]	2	13	69	No realization that the employee was kind to the rude customers has ever been reported to the manager.	63
+2	[]	filler	filler	73	No geologist's premonition that evacuations would be necessary to avoid the volcano's lava flow was relayed to the island town.	64
+2	[]	filler	filler	69	The secretary's unsettlingly premonition that no raises would be given this year was mentioned to his coworkers during the lunch break.	65
+2	[]	2	16	69	No inkling that the actors were hurt in the dangerous stunt has ever been proven to be bogus.	66
+2	[]	filler	filler	69	The minivans that no families wanted to purchase were redesigned to be more affordable and attractive.	67
+2	[]	filler	filler	69	The statistician's conclusion that no fish stocks in the U.S. would be overfished until 2012 was welcome in the small port town.	68
+2	[]	0	17	69	The belief that no student succeeded in the math class has ever been taken seriously by the principal.	69
+2	[]	filler	filler	73	The soccer players that could won the tournament were very upset with their coach.	70
+2	[]	filler	filler	69	No environmentalist's conjecture that the local wildlife would be affected by the oil spill was discussed with the Coast Guard.	71
+2	[]	0	8	69	The allegation that no nurse showed patience in the operating room has ever been known outside the hospital.	72
+2	[]	filler	filler	69	The papers that the students wants to write for the introductory course have no errors at all.	73
+2	[]	0	11	73	The presumption that no suspect was nervous in the court room has ever been reported.	74
+2	[]	filler	filler	69	The nurse's hunch that no abnormalities would be found in the brain scan was debated by his supervisor.	75
+2	[]	filler	filler	69	The programmer's opinion that no software would sell without attractive packaging was taken seriously by the retailers.	76
+2	[]	0	12	69	The assurance that no professors wanted any negativity in a class debate has ever been claimed.	77
+3	[]	filler	filler	69	This is a simple sentence to get you started.	5
+3	[]	filler	filler	69	Remember to keep your fingers on the e and i keys and provide an answer quickly.	6
+3	[]	filler	filler	69	The next sentence will start the experiment.	7
+3	[]	0	19	73	The undefined that no professors wanted any negativity in a class debate has ever been claimed.	8
+3	[]	filler	filler	69	The flowers that no customer wanted to buy were donated to the nearby funeral home.	9
+3	[]	2	4	73	No disclosure that the teacher sparked any inspiration in the students has ever concerned the parents.	11
+3	[]	filler	filler	69	The actors that plays in recent major films are paid millions of dollars for his talent.	12
+3	[]	0	11	73	The presumption that no suspect was nervous in the court room has ever been reported.	13
+3	[]	filler	filler	69	No geologist's premonition that evacuations would be necessary to avoid the volcano's lava flow was relayed to the island town.	14
+3	[]	filler	filler	69	The horses that no jockey wanted to ride were sold to nearby farms and rented out to trainers.	15
+3	[]	filler	filler	69	The secretary's unsettlingly premonition that no raises would be given this year was mentioned to his coworkers during the lunch break.	16
+3	[]	filler	filler	69	The programmer's opinion that no software would sell without attractive packaging was taken seriously by the retailers.	17
+3	[]	2	16	73	No inkling that the medic rescued the victim has never caused outrage.	18
+3	[]	filler	filler	69	The secret documents that no spy could find were hidden in an underground vault.	19
+3	[]	2	1	69	No story that the student succeeded in the math class has ever been taken seriously by the principal.	21
+3	[]	filler	filler	69	The electrician's estimation that no building on the block would need to be rewired was made clear to her boss.	22
+3	[]	filler	filler	73	The companies that needs young business often advertise in the magazines that many men enjoys reading.	23
+3	[]	filler	filler	69	The beautician's statement that no other salon in town would give a better deal was quite reassuring for his clients.	24
+3	[]	filler	filler	73	The programmer that work for the largest computer server corporation have could many experience in customer service	25
+3	[]	0	15	73	The assumption that no nurse showed patience in the operating room has ever been known outside the hospital.	27
+3	[]	filler	filler	69	The statistician's conclusion that no fish stocks in the U.S. would be overfished until 2012 was welcome in the small port town.	28
+3	[]	filler	filler	73	The nuclear physicists that were hired to work on the reactor are allowed to knows details about the plant's projects	30
+3	[]	filler	filler	69	No conservationist's admission that an energy shortage would be caused by the new drilling technique was questioned by the committee.	31
+3	[]	0	5	69	The confirmation that no teacher punished the students for cheating has ever been proven true	32
+3	[]	filler	filler	69	The pilot's estimation that there would be no turbulence during the flight was communicated to her passengers.	33
+3	[]	filler	filler	73	The rainforests that were the subject of much debate has been unders federal protection.	34
+3	[]	2	3	69	No declaration that the politician was trusted by the rural communities has ever caused concern.	35
+3	[]	filler	filler	69	No environmentalist's conjecture that the local wildlife would be affected by the oil spill was discussed with the Coast Guard.	36
+3	[]	filler	filler	73	The boat that have took all of the international tourists out for the fishing expedition have new life jackets aboard.	37
+3	[]	filler	filler	69	No farmer's admission that food additives are necessary to preserve freshness was confirmed by the Food Safety Administration.	38
+3	[]	2	8	69	No allegation that the detergent caused damage to the delicate clothing has ever been debunked.	40
+3	[]	filler	filler	69	Most parks that the forest rangers have patrolled vigilantly during the summer has had forest fires.	41
+3	[]	filler	filler	69	The accountant's speculation that no tax cuts would be made in the near future was quite troubling for many small businesses.	42
+3	[]	0	0	73	The report that no librarians helped the students has ever made the rounds.	43
+3	[]	filler	filler	69	The rocky roads that no regular sedan could handle were quite easy to drive on in a large truck.	44
+3	[]	filler	filler	69	The psychologist's opinion that no individual could succeed without a college education was mentioned in the university brochure.	46
+3	[]	filler	filler	69	The computer files that no employee could access were corrupted beyond recovery and had to be deleted.	47
+3	[]	2	10	69	No revelation that the actors were hurt in the dangerous stunt has ever been proven to be bogus.	48
+3	[]	filler	filler	69	The professor's speculation that no practical counter-examples would turn up in the article was justified.	49
+3	[]	filler	filler	69	The secretary's intuition that no emails would reach the employees during the system upgrade was revealed in his weekly meeting with the boss.	50
+3	[]	0	13	73	The realization that no accountant saw a rise in the quarterly profits has ever been claimed.	51
+3	[]	filler	filler	73	The students that has good grades often feel that they should had get into a good school.	52
+3	[]	filler	filler	69	No blogger's hunch that a main character from the hit show would die next season was given much consideration by the show's producers.	53
+3	[]	2	6	73	No remark that the coach drafted the player has ever made him nervous.	54
+3	[]	filler	filler	69	The senator's opinion that no farm subsidies could stimulate the economy was strongly disputed in the debate.	55
+3	[]	0	7	69	The news that no ambassadors consulted the diplomats has ever been acknowledged.	56
+3	[]	filler	filler	73	Most computers that the senior citizens are capable of using correctly have uses outdated technology.	57
+3	[]	filler	filler	69	The lectures that no students wanted to attend were often taught by very boring professors.	58
+3	[]	filler	filler	73	Most poets that are considered to be extremely famous has written  poems about current events. 	59
+3	[]	filler	filler	69	No conservationist's admission that an energy shortage would be caused by the new drilling technique was questioned by the committee.	60
+3	[]	filler	filler	None	No historian's conjecture that a consensus would emerge on how to ration food fairly was supported by historical data.	61
+3	[]	filler	filler	73	The soccer players that could won the tournament were very upset with their coach.	62
+3	[]	0	17	73	The belief that no lawyers received criticism for a bad trial has ever been disputed. 	63
+3	[]	filler	filler	73	The books that the elementary school board approved for class were ever banned from reading lists nationwide.	64
+3	[]	2	12	73	No assurance that the customers expressed any optimism for a full refund has ever been reported in the newspaper.	65
+3	[]	filler	filler	73	The items that no family member needed were sold at the neighborhood yard sale.	66
+3	[]	2	14	69	No assertion that the critics recommended the best-selling novel has ever been proven.	67
+3	[]	filler	filler	69	No analyst's projection that an increased lending rate would stimulate the economy was communicated to the financial executives.	68
+3	[]	filler	filler	69	The firefighter's hunch that no nearby buildings would be safe from the massive fire was communicated to her chief.	69
+3	[]	2	18	69	No fact that the diplomats supported the war has ever turned out to be false.	71
+3	[]	filler	filler	73	The papers that the students wants to write for the introductory course have no errors at all.	72
+3	[]	filler	filler	69	The nurse's hunch that no abnormalities would be found in the brain scan was debated by his supervisor.	73
+3	[]	0	9	73	The information that no comments caused any bitterness toward the media has ever been substantiated.	74
+3	[]	filler	filler	69	The mayor's argument that no local residents would experience noise from the airport was discussed in a city council meeting.	77
+4	[]	filler	filler	69	This is a simple sentence to get you started.	5
+4	[]	filler	filler	69	Remember to keep your fingers on the e and i keys and provide an answer quickly.	6
+4	[]	filler	filler	73	The rainforests that were the subject of much debate has been unders federal protection.	8
+4	[]	filler	filler	69	The accountant's speculation that no tax cuts would be made in the near future was quite troubling for many small businesses.	9
+4	[]	filler	filler	73	The nuclear physicists that were hired to work on the reactor are allowed to knows details about the plant's projects	10
+4	[]	filler	filler	69	The programmer's opinion that no software would sell without attractive packaging was taken seriously by the retailers.	11
+4	[]	filler	filler	69	The exhibits that no tourist visited during summer vacation were advertised very poorly.	15
+4	[]	2	18	73	No fact that the critics recommended the best-selling novel has ever been proven.	16
+4	[]	filler	filler	69	No environmentalist's conjecture that the local wildlife would be affected by the oil spill was discussed with the Coast Guard.	17
+4	[]	filler	filler	73	The computer files that no employee could access were corrupted beyond recovery and had to be deleted.	18
+4	[]	2	8	73	No allegation that the professors wanted any negativity in a class debate has ever been claimed.	19
+4	[]	filler	filler	69	No historian's conjecture that a consensus would emerge on how to ration food fairly was supported by historical data.	20
+4	[]	filler	filler	73	Most parks that the forest rangers have patrolled vigilantly during the summer has had forest fires.	21
+4	[]	2	16	69	No inkling that the politician was trusted by the rural communities has ever caused concern.	22
+4	[]	filler	filler	69	The psychologist's opinion that no individual could succeed without a college education was mentioned in the university brochure.	23
+4	[]	filler	filler	73	The students that has good grades often feel that they should had get into a good school.	26
+4	[]	filler	filler	69	No conservationist's admission that an energy shortage would be caused by the new drilling technique was questioned by the committee.	27
+4	[]	2	2	69	No admission that the medic rescued the victim has never caused outrage.	29
+4	[]	filler	filler	69	The secret documents that no spy could find were hidden in an underground vault.	30
+4	[]	0	5	69	The confirmation that no comments caused any bitterness toward the media has ever been substantiated.	32
+4	[]	filler	filler	69	The beautician's statement that no other salon in town would give a better deal was quite reassuring for his clients.	33
+4	[]	filler	filler	69	No analyst's projection that an increased lending rate would stimulate the economy was communicated to the financial executives.	34
+4	[]	0	6	69	The remark that no actors were hurt in the dangerous stunt has ever been proven to be bogus.	35
+4	[]	filler	filler	69	The senator's opinion that no farm subsidies could stimulate the economy was strongly disputed in the debate.	36
+4	[]	2	10	69	No revelation that the student succeeded in the math class has ever been taken seriously by the principal.	37
+4	[]	filler	filler	69	The mayor's argument that no local residents would experience noise from the airport was discussed in a city council meeting.	38
+4	[]	filler	filler	69	No geologist's premonition that evacuations would be necessary to avoid the volcano's lava flow was relayed to the island town.	39
+4	[]	2	7	69	No news that the employee was kind to the rude customers has ever been reported to the manager.	40
+4	[]	filler	filler	69	The electrician's estimation that no building on the block would need to be rewired was made clear to her boss.	41
+4	[]	filler	filler	69	The apartments that no family wanted to inhabit are rumored to be haunted by a mean ghost.	42
+4	[]	filler	filler	69	The astronomer's contention that no telescope would have enough power to capture the distant galaxy was debated at the national space conference.	43
+4	[]	2	0	73	No report that the coach drafted the player has ever made him nervous.	44
+4	[]	filler	filler	69	The pilot's estimation that there would be no turbulence during the flight was communicated to her passengers.	46
+4	[]	filler	filler	69	The horses that no jockey wanted to ride were sold to nearby farms and rented out to trainers.	47
+4	[]	0	13	69	The realization that no teacher sparked any inspiration in the students has ever concerned the parents.	48
+4	[]	filler	filler	73	The firefighter's hunch that no nearby buildings would be safe from the massive fire was communicated to her chief.	49
+4	[]	filler	filler	69	No geologist's premonition that evacuations would be necessary to avoid the volcano's lava flow was relayed to the island town.	50
+4	[]	filler	filler	69	The nurse's hunch that no abnormalities would be found in the brain scan was debated by his supervisor.	52
+4	[]	2	4	69	No disclosure that the nurse showed patience in the operating room has ever been known outside the hospital.	53
+4	[]	filler	filler	73	The flight attendant that were aboard the intercontinental flight had no time to sleep before landing.	54
+4	[]	filler	filler	69	The lectures that no students wanted to attend were often taught by very boring professors.	55
+4	[]	2	15	73	No assumption that the librarians helped the students has ever made the rounds.	56
+4	[]	filler	filler	73	The soccer players that could won the tournament were very upset with their coach.	57
+4	[]	filler	filler	73	The rocky roads that no regular sedan could handle were quite easy to drive on in a large truck.	58
+4	[]	0	11	None	The presumption that no diplomats supported the war has ever turned out to be false.	59
+4	[]	filler	filler	73	No conservationist's admission that an energy shortage would be caused by the new drilling technique was questioned by the committee.	60
+4	[]	filler	filler	69	The secretary's unsettlingly premonition that no raises would be given this year was mentioned to his coworkers during the lunch break.	62
+4	[]	0	1	73	The story that no ambassadors consulted the diplomats has ever been acknowledged.	63
+4	[]	filler	filler	69	No blogger's hunch that a main character from the hit show would die next season was given much consideration by the show's producers.	64
+4	[]	filler	filler	69	The statistician's conclusion that no fish stocks in the U.S. would be overfished until 2012 was welcome in the small port town.	65
+4	[]	0	19	73	The undefined that no lawyers received criticism for a bad trial has ever been disputed. 	66
+4	[]	filler	filler	69	No farmer's admission that food additives are necessary to preserve freshness was confirmed by the Food Safety Administration.	67
+4	[]	0	14	69	The assertion that no teacher punished the students for cheating has ever been proven true	68
+4	[]	filler	filler	69	The flowers that no customer wanted to buy were donated to the nearby funeral home.	69
+4	[]	filler	filler	69	The professor's speculation that no practical counter-examples would turn up in the article was justified.	70
+4	[]	2	12	73	No assurance that the detergent caused damage to the delicate clothing has ever been debunked.	71
+4	[]	filler	filler	73	The actors that plays in recent major films are paid millions of dollars for his talent.	72
+4	[]	filler	filler	73	The companies that needs young business often advertise in the magazines that many men enjoys reading.	73
+4	[]	filler	filler	69	The courses that no college student wanted to attend were often taught by inexperienced teaching assistants.	74
+4	[]	0	9	69	The information that no suspect was nervous in the court room has ever been reported.	75
+4	[]	filler	filler	69	The secretary's intuition that no emails would reach the employees during the system upgrade was revealed in his weekly meeting with the boss.	77
+5	[]	filler	filler	69	This is a simple sentence to get you started.	5
+5	[]	filler	filler	69	Remember to keep your fingers on the e and i keys and provide an answer quickly.	6
+5	[]	filler	filler	69	The next sentence will start the experiment.	7
+5	[]	filler	filler	69	The lectures that no students wanted to attend were often taught by very boring professors.	8
+5	[]	2	16	73	No inkling that the coach drafted the player has ever made him nervous.	9
+5	[]	filler	filler	69	The psychologist's opinion that no individual could succeed without a college education was mentioned in the university brochure.	10
+5	[]	filler	filler	73	No environmentalist's conjecture that the local wildlife would be affected by the oil spill was discussed with the Coast Guard.	11
+5	[]	filler	filler	73	The books that the elementary school board approved for class were ever banned from reading lists nationwide.	12
+5	[]	0	17	73	The belief that no employee was kind to the rude customers has ever been reported to the manager.	13
+5	[]	filler	filler	69	The astronomer's contention that no telescope would have enough power to capture the distant galaxy was debated at the national space conference.	14
+5	[]	0	8	73	The allegation that no accountant saw a rise in the quarterly profits has ever been claimed.	17
+5	[]	filler	filler	69	The mayor's argument that no local residents would experience noise from the airport was discussed in a city council meeting.	18
+5	[]	filler	filler	69	The secret documents that no spy could find were hidden in an underground vault.	19
+5	[]	filler	filler	69	The rocky roads that no regular sedan could handle were quite easy to drive on in a large truck.	22
+5	[]	filler	filler	69	The programmer's opinion that no software would sell without attractive packaging was taken seriously by the retailers.	23
+5	[]	2	6	69	No remark that the professors wanted any negativity in a class debate has ever been claimed.	24
+5	[]	filler	filler	69	The statistician's conclusion that no fish stocks in the U.S. would be overfished until 2012 was welcome in the small port town.	25
+5	[]	0	13	73	The realization that no nurse showed patience in the operating room has ever been known outside the hospital.	26
+5	[]	filler	filler	73	Most parks that the forest rangers have patrolled vigilantly during the summer has had forest fires.	27
+5	[]	filler	filler	69	The secretary's intuition that no emails would reach the employees during the system upgrade was revealed in his weekly meeting with the boss.	28
+5	[]	filler	filler	73	No geologist's premonition that evacuations would be necessary to avoid the volcano's lava flow was relayed to the island town.	29
+5	[]	0	1	73	The story that no detergent caused damage to the delicate clothing has ever been debunked.	30
+5	[]	filler	filler	69	No blogger's hunch that a main character from the hit show would die next season was given much consideration by the show's producers.	31
+5	[]	filler	filler	69	No farmer's admission that food additives are necessary to preserve freshness was confirmed by the Food Safety Administration.	32
+5	[]	filler	filler	73	The companies that needs young business often advertise in the magazines that many men enjoys reading.	33
+5	[]	0	11	73	The presumption that no medic rescued the victim has never caused outrage.	35
+5	[]	filler	filler	69	No historian's conjecture that a consensus would emerge on how to ration food fairly was supported by historical data.	37
+5	[]	filler	filler	69	The minivans that no families wanted to purchase were redesigned to be more affordable and attractive.	38
+5	[]	filler	filler	69	The secretary's unsettlingly premonition that no raises would be given this year was mentioned to his coworkers during the lunch break.	39
+5	[]	filler	filler	69	The horses that no jockey wanted to ride were sold to nearby farms and rented out to trainers.	41
+5	[]	filler	filler	73	The students that has good grades often feel that they should had get into a good school.	42
+5	[]	0	18	73	The fact that no ambassadors consulted the diplomats has ever been acknowledged.	43
+5	[]	filler	filler	69	The exhibits that no tourist visited during summer vacation were advertised very poorly.	44
+5	[]	filler	filler	69	The flowers that no customer wanted to buy were donated to the nearby funeral home.	45
+5	[]	2	4	73	No disclosure that the actors were hurt in the dangerous stunt has ever been proven to be bogus.	46
+5	[]	filler	filler	73	The papers that the students wants to write for the introductory course have no errors at all.	47
+5	[]	filler	filler	69	The items that no family member needed were sold at the neighborhood yard sale.	48
+5	[]	filler	filler	73	The nuclear physicists that were hired to work on the reactor are allowed to knows details about the plant's projects	49
+5	[]	2	15	69	No assumption that the teacher punished the students for cheating has ever been proven true	50
+5	[]	filler	filler	69	The firefighter's hunch that no nearby buildings would be safe from the massive fire was communicated to her chief.	51
+5	[]	2	0	69	No report that the politician was trusted by the rural communities has ever caused concern.	52
+5	[]	filler	filler	73	The rainforests that were the subject of much debate has been unders federal protection.	53
+5	[]	filler	filler	73	The boat that have took all of the international tourists out for the fishing expedition have new life jackets aboard.	54
+5	[]	filler	filler	69	The courses that no college student wanted to attend were often taught by inexperienced teaching assistants.	55
+5	[]	filler	filler	69	No geologist's premonition that evacuations would be necessary to avoid the volcano's lava flow was relayed to the island town.	56
+5	[]	2	3	69	No declaration that the critics recommended the best-selling novel has ever been proven.	57
+5	[]	filler	filler	69	The accountant's speculation that no tax cuts would be made in the near future was quite troubling for many small businesses.	58
+5	[]	0	5	73	The confirmation that no comments caused any bitterness toward the media has ever been substantiated.	59
+5	[]	filler	filler	69	The beautician's statement that no other salon in town would give a better deal was quite reassuring for his clients.	60
+5	[]	filler	filler	69	The senator's opinion that no farm subsidies could stimulate the economy was strongly disputed in the debate.	61
+6	[]	filler	filler	69	This is a simple sentence to get you started.	5
+6	[]	filler	filler	69	Remember to keep your fingers on the e and i keys and provide an answer quickly.	6
+6	[]	filler	filler	69	The next sentence will start the experiment.	7
+6	[]	filler	filler	73	No historian's conjecture that a consensus would emerge on how to ration food fairly was supported by historical data.	8
+6	[]	filler	filler	69	The apartments that no family wanted to inhabit are rumored to be haunted by a mean ghost.	9
+6	[]	filler	filler	73	The flight attendant that were aboard the intercontinental flight had no time to sleep before landing.	10
+6	[]	2	11	69	No presumption that the coach drafted the player has ever made him nervous.	11
+6	[]	filler	filler	69	The secret documents that no spy could find were hidden in an underground vault.	12
+6	[]	filler	filler	69	The computer files that no employee could access were corrupted beyond recovery and had to be deleted.	13
+6	[]	filler	filler	69	The beautician's statement that no other salon in town would give a better deal was quite reassuring for his clients.	14
+6	[]	filler	filler	69	The items that no family member needed were sold at the neighborhood yard sale.	15
+6	[]	filler	filler	69	No geologist's premonition that evacuations would be necessary to avoid the volcano's lava flow was relayed to the island town.	16
+6	[]	filler	filler	73	The books that the elementary school board approved for class were ever banned from reading lists nationwide.	17
+6	[]	filler	filler	69	The electrician's estimation that no building on the block would need to be rewired was made clear to her boss.	19
+6	[]	2	5	None	No confirmation that the actors were hurt in the dangerous stunt has ever been proven to be bogus.	20
+6	[]	filler	filler	69	No conservationist's admission that an energy shortage would be caused by the new drilling technique was questioned by the committee.	21
+6	[]	filler	filler	69	The rocky roads that no regular sedan could handle were quite easy to drive on in a large truck.	23
+6	[]	2	13	69	No realization that the politician was trusted by the rural communities has ever caused concern.	24
+6	[]	filler	filler	69	The sailor's judgment that no ship would reach land before the storm was mentioned in the log that she kept daily.	25
+6	[]	2	18	69	No fact that the librarians helped the students has ever made the rounds.	26
+6	[]	filler	filler	69	The statistician's conclusion that no fish stocks in the U.S. would be overfished until 2012 was welcome in the small port town.	27
+6	[]	filler	filler	73	Most parks that the forest rangers have patrolled vigilantly during the summer has had forest fires.	28
+6	[]	2	8	69	No allegation that the student succeeded in the math class has ever been taken seriously by the principal.	29
+6	[]	filler	filler	73	The nuclear physicists that were hired to work on the reactor are allowed to knows details about the plant's projects	30
+6	[]	filler	filler	69	The senator's opinion that no farm subsidies could stimulate the economy was strongly disputed in the debate.	31
+6	[]	0	12	73	The assurance that no detergent caused damage to the delicate clothing has ever been debunked.	32
+6	[]	filler	filler	69	The professor's speculation that no practical counter-examples would turn up in the article was justified.	33
+6	[]	0	10	73	The revelation that no teacher sparked any inspiration in the students has ever concerned the parents.	35
+6	[]	filler	filler	73	The soccer players that could won the tournament were very upset with their coach.	36
+6	[]	2	15	73	No assumption that the medic rescued the victim has never caused outrage.	37
+6	[]	filler	filler	69	The pilot's estimation that there would be no turbulence during the flight was communicated to her passengers.	38
+6	[]	2	3	73	No declaration that the professors wanted any negativity in a class debate has ever been claimed.	39
+6	[]	filler	filler	69	The mayor's argument that no local residents would experience noise from the airport was discussed in a city council meeting.	40
+6	[]	filler	filler	69	The minivans that no families wanted to purchase were redesigned to be more affordable and attractive.	41
+6	[]	0	4	73	The disclosure that no nurse showed patience in the operating room has ever been known outside the hospital.	42
+6	[]	filler	filler	73	The companies that needs young business often advertise in the magazines that many men enjoys reading.	43
+6	[]	filler	filler	69	The psychologist's opinion that no individual could succeed without a college education was mentioned in the university brochure.	44
+6	[]	2	1	73	No story that the employee was kind to the rude customers has ever been reported to the manager.	45
+6	[]	filler	filler	69	The nurse's hunch that no abnormalities would be found in the brain scan was debated by his supervisor.	47
+6	[]	filler	filler	69	The horses that no jockey wanted to ride were sold to nearby farms and rented out to trainers.	48
+6	[]	filler	filler	69	No environmentalist's conjecture that the local wildlife would be affected by the oil spill was discussed with the Coast Guard.	49
+6	[]	0	0	73	The report that no accountant saw a rise in the quarterly profits has ever been claimed.	50
+6	[]	filler	filler	69	The astronomer's contention that no telescope would have enough power to capture the distant galaxy was debated at the national space conference.	51
+6	[]	filler	filler	69	The firefighter's hunch that no nearby buildings would be safe from the massive fire was communicated to her chief.	52
+6	[]	filler	filler	69	The courses that no college student wanted to attend were often taught by inexperienced teaching assistants.	53
+6	[]	filler	filler	69	The flowers that no customer wanted to buy were donated to the nearby funeral home.	54
+6	[]	filler	filler	73	The students that has good grades often feel that they should had get into a good school.	55
+6	[]	2	16	73	No inkling that the critics recommended the best-selling novel has ever been proven.	57
+6	[]	filler	filler	73	The papers that the students wants to write for the introductory course have no errors at all.	58
+6	[]	0	17	73	The belief that no lawyers received criticism for a bad trial has ever been disputed. 	59
+6	[]	filler	filler	None	No geologist's premonition that evacuations would be necessary to avoid the volcano's lava flow was relayed to the island town.	60
+6	[]	filler	filler	69	The programmer's opinion that no software would sell without attractive packaging was taken seriously by the retailers.	62
+6	[]	0	14	73	The assertion that no customers expressed any optimism for a full refund has ever been reported in the newspaper.	63
+6	[]	filler	filler	73	Most computers that the senior citizens are capable of using correctly have uses outdated technology.	64
+6	[]	0	2	73	The admission that no suspect was nervous in the court room has ever been reported.	65
+6	[]	filler	filler	73	The exhibits that no tourist visited during summer vacation were advertised very poorly.	66
+6	[]	filler	filler	69	No blogger's hunch that a main character from the hit show would die next season was given much consideration by the show's producers.	67
+6	[]	0	19	73	The undefined that no comments caused any bitterness toward the media has ever been substantiated.	68
+6	[]	filler	filler	69	No farmer's admission that food additives are necessary to preserve freshness was confirmed by the Food Safety Administration.	69
+6	[]	filler	filler	73	The boat that have took all of the international tourists out for the fishing expedition have new life jackets aboard.	70
+6	[]	filler	filler	69	No analyst's projection that an increased lending rate would stimulate the economy was communicated to the financial executives.	71
+6	[]	filler	filler	73	No conservationist's admission that an energy shortage would be caused by the new drilling technique was questioned by the committee.	72
+6	[]	filler	filler	73	The actors that plays in recent major films are paid millions of dollars for his talent.	73
+6	[]	2	7	69	No news that the ambassadors consulted the diplomats has ever been acknowledged.	74
+6	[]	filler	filler	69	The secretary's unsettlingly premonition that no raises would be given this year was mentioned to his coworkers during the lunch break.	75
+6	[]	filler	filler	73	The programmer that work for the largest computer server corporation have could many experience in customer service	76
+6	[]	filler	filler	69	The lectures that no students wanted to attend were often taught by very boring professors.	77
+7	[]	filler	filler	69	This is a simple sentence to get you started.	5
+7	[]	filler	filler	69	Remember to keep your fingers on the e and i keys and provide an answer quickly.	6
+7	[]	filler	filler	69	The next sentence will start the experiment.	7
+7	[]	filler	filler	73	Most poets that are considered to be extremely famous has written  poems about current events. 	9
+7	[]	2	2	69	No admission that the suspect was nervous in the court room has ever been reported.	10
+7	[]	filler	filler	73	Most parks that the forest rangers have patrolled vigilantly during the summer has had forest fires.	11
+7	[]	2	10	69	No revelation that the medic rescued the victim has never caused outrage.	12
+7	[]	filler	filler	69	The exhibits that no tourist visited during summer vacation were advertised very poorly.	13
+7	[]	0	5	69	The confirmation that no politician was trusted by the rural communities has ever caused concern.	14
+7	[]	filler	filler	69	The astronomer's contention that no telescope would have enough power to capture the distant galaxy was debated at the national space conference.	18
+7	[]	filler	filler	69	The nurse's hunch that no abnormalities would be found in the brain scan was debated by his supervisor.	19
+7	[]	filler	filler	73	The flight attendant that were aboard the intercontinental flight had no time to sleep before landing.	21
+7	[]	0	6	69	The remark that no ambassadors consulted the diplomats has ever been acknowledged.	22
+7	[]	filler	filler	69	The computer files that no employee could access were corrupted beyond recovery and had to be deleted.	23
+7	[]	filler	filler	69	The soccer players that could won the tournament were very upset with their coach.	25
+7	[]	filler	filler	69	The programmer's opinion that no software would sell without attractive packaging was taken seriously by the retailers.	30
+7	[]	0	19	69	The undefined that no comments caused any bitterness toward the media has ever been substantiated.	31
+7	[]	filler	filler	69	The psychologist's opinion that no individual could succeed without a college education was mentioned in the university brochure.	32
+7	[]	filler	filler	69	The beautician's statement that no other salon in town would give a better deal was quite reassuring for his clients.	34
+7	[]	2	8	69	No allegation that the actors were hurt in the dangerous stunt has ever been proven to be bogus.	35
+7	[]	filler	filler	73	The actors that plays in recent major films are paid millions of dollars for his talent.	36
+7	[]	2	7	69	No news that the student succeeded in the math class has ever been taken seriously by the principal.	37
+7	[]	filler	filler	69	No blogger's hunch that a main character from the hit show would die next season was given much consideration by the show's producers.	38
+7	[]	filler	filler	69	The statistician's conclusion that no fish stocks in the U.S. would be overfished until 2012 was welcome in the small port town.	39
+7	[]	filler	filler	69	The pilot's estimation that there would be no turbulence during the flight was communicated to her passengers.	40
+7	[]	filler	filler	73	The companies that needs young business often advertise in the magazines that many men enjoys reading.	41
+7	[]	filler	filler	69	The mayor's argument that no local residents would experience noise from the airport was discussed in a city council meeting.	42
+7	[]	filler	filler	69	The secret documents that no spy could find were hidden in an underground vault.	43
+7	[]	0	9	69	The information that no employee was kind to the rude customers has ever been reported to the manager.	44
+7	[]	filler	filler	69	The lectures that no students wanted to attend were often taught by very boring professors.	46
+7	[]	0	16	69	The inkling that no critics recommended the best-selling novel has ever been proven.	47
+7	[]	filler	filler	69	No farmer's admission that food additives are necessary to preserve freshness was confirmed by the Food Safety Administration.	48
+7	[]	filler	filler	73	The rainforests that were the subject of much debate has been unders federal protection.	49
+7	[]	filler	filler	69	The flowers that no customer wanted to buy were donated to the nearby funeral home.	50
+7	[]	0	0	69	The report that no customers expressed any optimism for a full refund has ever been reported in the newspaper.	51
+7	[]	filler	filler	73	The papers that the students wants to write for the introductory course have no errors at all.	52
+7	[]	2	13	69	No realization that the professors wanted any negativity in a class debate has ever been claimed.	53
+7	[]	filler	filler	69	The electrician's estimation that no building on the block would need to be rewired was made clear to her boss.	54
+7	[]	filler	filler	69	The items that no family member needed were sold at the neighborhood yard sale.	55
+7	[]	filler	filler	69	The rocky roads that no regular sedan could handle were quite easy to drive on in a large truck.	56
+7	[]	2	14	69	No assertion that the detergent caused damage to the delicate clothing has ever been debunked.	57
+7	[]	filler	filler	69	The secretary's intuition that no emails would reach the employees during the system upgrade was revealed in his weekly meeting with the boss.	58
+7	[]	0	12	69	The assurance that no coach drafted the player has ever made him nervous.	59
+7	[]	filler	filler	69	The accountant's speculation that no tax cuts would be made in the near future was quite troubling for many small businesses.	60
+7	[]	filler	filler	69	The professor's speculation that no practical counter-examples would turn up in the article was justified.	61
+7	[]	filler	filler	73	The boat that have took all of the international tourists out for the fishing expedition have new life jackets aboard.	63
+7	[]	0	15	69	The assumption that no lawyers received criticism for a bad trial has ever been disputed. 	64
+7	[]	filler	filler	73	The nuclear physicists that were hired to work on the reactor are allowed to knows details about the plant's projects	65
+7	[]	filler	filler	73	The programmer that work for the largest computer server corporation have could many experience in customer service	66
+7	[]	filler	filler	69	No environmentalist's conjecture that the local wildlife would be affected by the oil spill was discussed with the Coast Guard.	67
+7	[]	filler	filler	69	The courses that no college student wanted to attend were often taught by inexperienced teaching assistants.	68
+7	[]	filler	filler	69	The secretary's unsettlingly premonition that no raises would be given this year was mentioned to his coworkers during the lunch break.	69
+7	[]	filler	filler	73	The students that has good grades often feel that they should had get into a good school.	70
+7	[]	2	1	69	No story that the diplomats supported the war has ever turned out to be false.	71
+7	[]	filler	filler	69	No historian's conjecture that a consensus would emerge on how to ration food fairly was supported by historical data.	72
+7	[]	filler	filler	69	No geologist's premonition that evacuations would be necessary to avoid the volcano's lava flow was relayed to the island town.	73
+7	[]	filler	filler	69	The senator's opinion that no farm subsidies could stimulate the economy was strongly disputed in the debate.	74
+7	[]	filler	filler	69	The horses that no jockey wanted to ride were sold to nearby farms and rented out to trainers.	75
+7	[]	0	3	69	The declaration that no teacher punished the students for cheating has ever been proven true	76
+7	[]	filler	filler	69	No conservationist's admission that an energy shortage would be caused by the new drilling technique was questioned by the committee.	77
+8	[]	filler	filler	None	This is a simple sentence to get you started.	5
+8	[]	filler	filler	69	Remember to keep your fingers on the e and i keys and provide an answer quickly.	6
+8	[]	filler	filler	69	The next sentence will start the experiment.	7
+8	[]	filler	filler	69	The accountant's speculation that no tax cuts would be made in the near future was quite troubling for many small businesses.	9
+8	[]	2	6	69	No remark that the nurse showed patience in the operating room has ever been known outside the hospital.	10
+8	[]	filler	filler	73	The nuclear physicists that were hired to work on the reactor are allowed to knows details about the plant's projects	12
+8	[]	filler	filler	69	The soccer players that could won the tournament were very upset with their coach.	15
+8	[]	2	1	69	No story that the customers expressed any optimism for a full refund has ever been reported in the newspaper.	16
+8	[]	filler	filler	69	No environmentalist's conjecture that the local wildlife would be affected by the oil spill was discussed with the Coast Guard.	17
+8	[]	filler	filler	69	The companies that needs young business often advertise in the magazines that many men enjoys reading.	18
+8	[]	2	10	69	No revelation that the diplomats supported the war has ever turned out to be false.	19
+8	[]	filler	filler	69	No farmer's admission that food additives are necessary to preserve freshness was confirmed by the Food Safety Administration.	20
+8	[]	filler	filler	69	Most parks that the forest rangers have patrolled vigilantly during the summer has had forest fires.	21
+8	[]	filler	filler	69	The mayor's argument that no local residents would experience noise from the airport was discussed in a city council meeting.	22
+8	[]	filler	filler	69	No conservationist's admission that an energy shortage would be caused by the new drilling technique was questioned by the committee.	23
+8	[]	filler	filler	69	The students that has good grades often feel that they should had get into a good school.	25
+8	[]	filler	filler	69	The apartments that no family wanted to inhabit are rumored to be haunted by a mean ghost.	27
+8	[]	filler	filler	69	No historian's conjecture that a consensus would emerge on how to ration food fairly was supported by historical data.	28
+8	[]	filler	filler	73	The exhibits that no tourist visited during summer vacation were advertised very poorly.	29
+8	[]	0	4	73	The disclosure that no coach drafted the player has ever made him nervous.	30
+8	[]	filler	filler	69	Most computers that the senior citizens are capable of using correctly have uses outdated technology.	31
+8	[]	filler	filler	69	The flowers that no customer wanted to buy were donated to the nearby funeral home.	33
+8	[]	0	0	73	The report that no medic rescued the victim has never caused outrage.	34
+8	[]	filler	filler	73	Most poets that are considered to be extremely famous has written  poems about current events. 	35
+8	[]	filler	filler	73	The lectures that no students wanted to attend were often taught by very boring professors.	36
+8	[]	2	5	69	No confirmation that the student succeeded in the math class has ever been taken seriously by the principal.	37
+8	[]	filler	filler	69	The computer files that no employee could access were corrupted beyond recovery and had to be deleted.	38
+8	[]	0	7	69	The news that no suspect was nervous in the court room has ever been reported.	39
+8	[]	filler	filler	69	The statistician's conclusion that no fish stocks in the U.S. would be overfished until 2012 was welcome in the small port town.	40
+8	[]	filler	filler	69	The programmer's opinion that no software would sell without attractive packaging was taken seriously by the retailers.	41
+8	[]	filler	filler	69	The secret documents that no spy could find were hidden in an underground vault.	44
+8	[]	filler	filler	73	The electrician's estimation that no building on the block would need to be rewired was made clear to her boss.	45
+8	[]	filler	filler	69	The papers that the students wants to write for the introductory course have no errors at all.	46
+8	[]	0	14	69	The assertion that no critics recommended the best-selling novel has ever been proven.	47
+8	[]	filler	filler	69	No geologist's premonition that evacuations would be necessary to avoid the volcano's lava flow was relayed to the island town.	48
+8	[]	filler	filler	69	The nurse's hunch that no abnormalities would be found in the brain scan was debated by his supervisor.	49
+8	[]	filler	filler	73	The secretary's intuition that no emails would reach the employees during the system upgrade was revealed in his weekly meeting with the boss.	50
+8	[]	filler	filler	69	The books that the elementary school board approved for class were ever banned from reading lists nationwide.	51
+8	[]	2	18	69	No fact that the lawyers received criticism for a bad trial has ever been disputed. 	52
+8	[]	filler	filler	69	No geologist's premonition that evacuations would be necessary to avoid the volcano's lava flow was relayed to the island town.	53
+8	[]	2	17	69	No belief that the librarians helped the students has ever made the rounds.	54
+8	[]	filler	filler	69	The professor's speculation that no practical counter-examples would turn up in the article was justified.	55
+8	[]	0	11	73	The presumption that no politician was trusted by the rural communities has ever caused concern.	56
+8	[]	0	13	73	The realization that no employee was kind to the rude customers has ever been reported to the manager.	58
+8	[]	filler	filler	69	The courses that no college student wanted to attend were often taught by inexperienced teaching assistants.	59
+8	[]	filler	filler	69	No conservationist's admission that an energy shortage would be caused by the new drilling technique was questioned by the committee.	60
+8	[]	0	2	69	The admission that no detergent caused damage to the delicate clothing has ever been debunked.	61
+8	[]	filler	filler	73	The astronomer's contention that no telescope would have enough power to capture the distant galaxy was debated at the national space conference.	63
+8	[]	filler	filler	69	The beautician's statement that no other salon in town would give a better deal was quite reassuring for his clients.	64
+8	[]	filler	filler	73	The sailor's judgment that no ship would reach land before the storm was mentioned in the log that she kept daily.	65
+8	[]	filler	filler	69	The flight attendant that were aboard the intercontinental flight had no time to sleep before landing.	66
+8	[]	0	16	69	The inkling that no accountant saw a rise in the quarterly profits has ever been claimed.	67
+8	[]	filler	filler	73	The firefighter's hunch that no nearby buildings would be safe from the massive fire was communicated to her chief.	68
+8	[]	2	15	69	No assumption that the teacher punished the students for cheating has ever been proven true	69
+8	[]	filler	filler	69	No analyst's projection that an increased lending rate would stimulate the economy was communicated to the financial executives.	70
+8	[]	filler	filler	69	The minivans that no families wanted to purchase were redesigned to be more affordable and attractive.	71
+9	[]	filler	filler	69	This is a simple sentence to get you started.	5
+9	[]	filler	filler	69	Remember to keep your fingers on the e and i keys and provide an answer quickly.	6
+9	[]	filler	filler	69	The next sentence will start the experiment.	7
+9	[]	filler	filler	69	The programmer's opinion that no software would sell without attractive packaging was taken seriously by the retailers.	8
+9	[]	2	0	73	No report that the employee was kind to the rude customers has ever been reported to the manager.	9
+9	[]	filler	filler	69	The items that no family member needed were sold at the neighborhood yard sale.	10
+9	[]	filler	filler	69	The secret documents that no spy could find were hidden in an underground vault.	11
+9	[]	filler	filler	69	The senator's opinion that no farm subsidies could stimulate the economy was strongly disputed in the debate.	13
+9	[]	filler	filler	69	The horses that no jockey wanted to ride were sold to nearby farms and rented out to trainers.	14
+9	[]	filler	filler	73	The flight attendant that were aboard the intercontinental flight had no time to sleep before landing.	15
+9	[]	0	3	73	The declaration that no politician was trusted by the rural communities has ever caused concern.	16
+9	[]	0	9	73	The information that no diplomats supported the war has ever turned out to be false.	19
+9	[]	filler	filler	69	The sailor's judgment that no ship would reach land before the storm was mentioned in the log that she kept daily.	20
+9	[]	filler	filler	73	The programmer that work for the largest computer server corporation have could many experience in customer service	21
+9	[]	filler	filler	69	No geologist's premonition that evacuations would be necessary to avoid the volcano's lava flow was relayed to the island town.	22
+9	[]	2	2	69	No admission that the suspect was nervous in the court room has ever been reported.	23
+9	[]	filler	filler	69	The minivans that no families wanted to purchase were redesigned to be more affordable and attractive.	24
+9	[]	filler	filler	69	The psychologist's opinion that no individual could succeed without a college education was mentioned in the university brochure.	26
+9	[]	filler	filler	69	The rocky roads that no regular sedan could handle were quite easy to drive on in a large truck.	27
+9	[]	filler	filler	69	The exhibits that no tourist visited during summer vacation were advertised very poorly.	29
+9	[]	0	12	73	The assurance that no accountant saw a rise in the quarterly profits has ever been claimed.	30
+9	[]	filler	filler	69	The courses that no college student wanted to attend were often taught by inexperienced teaching assistants.	33
+9	[]	filler	filler	69	No farmer's admission that food additives are necessary to preserve freshness was confirmed by the Food Safety Administration.	34
+9	[]	0	1	73	The story that no detergent caused damage to the delicate clothing has ever been debunked.	36
+9	[]	filler	filler	69	The professor's speculation that no practical counter-examples would turn up in the article was justified.	37
+9	[]	filler	filler	73	The rainforests that were the subject of much debate has been unders federal protection.	38
+9	[]	filler	filler	69	The lectures that no students wanted to attend were often taught by very boring professors.	39
+9	[]	filler	filler	73	The students that has good grades often feel that they should had get into a good school.	40
+9	[]	0	6	73	The remark that no student succeeded in the math class has ever been taken seriously by the principal.	41
+9	[]	filler	filler	73	The actors that plays in recent major films are paid millions of dollars for his talent.	42
+9	[]	filler	filler	69	No conservationist's admission that an energy shortage would be caused by the new drilling technique was questioned by the committee.	43
+9	[]	filler	filler	73	The nuclear physicists that were hired to work on the reactor are allowed to knows details about the plant's projects	44
+9	[]	filler	filler	73	Most parks that the forest rangers have patrolled vigilantly during the summer has had forest fires.	45
+9	[]	2	17	69	No belief that the customers expressed any optimism for a full refund has ever been reported in the newspaper.	46
+9	[]	filler	filler	69	The secretary's intuition that no emails would reach the employees during the system upgrade was revealed in his weekly meeting with the boss.	47
+9	[]	filler	filler	73	The companies that needs young business often advertise in the magazines that many men enjoys reading.	49
+9	[]	filler	filler	69	The beautician's statement that no other salon in town would give a better deal was quite reassuring for his clients.	51
+9	[]	filler	filler	69	No environmentalist's conjecture that the local wildlife would be affected by the oil spill was discussed with the Coast Guard.	52
+9	[]	filler	filler	69	The astronomer's contention that no telescope would have enough power to capture the distant galaxy was debated at the national space conference.	53
+9	[]	filler	filler	69	No conservationist's admission that an energy shortage would be caused by the new drilling technique was questioned by the committee.	54
+9	[]	2	18	73	No fact that the ambassadors consulted the diplomats has ever been acknowledged.	55
+9	[]	0	5	73	The confirmation that no comments caused any bitterness toward the media has ever been substantiated.	57
+9	[]	filler	filler	69	The apartments that no family wanted to inhabit are rumored to be haunted by a mean ghost.	59
+9	[]	2	7	69	No news that the teacher punished the students for cheating has ever been proven true	60
+9	[]	filler	filler	69	The mayor's argument that no local residents would experience noise from the airport was discussed in a city council meeting.	61
+9	[]	filler	filler	73	The papers that the students wants to write for the introductory course have no errors at all.	62
+9	[]	0	16	73	The inkling that no librarians helped the students has ever made the rounds.	63
+9	[]	filler	filler	69	The flowers that no customer wanted to buy were donated to the nearby funeral home.	64
+9	[]	filler	filler	69	The computer files that no employee could access were corrupted beyond recovery and had to be deleted.	65
+9	[]	2	8	73	No allegation that the teacher sparked any inspiration in the students has ever concerned the parents.	66
+9	[]	filler	filler	73	Most poets that are considered to be extremely famous has written  poems about current events. 	67
+9	[]	0	11	73	The presumption that no coach drafted the player has ever made him nervous.	68
+9	[]	filler	filler	69	No geologist's premonition that evacuations would be necessary to avoid the volcano's lava flow was relayed to the island town.	69
+9	[]	2	14	69	No assertion that the nurse showed patience in the operating room has ever been known outside the hospital.	70
+9	[]	filler	filler	69	The firefighter's hunch that no nearby buildings would be safe from the massive fire was communicated to her chief.	72
+9	[]	2	4	69	No disclosure that the medic rescued the victim has never caused outrage.	73
+9	[]	filler	filler	69	The nurse's hunch that no abnormalities would be found in the brain scan was debated by his supervisor.	74
+9	[]	filler	filler	69	The accountant's speculation that no tax cuts would be made in the near future was quite troubling for many small businesses.	75
+9	[]	filler	filler	69	No analyst's projection that an increased lending rate would stimulate the economy was communicated to the financial executives.	76
+9	[]	filler	filler	69	The electrician's estimation that no building on the block would need to be rewired was made clear to her boss.	77
+10	[]	filler	filler	69	This is a simple sentence to get you started.	5
+10	[]	filler	filler	69	Remember to keep your fingers on the e and i keys and provide an answer quickly.	6
+10	[]	filler	filler	73	The horses that no jockey wanted to ride were sold to nearby farms and rented out to trainers.	8
+10	[]	2	12	73	No assurance that the teacher sparked any inspiration in the students has ever concerned the parents.	10
+10	[]	filler	filler	69	The pilot's estimation that there would be no turbulence during the flight was communicated to her passengers.	11
+10	[]	filler	filler	69	The flowers that no customer wanted to buy were donated to the nearby funeral home.	12
+10	[]	filler	filler	73	The mayor's argument that no local residents would experience noise from the airport was discussed in a city council meeting.	13
+10	[]	2	8	73	No allegation that the librarians helped the students has ever made the rounds.	16
+10	[]	filler	filler	73	The books that the elementary school board approved for class were ever banned from reading lists nationwide.	17
+10	[]	0	6	73	The remark that no coach drafted the player has ever made him nervous.	18
+10	[]	filler	filler	69	The secret documents that no spy could find were hidden in an underground vault.	19
+10	[]	filler	filler	69	The minivans that no families wanted to purchase were redesigned to be more affordable and attractive.	21
+10	[]	filler	filler	73	No conservationist's admission that an energy shortage would be caused by the new drilling technique was questioned by the committee.	22
+10	[]	0	0	73	The report that no medic rescued the victim has never caused outrage.	25
+10	[]	2	7	69	No news that the diplomats supported the war has ever turned out to be false.	27
+10	[]	filler	filler	69	No farmer's admission that food additives are necessary to preserve freshness was confirmed by the Food Safety Administration.	28
+10	[]	0	4	73	The disclosure that no actors were hurt in the dangerous stunt has ever been proven to be bogus.	30
+10	[]	filler	filler	69	The rocky roads that no regular sedan could handle were quite easy to drive on in a large truck.	31
+10	[]	filler	filler	69	The beautician's statement that no other salon in town would give a better deal was quite reassuring for his clients.	32
+10	[]	filler	filler	73	The flight attendant that were aboard the intercontinental flight had no time to sleep before landing.	33
+10	[]	0	9	73	The information that no politician was trusted by the rural communities has ever caused concern.	34
+10	[]	filler	filler	73	Most parks that the forest rangers have patrolled vigilantly during the summer has had forest fires.	35
+10	[]	2	14	73	No assertion that the teacher punished the students for cheating has ever been proven true	36
+10	[]	filler	filler	69	No conservationist's admission that an energy shortage would be caused by the new drilling technique was questioned by the committee.	37
+10	[]	filler	filler	69	The astronomer's contention that no telescope would have enough power to capture the distant galaxy was debated at the national space conference.	38
+10	[]	filler	filler	69	The secretary's unsettlingly premonition that no raises would be given this year was mentioned to his coworkers during the lunch break.	39
+10	[]	filler	filler	69	The nuclear physicists that were hired to work on the reactor are allowed to knows details about the plant's projects	40
+10	[]	2	16	73	No inkling that the critics recommended the best-selling novel has ever been proven.	41
+10	[]	filler	filler	69	The nurse's hunch that no abnormalities would be found in the brain scan was debated by his supervisor.	42
+10	[]	filler	filler	69	No blogger's hunch that a main character from the hit show would die next season was given much consideration by the show's producers.	43
+10	[]	filler	filler	69	The accountant's speculation that no tax cuts would be made in the near future was quite troubling for many small businesses.	44
+10	[]	filler	filler	69	The courses that no college student wanted to attend were often taught by inexperienced teaching assistants.	45
+10	[]	filler	filler	73	The companies that needs young business often advertise in the magazines that many men enjoys reading.	46
+10	[]	filler	filler	69	The lectures that no students wanted to attend were often taught by very boring professors.	48
+10	[]	filler	filler	73	The soccer players that could won the tournament were very upset with their coach.	49
+10	[]	2	5	73	No confirmation that the employee was kind to the rude customers has ever been reported to the manager.	50
+10	[]	filler	filler	69	No historian's conjecture that a consensus would emerge on how to ration food fairly was supported by historical data.	51
+10	[]	filler	filler	73	The programmer that work for the largest computer server corporation have could many experience in customer service	52
+10	[]	2	1	73	No story that the ambassadors consulted the diplomats has ever been acknowledged.	53
+10	[]	filler	filler	73	The papers that the students wants to write for the introductory course have no errors at all.	54
+10	[]	filler	filler	69	No geologist's premonition that evacuations would be necessary to avoid the volcano's lava flow was relayed to the island town.	55
+10	[]	filler	filler	69	The apartments that no family wanted to inhabit are rumored to be haunted by a mean ghost.	56
+10	[]	filler	filler	73	The boat that have took all of the international tourists out for the fishing expedition have new life jackets aboard.	57
+10	[]	filler	filler	73	The students that has good grades often feel that they should had get into a good school.	58
+10	[]	filler	filler	73	No analyst's projection that an increased lending rate would stimulate the economy was communicated to the financial executives.	60
+10	[]	filler	filler	69	No geologist's premonition that evacuations would be necessary to avoid the volcano's lava flow was relayed to the island town.	61
+10	[]	0	19	73	The undefined that no nurse showed patience in the operating room has ever been known outside the hospital.	62
+10	[]	filler	filler	69	The firefighter's hunch that no nearby buildings would be safe from the massive fire was communicated to her chief.	63
+10	[]	2	18	73	No fact that the professors wanted any negativity in a class debate has ever been claimed.	64
+10	[]	filler	filler	69	The psychologist's opinion that no individual could succeed without a college education was mentioned in the university brochure.	65
+10	[]	filler	filler	69	The electrician's estimation that no building on the block would need to be rewired was made clear to her boss.	66
+10	[]	filler	filler	73	Most poets that are considered to be extremely famous has written  poems about current events. 	67
+10	[]	0	17	73	The belief that no suspect was nervous in the court room has ever been reported.	68
+10	[]	filler	filler	73	Most computers that the senior citizens are capable of using correctly have uses outdated technology.	69
+10	[]	0	15	73	The assumption that no customers expressed any optimism for a full refund has ever been reported in the newspaper.	70
+10	[]	filler	filler	69	The computer files that no employee could access were corrupted beyond recovery and had to be deleted.	71
+10	[]	0	13	69	The realization that no accountant saw a rise in the quarterly profits has ever been claimed.	72
+10	[]	filler	filler	73	The sailor's judgment that no ship would reach land before the storm was mentioned in the log that she kept daily.	73
+10	[]	filler	filler	73	The statistician's conclusion that no fish stocks in the U.S. would be overfished until 2012 was welcome in the small port town.	74
+10	[]	0	3	73	The declaration that no lawyers received criticism for a bad trial has ever been disputed. 	75
+10	[]	filler	filler	69	The professor's speculation that no practical counter-examples would turn up in the article was justified.	77
+11	[]	filler	filler	69	This is a simple sentence to get you started.	5
+11	[]	filler	filler	69	Remember to keep your fingers on the e and i keys and provide an answer quickly.	6
+11	[]	filler	filler	69	The lectures that no students wanted to attend were often taught by very boring professors.	8
+11	[]	2	7	73	No news that the coach drafted the player has ever made him nervous.	9
+11	[]	filler	filler	73	The books that the elementary school board approved for class were ever banned from reading lists nationwide.	10
+11	[]	2	12	73	No assurance that the politician was trusted by the rural communities has ever caused concern.	11
+11	[]	filler	filler	69	The secretary's intuition that no emails would reach the employees during the system upgrade was revealed in his weekly meeting with the boss.	13
+11	[]	filler	filler	69	No conservationist's admission that an energy shortage would be caused by the new drilling technique was questioned by the committee.	14
+11	[]	filler	filler	69	The pilot's estimation that there would be no turbulence during the flight was communicated to her passengers.	15
+11	[]	0	6	69	The remark that no employee was kind to the rude customers has ever been reported to the manager.	16
+11	[]	filler	filler	73	No blogger's hunch that a main character from the hit show would die next season was given much consideration by the show's producers.	17
+11	[]	filler	filler	None	The exhibits that no tourist visited during summer vacation were advertised very poorly.	18
+11	[]	filler	filler	69	The rocky roads that no regular sedan could handle were quite easy to drive on in a large truck.	19
+11	[]	filler	filler	69	The items that no family member needed were sold at the neighborhood yard sale.	20
+11	[]	2	17	73	No belief that the teacher sparked any inspiration in the students has ever concerned the parents.	23
+11	[]	filler	filler	69	The statistician's conclusion that no fish stocks in the U.S. would be overfished until 2012 was welcome in the small port town.	26
+11	[]	0	18	73	The fact that no actors were hurt in the dangerous stunt has ever been proven to be bogus.	28
+11	[]	filler	filler	69	The accountant's speculation that no tax cuts would be made in the near future was quite troubling for many small businesses.	29
+11	[]	2	19	73	No undefined that the ambassadors consulted the diplomats has ever been acknowledged.	30
+11	[]	filler	filler	73	Most parks that the forest rangers have patrolled vigilantly during the summer has had forest fires.	31
+11	[]	filler	filler	69	No environmentalist's conjecture that the local wildlife would be affected by the oil spill was discussed with the Coast Guard.	32
+11	[]	filler	filler	69	No conservationist's admission that an energy shortage would be caused by the new drilling technique was questioned by the committee.	33
+11	[]	0	13	73	The realization that no lawyers received criticism for a bad trial has ever been disputed. 	34
+11	[]	filler	filler	73	The actors that plays in recent major films are paid millions of dollars for his talent.	35
+11	[]	filler	filler	73	No farmer's admission that food additives are necessary to preserve freshness was confirmed by the Food Safety Administration.	36
+11	[]	filler	filler	73	Most poets that are considered to be extremely famous has written  poems about current events. 	37
+11	[]	filler	filler	69	The nurse's hunch that no abnormalities would be found in the brain scan was debated by his supervisor.	38
+11	[]	filler	filler	73	The sailor's judgment that no ship would reach land before the storm was mentioned in the log that she kept daily.	39
+11	[]	0	3	69	The declaration that no detergent caused damage to the delicate clothing has ever been debunked.	40
+11	[]	filler	filler	69	The minivans that no families wanted to purchase were redesigned to be more affordable and attractive.	41
+11	[]	filler	filler	69	The apartments that no family wanted to inhabit are rumored to be haunted by a mean ghost.	42
+11	[]	filler	filler	69	The firefighter's hunch that no nearby buildings would be safe from the massive fire was communicated to her chief.	43
+11	[]	filler	filler	69	The mayor's argument that no local residents would experience noise from the airport was discussed in a city council meeting.	44
+11	[]	filler	filler	73	The soccer players that could won the tournament were very upset with their coach.	45
+11	[]	filler	filler	69	The horses that no jockey wanted to ride were sold to nearby farms and rented out to trainers.	47
+11	[]	0	15	73	The assumption that no comments caused any bitterness toward the media has ever been substantiated.	48
+11	[]	filler	filler	73	Most computers that the senior citizens are capable of using correctly have uses outdated technology.	49
+11	[]	2	11	69	No presumption that the suspect was nervous in the court room has ever been reported.	50
+11	[]	filler	filler	73	The programmer that work for the largest computer server corporation have could many experience in customer service	51
+11	[]	filler	filler	73	The boat that have took all of the international tourists out for the fishing expedition have new life jackets aboard.	52
+11	[]	filler	filler	73	The students that has good grades often feel that they should had get into a good school.	53
+11	[]	filler	filler	69	The professor's speculation that no practical counter-examples would turn up in the article was justified.	54
+11	[]	2	0	69	No report that the nurse showed patience in the operating room has ever been known outside the hospital.	55
+11	[]	filler	filler	73	The flight attendant that were aboard the intercontinental flight had no time to sleep before landing.	58
+11	[]	filler	filler	69	The secretary's unsettlingly premonition that no raises would be given this year was mentioned to his coworkers during the lunch break.	59
+11	[]	0	16	69	The inkling that no teacher punished the students for cheating has ever been proven true	60
+11	[]	filler	filler	69	No geologist's premonition that evacuations would be necessary to avoid the volcano's lava flow was relayed to the island town.	62
+11	[]	filler	filler	69	No geologist's premonition that evacuations would be necessary to avoid the volcano's lava flow was relayed to the island town.	63
+11	[]	0	9	69	The information that no student succeeded in the math class has ever been taken seriously by the principal.	64
+11	[]	filler	filler	69	The companies that needs young business often advertise in the magazines that many men enjoys reading.	65
+11	[]	0	5	73	The confirmation that no medic rescued the victim has never caused outrage.	66
+11	[]	filler	filler	69	The electrician's estimation that no building on the block would need to be rewired was made clear to her boss.	67
+11	[]	2	14	69	No assertion that the professors wanted any negativity in a class debate has ever been claimed.	68
+11	[]	filler	filler	73	The nuclear physicists that were hired to work on the reactor are allowed to knows details about the plant's projects	69
+11	[]	filler	filler	69	The astronomer's contention that no telescope would have enough power to capture the distant galaxy was debated at the national space conference.	70
+11	[]	filler	filler	69	The psychologist's opinion that no individual could succeed without a college education was mentioned in the university brochure.	71
+11	[]	filler	filler	69	The senator's opinion that no farm subsidies could stimulate the economy was strongly disputed in the debate.	73
+11	[]	2	8	69	No allegation that the customers expressed any optimism for a full refund has ever been reported in the newspaper.	74
+11	[]	filler	filler	69	No analyst's projection that an increased lending rate would stimulate the economy was communicated to the financial executives.	75
+11	[]	0	1	73	The story that no librarians helped the students has ever made the rounds.	76
+11	[]	filler	filler	69	The computer files that no employee could access were corrupted beyond recovery and had to be deleted.	77
+12	[]	filler	filler	69	Remember to keep your fingers on the e and i keys and provide an answer quickly.	6
+12	[]	filler	filler	69	The next sentence will start the experiment.	7
+12	[]	filler	filler	69	The computer files that no employee could access were corrupted beyond recovery and had to be deleted.	8
+12	[]	filler	filler	69	The programmer's opinion that no software would sell without attractive packaging was taken seriously by the retailers.	10
+12	[]	2	9	73	No information that the detergent caused damage to the delicate clothing has ever been debunked.	11
+12	[]	filler	filler	69	The apartments that no family wanted to inhabit are rumored to be haunted by a mean ghost.	12
+12	[]	0	5	69	The confirmation that no comments caused any bitterness toward the media has ever been substantiated.	13
+12	[]	filler	filler	73	Most computers that the senior citizens are capable of using correctly have uses outdated technology.	14
+12	[]	filler	filler	69	The exhibits that no tourist visited during summer vacation were advertised very poorly.	15
+12	[]	filler	filler	None	No geologist's premonition that evacuations would be necessary to avoid the volcano's lava flow was relayed to the island town.	16
+12	[]	filler	filler	69	The accountant's speculation that no tax cuts would be made in the near future was quite troubling for many small businesses.	17
+12	[]	filler	filler	69	No conservationist's admission that an energy shortage would be caused by the new drilling technique was questioned by the committee.	18
+12	[]	2	4	69	No disclosure that the coach drafted the player has ever made him nervous.	19
+12	[]	filler	filler	73	The rainforests that were the subject of much debate has been unders federal protection.	20
+12	[]	0	19	73	The undefined that no accountant saw a rise in the quarterly profits has ever been claimed.	23
+12	[]	filler	filler	69	Most parks that the forest rangers have patrolled vigilantly during the summer has had forest fires.	24
+12	[]	filler	filler	69	The professor's speculation that no practical counter-examples would turn up in the article was justified.	25
+12	[]	0	14	69	The assertion that no diplomats supported the war has ever turned out to be false.	26
+12	[]	filler	filler	69	The rocky roads that no regular sedan could handle were quite easy to drive on in a large truck.	27
+12	[]	0	7	69	The news that no customers expressed any optimism for a full refund has ever been reported in the newspaper.	28
+12	[]	filler	filler	69	The sailor's judgment that no ship would reach land before the storm was mentioned in the log that she kept daily.	29
+12	[]	filler	filler	69	The firefighter's hunch that no nearby buildings would be safe from the massive fire was communicated to her chief.	30
+12	[]	2	18	69	No fact that the librarians helped the students has ever made the rounds.	31
+12	[]	filler	filler	69	No farmer's admission that food additives are necessary to preserve freshness was confirmed by the Food Safety Administration.	32
+12	[]	filler	filler	69	No geologist's premonition that evacuations would be necessary to avoid the volcano's lava flow was relayed to the island town.	33
+12	[]	0	11	69	The presumption that no teacher sparked any inspiration in the students has ever concerned the parents.	34
+12	[]	filler	filler	69	No analyst's projection that an increased lending rate would stimulate the economy was communicated to the financial executives.	35
+12	[]	filler	filler	69	No environmentalist's conjecture that the local wildlife would be affected by the oil spill was discussed with the Coast Guard.	36
+12	[]	filler	filler	73	The boat that have took all of the international tourists out for the fishing expedition have new life jackets aboard.	38
+12	[]	0	16	69	The inkling that no critics recommended the best-selling novel has ever been proven.	39
+12	[]	filler	filler	73	The students that has good grades often feel that they should had get into a good school.	40
+12	[]	filler	filler	69	The books that the elementary school board approved for class were ever banned from reading lists nationwide.	41
+12	[]	filler	filler	73	The soccer players that could won the tournament were very upset with their coach.	42
+12	[]	filler	filler	69	The beautician's statement that no other salon in town would give a better deal was quite reassuring for his clients.	43
+12	[]	filler	filler	69	The statistician's conclusion that no fish stocks in the U.S. would be overfished until 2012 was welcome in the small port town.	44
+12	[]	0	8	69	The allegation that no nurse showed patience in the operating room has ever been known outside the hospital.	45
+12	[]	filler	filler	69	The secret documents that no spy could find were hidden in an underground vault.	46
+12	[]	filler	filler	69	The nurse's hunch that no abnormalities would be found in the brain scan was debated by his supervisor.	47
+12	[]	filler	filler	69	No conservationist's admission that an energy shortage would be caused by the new drilling technique was questioned by the committee.	48
+12	[]	0	2	69	The admission that no student succeeded in the math class has ever been taken seriously by the principal.	49
+12	[]	filler	filler	73	The actors that plays in recent major films are paid millions of dollars for his talent.	50
+12	[]	2	17	69	No belief that the lawyers received criticism for a bad trial has ever been disputed. 	51
+12	[]	filler	filler	73	The nuclear physicists that were hired to work on the reactor are allowed to knows details about the plant's projects	52
+12	[]	2	13	69	No realization that the suspect was nervous in the court room has ever been reported.	53
+12	[]	filler	filler	73	The companies that needs young business often advertise in the magazines that many men enjoys reading.	54
+12	[]	filler	filler	69	The flowers that no customer wanted to buy were donated to the nearby funeral home.	55
+12	[]	2	1	69	No story that the teacher punished the students for cheating has ever been proven true	56
+12	[]	filler	filler	69	The senator's opinion that no farm subsidies could stimulate the economy was strongly disputed in the debate.	57
+12	[]	filler	filler	69	The mayor's argument that no local residents would experience noise from the airport was discussed in a city council meeting.	58
+12	[]	filler	filler	69	The secretary's unsettlingly premonition that no raises would be given this year was mentioned to his coworkers during the lunch break.	59
+12	[]	0	0	69	The report that no employee was kind to the rude customers has ever been reported to the manager.	60
+12	[]	filler	filler	73	The papers that the students wants to write for the introductory course have no errors at all.	61
+13	[]	filler	filler	69	Remember to keep your fingers on the e and i keys and provide an answer quickly.	6
+13	[]	filler	filler	69	The items that no family member needed were sold at the neighborhood yard sale.	8
+13	[]	filler	filler	69	The mayor's argument that no local residents would experience noise from the airport was discussed in a city council meeting.	9
+13	[]	filler	filler	69	No farmer's admission that food additives are necessary to preserve freshness was confirmed by the Food Safety Administration.	10
+13	[]	filler	filler	73	The exhibits that no tourist visited during summer vacation were advertised very poorly.	11
+13	[]	filler	filler	69	The horses that no jockey wanted to ride were sold to nearby farms and rented out to trainers.	15
+13	[]	2	1	69	No story that the professors wanted any negativity in a class debate has ever been claimed.	16
+13	[]	filler	filler	69	Most parks that the forest rangers have patrolled vigilantly during the summer has had forest fires.	17
+13	[]	filler	filler	69	The firefighter's hunch that no nearby buildings would be safe from the massive fire was communicated to her chief.	18
+13	[]	filler	filler	73	No environmentalist's conjecture that the local wildlife would be affected by the oil spill was discussed with the Coast Guard.	19
+13	[]	0	13	None	The realization that no detergent caused damage to the delicate clothing has ever been debunked.	20
+13	[]	filler	filler	73	The companies that needs young business often advertise in the magazines that many men enjoys reading.	21
+13	[]	0	15	73	The assumption that no nurse showed patience in the operating room has ever been known outside the hospital.	22
+13	[]	0	0	73	The report that no politician was trusted by the rural communities has ever caused concern.	27
+13	[]	filler	filler	69	The secretary's intuition that no emails would reach the employees during the system upgrade was revealed in his weekly meeting with the boss.	28
+13	[]	0	7	73	The news that no ambassadors consulted the diplomats has ever been acknowledged.	29
+13	[]	2	12	73	No assurance that the comments caused any bitterness toward the media has ever been substantiated.	31
+13	[]	filler	filler	69	No blogger's hunch that a main character from the hit show would die next season was given much consideration by the show's producers.	32
+13	[]	0	8	73	The allegation that no actors were hurt in the dangerous stunt has ever been proven to be bogus.	33
+13	[]	filler	filler	69	The rocky roads that no regular sedan could handle were quite easy to drive on in a large truck.	34
+13	[]	filler	filler	73	The senator's opinion that no farm subsidies could stimulate the economy was strongly disputed in the debate.	35
+13	[]	filler	filler	69	The secretary's unsettlingly premonition that no raises would be given this year was mentioned to his coworkers during the lunch break.	36
+13	[]	filler	filler	69	No conservationist's admission that an energy shortage would be caused by the new drilling technique was questioned by the committee.	37
+13	[]	filler	filler	73	No geologist's premonition that evacuations would be necessary to avoid the volcano's lava flow was relayed to the island town.	38
+13	[]	0	5	69	The confirmation that no employee was kind to the rude customers has ever been reported to the manager.	39
+13	[]	filler	filler	73	No conservationist's admission that an energy shortage would be caused by the new drilling technique was questioned by the committee.	40
+13	[]	filler	filler	73	The rainforests that were the subject of much debate has been unders federal protection.	43
+13	[]	filler	filler	73	The nuclear physicists that were hired to work on the reactor are allowed to knows details about the plant's projects	44
+13	[]	2	9	69	No information that the diplomats supported the war has ever turned out to be false.	45
+13	[]	filler	filler	73	The programmer that work for the largest computer server corporation have could many experience in customer service	46
+13	[]	filler	filler	73	The statistician's conclusion that no fish stocks in the U.S. would be overfished until 2012 was welcome in the small port town.	47
+13	[]	filler	filler	69	The psychologist's opinion that no individual could succeed without a college education was mentioned in the university brochure.	50
+13	[]	2	3	69	No declaration that the student succeeded in the math class has ever been taken seriously by the principal.	51
+13	[]	filler	filler	73	Most poets that are considered to be extremely famous has written  poems about current events. 	52
+13	[]	filler	filler	69	The lectures that no students wanted to attend were often taught by very boring professors.	53
+13	[]	filler	filler	73	The actors that plays in recent major films are paid millions of dollars for his talent.	54
+13	[]	filler	filler	73	The nurse's hunch that no abnormalities would be found in the brain scan was debated by his supervisor.	55
+13	[]	2	14	73	No assertion that the lawyers received criticism for a bad trial has ever been disputed. 	56
+13	[]	filler	filler	73	The papers that the students wants to write for the introductory course have no errors at all.	57
+13	[]	filler	filler	73	The books that the elementary school board approved for class were ever banned from reading lists nationwide.	59
+13	[]	filler	filler	73	The pilot's estimation that there would be no turbulence during the flight was communicated to her passengers.	60
+13	[]	filler	filler	73	The computer files that no employee could access were corrupted beyond recovery and had to be deleted.	62
+13	[]	filler	filler	69	The electrician's estimation that no building on the block would need to be rewired was made clear to her boss.	63
+13	[]	2	16	73	No inkling that the librarians helped the students has ever made the rounds.	64
+13	[]	filler	filler	73	The professor's speculation that no practical counter-examples would turn up in the article was justified.	65
+13	[]	filler	filler	73	Most computers that the senior citizens are capable of using correctly have uses outdated technology.	66
+13	[]	filler	filler	73	No geologist's premonition that evacuations would be necessary to avoid the volcano's lava flow was relayed to the island town.	67
+13	[]	filler	filler	73	The sailor's judgment that no ship would reach land before the storm was mentioned in the log that she kept daily.	69
+13	[]	0	17	69	The belief that no critics recommended the best-selling novel has ever been proven.	70
+13	[]	filler	filler	69	The flowers that no customer wanted to buy were donated to the nearby funeral home.	71
+13	[]	filler	filler	73	The secret documents that no spy could find were hidden in an underground vault.	72
+13	[]	filler	filler	69	The accountant's speculation that no tax cuts would be made in the near future was quite troubling for many small businesses.	73
+13	[]	filler	filler	73	No analyst's projection that an increased lending rate would stimulate the economy was communicated to the financial executives.	74
+13	[]	2	6	73	No remark that the medic rescued the victim has never caused outrage.	75
+13	[]	filler	filler	73	The students that has good grades often feel that they should had get into a good school.	76
+13	[]	0	2	73	The admission that no coach drafted the player has ever made him nervous.	77
+14	[]	filler	filler	None	This is a simple sentence to get you started.	5
+14	[]	filler	filler	69	Remember to keep your fingers on the e and i keys and provide an answer quickly.	6
+14	[]	filler	filler	69	The next sentence will start the experiment.	7
+14	[]	filler	filler	69	No geologist's premonition that evacuations would be necessary to avoid the volcano's lava flow was relayed to the island town.	8
+14	[]	filler	filler	69	The professor's speculation that no practical counter-examples would turn up in the article was justified.	9
+14	[]	filler	filler	73	The soccer players that could won the tournament were very upset with their coach.	10
+14	[]	filler	filler	69	The accountant's speculation that no tax cuts would be made in the near future was quite troubling for many small businesses.	11
+14	[]	2	18	73	No fact that the customers expressed any optimism for a full refund has ever been reported in the newspaper.	12
+14	[]	filler	filler	73	The flight attendant that were aboard the intercontinental flight had no time to sleep before landing.	13
+14	[]	0	17	73	The belief that no coach drafted the player has ever made him nervous.	14
+14	[]	filler	filler	69	The computer files that no employee could access were corrupted beyond recovery and had to be deleted.	16
+14	[]	2	16	73	No inkling that the librarians helped the students has ever made the rounds.	17
+14	[]	filler	filler	73	The boat that have took all of the international tourists out for the fishing expedition have new life jackets aboard.	18
+14	[]	2	14	69	No assertion that the lawyers received criticism for a bad trial has ever been disputed. 	20
+14	[]	filler	filler	69	No conservationist's admission that an energy shortage would be caused by the new drilling technique was questioned by the committee.	23
+14	[]	0	13	69	The realization that no critics recommended the best-selling novel has ever been proven.	24
+14	[]	filler	filler	73	The companies that needs young business often advertise in the magazines that many men enjoys reading.	25
+14	[]	filler	filler	69	The mayor's argument that no local residents would experience noise from the airport was discussed in a city council meeting.	27
+14	[]	2	12	69	No assurance that the comments caused any bitterness toward the media has ever been substantiated.	28
+14	[]	filler	filler	69	The sailor's judgment that no ship would reach land before the storm was mentioned in the log that she kept daily.	29
+14	[]	filler	filler	69	The astronomer's contention that no telescope would have enough power to capture the distant galaxy was debated at the national space conference.	30
+14	[]	filler	filler	73	The papers that the students wants to write for the introductory course have no errors at all.	34
+14	[]	0	1	73	The story that no actors were hurt in the dangerous stunt has ever been proven to be bogus.	36
+14	[]	filler	filler	69	No conservationist's admission that an energy shortage would be caused by the new drilling technique was questioned by the committee.	37
+14	[]	0	19	73	The undefined that no diplomats supported the war has ever turned out to be false.	41
+14	[]	filler	filler	73	Most computers that the senior citizens are capable of using correctly have uses outdated technology.	42
+14	[]	filler	filler	69	No environmentalist's conjecture that the local wildlife would be affected by the oil spill was discussed with the Coast Guard.	43
+14	[]	0	3	69	The declaration that no accountant saw a rise in the quarterly profits has ever been claimed.	44
+14	[]	filler	filler	73	The programmer that work for the largest computer server corporation have could many experience in customer service	45
+14	[]	0	5	69	The confirmation that no detergent caused damage to the delicate clothing has ever been debunked.	46
+14	[]	filler	filler	69	The horses that no jockey wanted to ride were sold to nearby farms and rented out to trainers.	47
+14	[]	2	0	69	No report that the nurse showed patience in the operating room has ever been known outside the hospital.	48
+14	[]	filler	filler	69	The programmer's opinion that no software would sell without attractive packaging was taken seriously by the retailers.	49
+14	[]	filler	filler	69	The rocky roads that no regular sedan could handle were quite easy to drive on in a large truck.	50
+14	[]	filler	filler	69	No analyst's projection that an increased lending rate would stimulate the economy was communicated to the financial executives.	52
+14	[]	filler	filler	69	The beautician's statement that no other salon in town would give a better deal was quite reassuring for his clients.	54
+14	[]	2	10	69	No revelation that the professors wanted any negativity in a class debate has ever been claimed.	55
+14	[]	filler	filler	69	The courses that no college student wanted to attend were often taught by inexperienced teaching assistants.	56
+14	[]	2	4	73	No disclosure that the medic rescued the victim has never caused outrage.	57
+14	[]	filler	filler	69	No geologist's premonition that evacuations would be necessary to avoid the volcano's lava flow was relayed to the island town.	58
+14	[]	filler	filler	69	No farmer's admission that food additives are necessary to preserve freshness was confirmed by the Food Safety Administration.	61
+14	[]	0	7	73	The news that no employee was kind to the rude customers has ever been reported to the manager.	62
+14	[]	filler	filler	73	The rainforests that were the subject of much debate has been unders federal protection.	63
+14	[]	filler	filler	73	The actors that plays in recent major films are paid millions of dollars for his talent.	64
+14	[]	filler	filler	69	The flowers that no customer wanted to buy were donated to the nearby funeral home.	65
+14	[]	filler	filler	69	The senator's opinion that no farm subsidies could stimulate the economy was strongly disputed in the debate.	66
+14	[]	2	8	69	No allegation that the suspect was nervous in the court room has ever been reported.	67
+14	[]	filler	filler	69	No historian's conjecture that a consensus would emerge on how to ration food fairly was supported by historical data.	68
+14	[]	filler	filler	69	The statistician's conclusion that no fish stocks in the U.S. would be overfished until 2012 was welcome in the small port town.	69
+14	[]	filler	filler	69	The lectures that no students wanted to attend were often taught by very boring professors.	70
+14	[]	2	6	69	No remark that the teacher punished the students for cheating has ever been proven true	72
+14	[]	0	15	None	The assumption that no student succeeded in the math class has ever been taken seriously by the principal.	74
+14	[]	filler	filler	69	The secretary's intuition that no emails would reach the employees during the system upgrade was revealed in his weekly meeting with the boss.	75
+14	[]	filler	filler	69	The items that no family member needed were sold at the neighborhood yard sale.	76
+14	[]	filler	filler	69	The pilot's estimation that there would be no turbulence during the flight was communicated to her passengers.	77
+15	[]	filler	filler	69	The next sentence will start the experiment.	7
+15	[]	filler	filler	73	The nuclear physicists that were hired to work on the reactor are allowed to knows details about the plant's projects	8
+15	[]	2	15	69	No assumption that the diplomats supported the war has ever turned out to be false.	9
+15	[]	filler	filler	73	The exhibits that no tourist visited during summer vacation were advertised very poorly.	10
+15	[]	2	8	69	No allegation that the accountant saw a rise in the quarterly profits has ever been claimed.	12
+15	[]	filler	filler	73	No historian's conjecture that a consensus would emerge on how to ration food fairly was supported by historical data.	13
+15	[]	filler	filler	69	The flowers that no customer wanted to buy were donated to the nearby funeral home.	14
+15	[]	filler	filler	69	The beautician's statement that no other salon in town would give a better deal was quite reassuring for his clients.	15
+15	[]	filler	filler	69	The programmer's opinion that no software would sell without attractive packaging was taken seriously by the retailers.	21
+15	[]	filler	filler	69	The electrician's estimation that no building on the block would need to be rewired was made clear to her boss.	22
+15	[]	0	10	73	The revelation that no ambassadors consulted the diplomats has ever been acknowledged.	25
+15	[]	filler	filler	73	No conservationist's admission that an energy shortage would be caused by the new drilling technique was questioned by the committee.	26
+15	[]	filler	filler	69	The secretary's intuition that no emails would reach the employees during the system upgrade was revealed in his weekly meeting with the boss.	27
+15	[]	filler	filler	73	The flight attendant that were aboard the intercontinental flight had no time to sleep before landing.	28
+15	[]	filler	filler	69	The lectures that no students wanted to attend were often taught by very boring professors.	29
+15	[]	filler	filler	73	The rainforests that were the subject of much debate has been unders federal protection.	30
+15	[]	filler	filler	69	The psychologist's opinion that no individual could succeed without a college education was mentioned in the university brochure.	31
+15	[]	0	4	69	The disclosure that no suspect was nervous in the court room has ever been reported.	32
+15	[]	filler	filler	None	The papers that the students wants to write for the introductory course have no errors at all.	33
+15	[]	filler	filler	69	No analyst's projection that an increased lending rate would stimulate the economy was communicated to the financial executives.	34
+15	[]	2	1	73	No story that the professors wanted any negativity in a class debate has ever been claimed.	35
+15	[]	filler	filler	73	The astronomer's contention that no telescope would have enough power to capture the distant galaxy was debated at the national space conference.	36
+15	[]	filler	filler	73	The statistician's conclusion that no fish stocks in the U.S. would be overfished until 2012 was welcome in the small port town.	38
+15	[]	filler	filler	73	The rocky roads that no regular sedan could handle were quite easy to drive on in a large truck.	40
+15	[]	0	19	73	The undefined that no lawyers received criticism for a bad trial has ever been disputed. 	41
+15	[]	filler	filler	69	No geologist's premonition that evacuations would be necessary to avoid the volcano's lava flow was relayed to the island town.	42
+15	[]	filler	filler	69	No farmer's admission that food additives are necessary to preserve freshness was confirmed by the Food Safety Administration.	43
+15	[]	2	18	73	No fact that the detergent caused damage to the delicate clothing has ever been debunked.	44
+15	[]	filler	filler	73	Most parks that the forest rangers have patrolled vigilantly during the summer has had forest fires.	45
+15	[]	2	11	73	No presumption that the employee was kind to the rude customers has ever been reported to the manager.	46
+15	[]	filler	filler	69	The mayor's argument that no local residents would experience noise from the airport was discussed in a city council meeting.	47
+15	[]	2	12	69	No assurance that the teacher sparked any inspiration in the students has ever concerned the parents.	48
+15	[]	filler	filler	73	The senator's opinion that no farm subsidies could stimulate the economy was strongly disputed in the debate.	51
+15	[]	0	3	69	The declaration that no customers expressed any optimism for a full refund has ever been reported in the newspaper.	52
+15	[]	filler	filler	69	The nurse's hunch that no abnormalities would be found in the brain scan was debated by his supervisor.	53
+15	[]	filler	filler	69	The minivans that no families wanted to purchase were redesigned to be more affordable and attractive.	54
+15	[]	filler	filler	69	The courses that no college student wanted to attend were often taught by inexperienced teaching assistants.	55
+15	[]	filler	filler	69	The computer files that no employee could access were corrupted beyond recovery and had to be deleted.	56
+15	[]	0	17	None	The belief that no teacher punished the students for cheating has ever been proven true	57
+15	[]	filler	filler	69	No geologist's premonition that evacuations would be necessary to avoid the volcano's lava flow was relayed to the island town.	58
+15	[]	filler	filler	69	The horses that no jockey wanted to ride were sold to nearby farms and rented out to trainers.	59
+15	[]	filler	filler	69	No environmentalist's conjecture that the local wildlife would be affected by the oil spill was discussed with the Coast Guard.	60
+15	[]	2	6	73	No remark that the actors were hurt in the dangerous stunt has ever been proven to be bogus.	61
+15	[]	filler	filler	69	The boat that have took all of the international tourists out for the fishing expedition have new life jackets aboard.	62
+15	[]	filler	filler	69	The secretary's unsettlingly premonition that no raises would be given this year was mentioned to his coworkers during the lunch break.	63
+15	[]	filler	filler	69	The soccer players that could won the tournament were very upset with their coach.	64
+15	[]	filler	filler	69	The apartments that no family wanted to inhabit are rumored to be haunted by a mean ghost.	67
+15	[]	0	7	69	The news that no critics recommended the best-selling novel has ever been proven.	68
+15	[]	filler	filler	73	The students that has good grades often feel that they should had get into a good school.	69
+15	[]	0	9	73	The information that no politician was trusted by the rural communities has ever caused concern.	70
+15	[]	filler	filler	73	Most poets that are considered to be extremely famous has written  poems about current events. 	71
+15	[]	filler	filler	69	The accountant's speculation that no tax cuts would be made in the near future was quite troubling for many small businesses.	72
+15	[]	filler	filler	73	No conservationist's admission that an energy shortage would be caused by the new drilling technique was questioned by the committee.	73
+15	[]	filler	filler	73	The actors that plays in recent major films are paid millions of dollars for his talent.	74
+16	[]	filler	filler	69	This is a simple sentence to get you started.	5
+16	[]	filler	filler	69	Remember to keep your fingers on the e and i keys and provide an answer quickly.	6
+16	[]	filler	filler	69	The next sentence will start the experiment.	7
+16	[]	filler	filler	69	The astronomer's contention that no telescope would have enough power to capture the distant galaxy was debated at the national space conference.	8
+16	[]	filler	filler	None	The papers that the students wants to write for the introductory course have no errors at all.	9
+16	[]	2	12	69	No assurance that the suspect was nervous in the court room has ever been reported.	10
+16	[]	filler	filler	73	Most computers that the senior citizens are capable of using correctly have uses outdated technology.	11
+16	[]	filler	filler	73	The horses that no jockey wanted to ride were sold to nearby farms and rented out to trainers.	12
+16	[]	0	1	73	The story that no actors were hurt in the dangerous stunt has ever been proven to be bogus.	13
+16	[]	filler	filler	69	The flowers that no customer wanted to buy were donated to the nearby funeral home.	14
+16	[]	0	2	73	The admission that no accountant saw a rise in the quarterly profits has ever been claimed.	15
+16	[]	filler	filler	69	No geologist's premonition that evacuations would be necessary to avoid the volcano's lava flow was relayed to the island town.	16
+16	[]	filler	filler	73	The boat that have took all of the international tourists out for the fishing expedition have new life jackets aboard.	18
+16	[]	filler	filler	69	The senator's opinion that no farm subsidies could stimulate the economy was strongly disputed in the debate.	19
+16	[]	0	11	73	The presumption that no comments caused any bitterness toward the media has ever been substantiated.	20
+16	[]	filler	filler	69	The psychologist's opinion that no individual could succeed without a college education was mentioned in the university brochure.	21
+16	[]	filler	filler	69	No environmentalist's conjecture that the local wildlife would be affected by the oil spill was discussed with the Coast Guard.	22
+16	[]	filler	filler	69	The secretary's unsettlingly premonition that no raises would be given this year was mentioned to his coworkers during the lunch break.	24
+16	[]	2	3	69	No declaration that the employee was kind to the rude customers has ever been reported to the manager.	25
+16	[]	filler	filler	69	No geologist's premonition that evacuations would be necessary to avoid the volcano's lava flow was relayed to the island town.	26
+16	[]	filler	filler	73	The programmer that work for the largest computer server corporation have could many experience in customer service	27
+16	[]	filler	filler	69	No conservationist's admission that an energy shortage would be caused by the new drilling technique was questioned by the committee.	29
+16	[]	filler	filler	69	The secretary's intuition that no emails would reach the employees during the system upgrade was revealed in his weekly meeting with the boss.	30
+16	[]	0	19	73	The undefined that no teacher sparked any inspiration in the students has ever concerned the parents.	31
+16	[]	filler	filler	73	The rainforests that were the subject of much debate has been unders federal protection.	32
+16	[]	2	14	69	No assertion that the student succeeded in the math class has ever been taken seriously by the principal.	33
+16	[]	filler	filler	69	The exhibits that no tourist visited during summer vacation were advertised very poorly.	34
+16	[]	filler	filler	69	The statistician's conclusion that no fish stocks in the U.S. would be overfished until 2012 was welcome in the small port town.	35
+16	[]	2	10	73	No revelation that the critics recommended the best-selling novel has ever been proven.	36
+16	[]	filler	filler	73	The electrician's estimation that no building on the block would need to be rewired was made clear to her boss.	37
+16	[]	filler	filler	69	The rocky roads that no regular sedan could handle were quite easy to drive on in a large truck.	38
+16	[]	filler	filler	69	The programmer's opinion that no software would sell without attractive packaging was taken seriously by the retailers.	39
+16	[]	filler	filler	73	The soccer players that could won the tournament were very upset with their coach.	40
+16	[]	filler	filler	73	The flight attendant that were aboard the intercontinental flight had no time to sleep before landing.	42
+16	[]	0	4	69	The disclosure that no teacher punished the students for cheating has ever been proven true	43
+16	[]	filler	filler	73	The companies that needs young business often advertise in the magazines that many men enjoys reading.	44
+16	[]	filler	filler	69	The pilot's estimation that there would be no turbulence during the flight was communicated to her passengers.	45
+16	[]	0	16	73	The inkling that no diplomats supported the war has ever turned out to be false.	46
+16	[]	filler	filler	73	The nuclear physicists that were hired to work on the reactor are allowed to knows details about the plant's projects	47
+16	[]	filler	filler	69	The courses that no college student wanted to attend were often taught by inexperienced teaching assistants.	48
+16	[]	2	9	69	No information that the customers expressed any optimism for a full refund has ever been reported in the newspaper.	49
+16	[]	filler	filler	69	No blogger's hunch that a main character from the hit show would die next season was given much consideration by the show's producers.	50
+16	[]	filler	filler	69	The secret documents that no spy could find were hidden in an underground vault.	52
+16	[]	filler	filler	69	The accountant's speculation that no tax cuts would be made in the near future was quite troubling for many small businesses.	53
+16	[]	filler	filler	69	The nurse's hunch that no abnormalities would be found in the brain scan was debated by his supervisor.	54
+16	[]	filler	filler	73	The books that the elementary school board approved for class were ever banned from reading lists nationwide.	55
+16	[]	0	15	73	The assumption that no medic rescued the victim has never caused outrage.	56
+16	[]	filler	filler	73	The actors that plays in recent major films are paid millions of dollars for his talent.	57
+16	[]	filler	filler	69	The mayor's argument that no local residents would experience noise from the airport was discussed in a city council meeting.	58
+16	[]	filler	filler	73	Most parks that the forest rangers have patrolled vigilantly during the summer has had forest fires.	59
+16	[]	filler	filler	69	The sailor's judgment that no ship would reach land before the storm was mentioned in the log that she kept daily.	60
+16	[]	filler	filler	69	The lectures that no students wanted to attend were often taught by very boring professors.	63
+16	[]	filler	filler	73	Most poets that are considered to be extremely famous has written  poems about current events. 	64
+16	[]	2	0	69	No report that the lawyers received criticism for a bad trial has ever been disputed. 	65
+16	[]	filler	filler	73	The firefighter's hunch that no nearby buildings would be safe from the massive fire was communicated to her chief.	66
+16	[]	2	6	69	No remark that the ambassadors consulted the diplomats has ever been acknowledged.	67
+16	[]	filler	filler	69	The items that no family member needed were sold at the neighborhood yard sale.	68
+16	[]	2	5	69	No confirmation that the professors wanted any negativity in a class debate has ever been claimed.	69
+16	[]	filler	filler	69	The beautician's statement that no other salon in town would give a better deal was quite reassuring for his clients.	70
+16	[]	filler	filler	69	The minivans that no families wanted to purchase were redesigned to be more affordable and attractive.	71
+16	[]	filler	filler	69	The apartments that no family wanted to inhabit are rumored to be haunted by a mean ghost.	72
+16	[]	0	13	73	The realization that no detergent caused damage to the delicate clothing has ever been debunked.	73
+16	[]	filler	filler	69	No historian's conjecture that a consensus would emerge on how to ration food fairly was supported by historical data.	74
+16	[]	filler	filler	69	The computer files that no employee could access were corrupted beyond recovery and had to be deleted.	75
+16	[]	2	18	73	No fact that the coach drafted the player has ever made him nervous.	76
+16	[]	filler	filler	69	No conservationist's admission that an energy shortage would be caused by the new drilling technique was questioned by the committee.	77
+17	[]	filler	filler	69	This is a simple sentence to get you started.	5
+17	[]	filler	filler	69	The next sentence will start the experiment.	7
+17	[]	0	14	69	The assertion that no accountant saw a rise in the quarterly profits has ever been claimed.	9
+17	[]	filler	filler	69	No conservationist's admission that an energy shortage would be caused by the new drilling technique was questioned by the committee.	10
+17	[]	0	11	69	The presumption that no librarians helped the students has ever made the rounds.	11
+17	[]	filler	filler	69	The secret documents that no spy could find were hidden in an underground vault.	12
+17	[]	filler	filler	73	The rainforests that were the subject of much debate has been unders federal protection.	13
+17	[]	2	10	None	No revelation that the actors were hurt in the dangerous stunt has ever been proven to be bogus.	15
+17	[]	filler	filler	69	The courses that no college student wanted to attend were often taught by inexperienced teaching assistants.	16
+17	[]	filler	filler	69	The minivans that no families wanted to purchase were redesigned to be more affordable and attractive.	17
+17	[]	0	18	69	The fact that no student succeeded in the math class has ever been taken seriously by the principal.	18
+17	[]	filler	filler	69	The items that no family member needed were sold at the neighborhood yard sale.	19
+17	[]	filler	filler	69	No environmentalist's conjecture that the local wildlife would be affected by the oil spill was discussed with the Coast Guard.	20
+17	[]	0	13	69	The realization that no lawyers received criticism for a bad trial has ever been disputed. 	21
+17	[]	filler	filler	73	No farmer's admission that food additives are necessary to preserve freshness was confirmed by the Food Safety Administration.	22
+17	[]	filler	filler	73	No blogger's hunch that a main character from the hit show would die next season was given much consideration by the show's producers.	25
+17	[]	filler	filler	69	The programmer's opinion that no software would sell without attractive packaging was taken seriously by the retailers.	26
+17	[]	filler	filler	69	The mayor's argument that no local residents would experience noise from the airport was discussed in a city council meeting.	28
+17	[]	0	4	69	The disclosure that no critics recommended the best-selling novel has ever been proven.	29
+17	[]	filler	filler	73	Most computers that the senior citizens are capable of using correctly have uses outdated technology.	30
+17	[]	filler	filler	69	The secretary's intuition that no emails would reach the employees during the system upgrade was revealed in his weekly meeting with the boss.	33
+17	[]	filler	filler	69	The apartments that no family wanted to inhabit are rumored to be haunted by a mean ghost.	34
+17	[]	2	0	69	No report that the politician was trusted by the rural communities has ever caused concern.	35
+17	[]	filler	filler	69	No conservationist's admission that an energy shortage would be caused by the new drilling technique was questioned by the committee.	36
+17	[]	2	7	69	No news that the diplomats supported the war has ever turned out to be false.	37
+17	[]	filler	filler	69	The exhibits that no tourist visited during summer vacation were advertised very poorly.	38
+17	[]	filler	filler	73	The programmer that work for the largest computer server corporation have could many experience in customer service	39
+17	[]	filler	filler	69	The beautician's statement that no other salon in town would give a better deal was quite reassuring for his clients.	40
+17	[]	0	2	73	The admission that no medic rescued the victim has never caused outrage.	41
+17	[]	filler	filler	69	The computer files that no employee could access were corrupted beyond recovery and had to be deleted.	42
+17	[]	filler	filler	69	The nurse's hunch that no abnormalities would be found in the brain scan was debated by his supervisor.	44
+17	[]	filler	filler	73	The actors that plays in recent major films are paid millions of dollars for his talent.	46
+17	[]	filler	filler	73	The flight attendant that were aboard the intercontinental flight had no time to sleep before landing.	47
+17	[]	filler	filler	73	The accountant's speculation that no tax cuts would be made in the near future was quite troubling for many small businesses.	48
+17	[]	filler	filler	69	The firefighter's hunch that no nearby buildings would be safe from the massive fire was communicated to her chief.	49
+17	[]	2	5	69	No confirmation that the teacher sparked any inspiration in the students has ever concerned the parents.	50
+17	[]	filler	filler	69	The psychologist's opinion that no individual could succeed without a college education was mentioned in the university brochure.	51
+17	[]	filler	filler	73	The nuclear physicists that were hired to work on the reactor are allowed to knows details about the plant's projects	53
+17	[]	filler	filler	73	The companies that needs young business often advertise in the magazines that many men enjoys reading.	54
+17	[]	filler	filler	73	No geologist's premonition that evacuations would be necessary to avoid the volcano's lava flow was relayed to the island town.	55
+17	[]	2	3	69	No declaration that the employee was kind to the rude customers has ever been reported to the manager.	56
+17	[]	filler	filler	69	No historian's conjecture that a consensus would emerge on how to ration food fairly was supported by historical data.	57
+17	[]	filler	filler	69	The astronomer's contention that no telescope would have enough power to capture the distant galaxy was debated at the national space conference.	58
+17	[]	filler	filler	73	Most poets that are considered to be extremely famous has written  poems about current events. 	59
+17	[]	filler	filler	73	The papers that the students wants to write for the introductory course have no errors at all.	60
+17	[]	filler	filler	69	The senator's opinion that no farm subsidies could stimulate the economy was strongly disputed in the debate.	61
+17	[]	filler	filler	69	No geologist's premonition that evacuations would be necessary to avoid the volcano's lava flow was relayed to the island town.	63
+17	[]	2	19	73	No undefined that the ambassadors consulted the diplomats has ever been acknowledged.	64
+17	[]	filler	filler	69	The secretary's unsettlingly premonition that no raises would be given this year was mentioned to his coworkers during the lunch break.	66
+17	[]	filler	filler	69	The rocky roads that no regular sedan could handle were quite easy to drive on in a large truck.	67
+17	[]	2	12	69	No assurance that the detergent caused damage to the delicate clothing has ever been debunked.	68
+17	[]	filler	filler	69	The statistician's conclusion that no fish stocks in the U.S. would be overfished until 2012 was welcome in the small port town.	69
+17	[]	filler	filler	69	The flowers that no customer wanted to buy were donated to the nearby funeral home.	70
+17	[]	filler	filler	73	The soccer players that could won the tournament were very upset with their coach.	71
+17	[]	filler	filler	69	The lectures that no students wanted to attend were often taught by very boring professors.	73
+17	[]	2	9	73	No information that the customers expressed any optimism for a full refund has ever been reported in the newspaper.	74
+17	[]	filler	filler	73	The books that the elementary school board approved for class were ever banned from reading lists nationwide.	75
+17	[]	filler	filler	73	The students that has good grades often feel that they should had get into a good school.	76
+17	[]	0	6	73	The remark that no teacher punished the students for cheating has ever been proven true	77
+18	[]	filler	filler	69	This is a simple sentence to get you started.	5
+18	[]	filler	filler	69	Remember to keep your fingers on the e and i keys and provide an answer quickly.	6
+18	[]	filler	filler	69	The next sentence will start the experiment.	7
+18	[]	filler	filler	69	The beautician's statement that no other salon in town would give a better deal was quite reassuring for his clients.	9
+18	[]	filler	filler	69	The secretary's intuition that no emails would reach the employees during the system upgrade was revealed in his weekly meeting with the boss.	10
+18	[]	filler	filler	69	No farmer's admission that food additives are necessary to preserve freshness was confirmed by the Food Safety Administration.	11
+18	[]	filler	filler	69	The electrician's estimation that no building on the block would need to be rewired was made clear to her boss.	13
+18	[]	2	0	73	No report that the professors wanted any negativity in a class debate has ever been claimed.	14
+18	[]	filler	filler	69	The flight attendant that were aboard the intercontinental flight had no time to sleep before landing.	15
+18	[]	filler	filler	69	The accountant's speculation that no tax cuts would be made in the near future was quite troubling for many small businesses.	16
+18	[]	filler	filler	69	The minivans that no families wanted to purchase were redesigned to be more affordable and attractive.	17
+18	[]	2	19	73	No undefined that the detergent caused damage to the delicate clothing has ever been debunked.	18
+18	[]	filler	filler	69	No conservationist's admission that an energy shortage would be caused by the new drilling technique was questioned by the committee.	19
+18	[]	0	9	69	The information that no teacher sparked any inspiration in the students has ever concerned the parents.	20
+18	[]	filler	filler	69	Most parks that the forest rangers have patrolled vigilantly during the summer has had forest fires.	21
+18	[]	2	12	69	No assurance that the coach drafted the player has ever made him nervous.	22
+18	[]	filler	filler	69	No geologist's premonition that evacuations would be necessary to avoid the volcano's lava flow was relayed to the island town.	23
+18	[]	0	17	69	The belief that no employee was kind to the rude customers has ever been reported to the manager.	24
+18	[]	filler	filler	69	The courses that no college student wanted to attend were often taught by inexperienced teaching assistants.	25
+18	[]	0	13	69	The realization that no ambassadors consulted the diplomats has ever been acknowledged.	26
+18	[]	filler	filler	73	The students that has good grades often feel that they should had get into a good school.	27
+18	[]	filler	filler	69	The pilot's estimation that there would be no turbulence during the flight was communicated to her passengers.	28
+18	[]	filler	filler	73	The papers that the students wants to write for the introductory course have no errors at all.	29
+18	[]	2	5	69	No confirmation that the diplomats supported the war has ever turned out to be false.	30
+18	[]	filler	filler	69	The sailor's judgment that no ship would reach land before the storm was mentioned in the log that she kept daily.	31
+18	[]	0	11	69	The presumption that no actors were hurt in the dangerous stunt has ever been proven to be bogus.	32
+18	[]	filler	filler	69	The mayor's argument that no local residents would experience noise from the airport was discussed in a city council meeting.	33
+18	[]	0	1	69	The story that no accountant saw a rise in the quarterly profits has ever been claimed.	34
+18	[]	filler	filler	73	The boat that have took all of the international tourists out for the fishing expedition have new life jackets aboard.	35
+18	[]	filler	filler	73	No historian's conjecture that a consensus would emerge on how to ration food fairly was supported by historical data.	38
+18	[]	filler	filler	69	The soccer players that could won the tournament were very upset with their coach.	39
+18	[]	filler	filler	69	The professor's speculation that no practical counter-examples would turn up in the article was justified.	40
+18	[]	filler	filler	69	The exhibits that no tourist visited during summer vacation were advertised very poorly.	41
+18	[]	filler	filler	73	The companies that needs young business often advertise in the magazines that many men enjoys reading.	42
+18	[]	filler	filler	69	The firefighter's hunch that no nearby buildings would be safe from the massive fire was communicated to her chief.	43
+18	[]	filler	filler	73	The nuclear physicists that were hired to work on the reactor are allowed to knows details about the plant's projects	44
+18	[]	0	18	69	The fact that no comments caused any bitterness toward the media has ever been substantiated.	45
+18	[]	filler	filler	73	The programmer that work for the largest computer server corporation have could many experience in customer service	47
+18	[]	filler	filler	69	The apartments that no family wanted to inhabit are rumored to be haunted by a mean ghost.	48
+18	[]	0	2	69	The admission that no lawyers received criticism for a bad trial has ever been disputed. 	49
+18	[]	2	3	69	No declaration that the student succeeded in the math class has ever been taken seriously by the principal.	51
+18	[]	filler	filler	69	No conservationist's admission that an energy shortage would be caused by the new drilling technique was questioned by the committee.	52
+18	[]	2	8	69	No allegation that the librarians helped the students has ever made the rounds.	53
+18	[]	filler	filler	69	The astronomer's contention that no telescope would have enough power to capture the distant galaxy was debated at the national space conference.	54
+18	[]	2	7	69	No news that the politician was trusted by the rural communities has ever caused concern.	55
+18	[]	filler	filler	69	The senator's opinion that no farm subsidies could stimulate the economy was strongly disputed in the debate.	56
+18	[]	filler	filler	73	The computer files that no employee could access were corrupted beyond recovery and had to be deleted.	57
+18	[]	filler	filler	73	The rainforests that were the subject of much debate has been unders federal protection.	58
+18	[]	filler	filler	69	The items that no family member needed were sold at the neighborhood yard sale.	59
+18	[]	filler	filler	69	The psychologist's opinion that no individual could succeed without a college education was mentioned in the university brochure.	60
+18	[]	filler	filler	69	The horses that no jockey wanted to ride were sold to nearby farms and rented out to trainers.	61
+18	[]	filler	filler	69	The secretary's unsettlingly premonition that no raises would be given this year was mentioned to his coworkers during the lunch break.	62
+18	[]	2	15	69	No assumption that the customers expressed any optimism for a full refund has ever been reported in the newspaper.	63
+18	[]	filler	filler	69	Most poets that are considered to be extremely famous has written  poems about current events. 	64
+18	[]	filler	filler	69	No blogger's hunch that a main character from the hit show would die next season was given much consideration by the show's producers.	65
+18	[]	0	4	69	The disclosure that no teacher punished the students for cheating has ever been proven true	66
+18	[]	filler	filler	73	Most computers that the senior citizens are capable of using correctly have uses outdated technology.	67
+18	[]	filler	filler	69	No analyst's projection that an increased lending rate would stimulate the economy was communicated to the financial executives.	68
+18	[]	filler	filler	73	The actors that plays in recent major films are paid millions of dollars for his talent.	69
+18	[]	0	14	69	The assertion that no nurse showed patience in the operating room has ever been known outside the hospital.	70
+18	[]	filler	filler	69	No geologist's premonition that evacuations would be necessary to avoid the volcano's lava flow was relayed to the island town.	71
+18	[]	filler	filler	69	The nurse's hunch that no abnormalities would be found in the brain scan was debated by his supervisor.	72
+18	[]	filler	filler	69	The lectures that no students wanted to attend were often taught by very boring professors.	73
+18	[]	filler	filler	69	The books that the elementary school board approved for class were ever banned from reading lists nationwide.	74
+18	[]	2	10	73	No revelation that the critics recommended the best-selling novel has ever been proven.	75
+18	[]	filler	filler	69	The secret documents that no spy could find were hidden in an underground vault.	76
+18	[]	filler	filler	69	The rocky roads that no regular sedan could handle were quite easy to drive on in a large truck.	77
+19	[]	filler	filler	69	Remember to keep your fingers on the e and i keys and provide an answer quickly.	6
+19	[]	filler	filler	69	The next sentence will start the experiment.	7
+19	[]	filler	filler	73	No conservationist's admission that an energy shortage would be caused by the new drilling technique was questioned by the committee.	8
+19	[]	filler	filler	69	The exhibits that no tourist visited during summer vacation were advertised very poorly.	11
+19	[]	filler	filler	69	No conservationist's admission that an energy shortage would be caused by the new drilling technique was questioned by the committee.	12
+19	[]	filler	filler	73	The minivans that no families wanted to purchase were redesigned to be more affordable and attractive.	14
+19	[]	0	13	69	The realization that no comments caused any bitterness toward the media has ever been substantiated.	15
+19	[]	0	14	None	The assertion that no suspect was nervous in the court room has ever been reported.	17
+19	[]	filler	filler	69	The programmer's opinion that no software would sell without attractive packaging was taken seriously by the retailers.	19
+19	[]	2	4	73	No disclosure that the customers expressed any optimism for a full refund has ever been reported in the newspaper.	20
+19	[]	filler	filler	69	The secret documents that no spy could find were hidden in an underground vault.	22
+19	[]	2	18	None	No fact that the actors were hurt in the dangerous stunt has ever been proven to be bogus.	23
+19	[]	filler	filler	73	The companies that needs young business often advertise in the magazines that many men enjoys reading.	25
+19	[]	filler	filler	69	The soccer players that could won the tournament were very upset with their coach.	26
+19	[]	0	9	73	The information that no accountant saw a rise in the quarterly profits has ever been claimed.	27
+19	[]	filler	filler	69	The beautician's statement that no other salon in town would give a better deal was quite reassuring for his clients.	28
+19	[]	2	0	69	No report that the librarians helped the students has ever made the rounds.	29
+19	[]	filler	filler	69	The horses that no jockey wanted to ride were sold to nearby farms and rented out to trainers.	30
+19	[]	filler	filler	69	No environmentalist's conjecture that the local wildlife would be affected by the oil spill was discussed with the Coast Guard.	31
+19	[]	filler	filler	69	The nurse's hunch that no abnormalities would be found in the brain scan was debated by his supervisor.	32
+19	[]	filler	filler	69	The statistician's conclusion that no fish stocks in the U.S. would be overfished until 2012 was welcome in the small port town.	33
+19	[]	filler	filler	None	The flowers that no customer wanted to buy were donated to the nearby funeral home.	34
+19	[]	filler	filler	69	The senator's opinion that no farm subsidies could stimulate the economy was strongly disputed in the debate.	36
+19	[]	filler	filler	69	The accountant's speculation that no tax cuts would be made in the near future was quite troubling for many small businesses.	37
+19	[]	filler	filler	None	Most poets that are considered to be extremely famous has written  poems about current events. 	38
+19	[]	filler	filler	69	The sailor's judgment that no ship would reach land before the storm was mentioned in the log that she kept daily.	39
+19	[]	filler	filler	69	The mayor's argument that no local residents would experience noise from the airport was discussed in a city council meeting.	40
+19	[]	filler	filler	69	No farmer's admission that food additives are necessary to preserve freshness was confirmed by the Food Safety Administration.	41
+19	[]	2	15	73	No assumption that the detergent caused damage to the delicate clothing has ever been debunked.	42
+19	[]	filler	filler	73	The students that has good grades often feel that they should had get into a good school.	43
+19	[]	filler	filler	69	The computer files that no employee could access were corrupted beyond recovery and had to be deleted.	44
+19	[]	0	2	69	The admission that no professors wanted any negativity in a class debate has ever been claimed.	45
+19	[]	filler	filler	69	No analyst's projection that an increased lending rate would stimulate the economy was communicated to the financial executives.	46
+19	[]	filler	filler	69	No historian's conjecture that a consensus would emerge on how to ration food fairly was supported by historical data.	47
+19	[]	filler	filler	69	The secretary's intuition that no emails would reach the employees during the system upgrade was revealed in his weekly meeting with the boss.	48
+19	[]	filler	filler	69	The professor's speculation that no practical counter-examples would turn up in the article was justified.	49
+19	[]	2	3	69	No declaration that the politician was trusted by the rural communities has ever caused concern.	50
+19	[]	filler	filler	69	The pilot's estimation that there would be no turbulence during the flight was communicated to her passengers.	51
+19	[]	filler	filler	69	The lectures that no students wanted to attend were often taught by very boring professors.	52
+19	[]	filler	filler	73	Most parks that the forest rangers have patrolled vigilantly during the summer has had forest fires.	53
+19	[]	filler	filler	73	The actors that plays in recent major films are paid millions of dollars for his talent.	55
+19	[]	filler	filler	69	The courses that no college student wanted to attend were often taught by inexperienced teaching assistants.	56
+19	[]	filler	filler	73	The books that the elementary school board approved for class were ever banned from reading lists nationwide.	57
+19	[]	0	11	73	The presumption that no nurse showed patience in the operating room has ever been known outside the hospital.	58
+19	[]	filler	filler	69	The rocky roads that no regular sedan could handle were quite easy to drive on in a large truck.	59
+19	[]	2	7	73	No news that the medic rescued the victim has never caused outrage.	60
+19	[]	filler	filler	69	The astronomer's contention that no telescope would have enough power to capture the distant galaxy was debated at the national space conference.	61
+19	[]	2	12	73	No assurance that the critics recommended the best-selling novel has ever been proven.	62
+19	[]	filler	filler	69	No blogger's hunch that a main character from the hit show would die next season was given much consideration by the show's producers.	63
+19	[]	0	17	69	The belief that no employee was kind to the rude customers has ever been reported to the manager.	64
+19	[]	filler	filler	73	The rainforests that were the subject of much debate has been unders federal protection.	65
+19	[]	filler	filler	69	The secretary's unsettlingly premonition that no raises would be given this year was mentioned to his coworkers during the lunch break.	66
+19	[]	2	10	69	No revelation that the ambassadors consulted the diplomats has ever been acknowledged.	67
+19	[]	filler	filler	69	The electrician's estimation that no building on the block would need to be rewired was made clear to her boss.	68
+19	[]	filler	filler	73	The papers that the students wants to write for the introductory course have no errors at all.	71
+19	[]	0	19	73	The undefined that no teacher sparked any inspiration in the students has ever concerned the parents.	72
+19	[]	filler	filler	69	The nuclear physicists that were hired to work on the reactor are allowed to knows details about the plant's projects	73
+19	[]	0	1	69	The story that no teacher punished the students for cheating has ever been proven true	74
+19	[]	filler	filler	73	The apartments that no family wanted to inhabit are rumored to be haunted by a mean ghost.	75
+19	[]	filler	filler	73	The flight attendant that were aboard the intercontinental flight had no time to sleep before landing.	76
+19	[]	2	16	69	No inkling that the diplomats supported the war has ever turned out to be false.	77
