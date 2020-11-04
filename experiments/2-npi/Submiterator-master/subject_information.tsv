@@ -1,21 +1,30 @@
 workerid	adjective1	adjective2	asses	comments	condition	enjoyment	language	suggested_pay
-0	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE
-1	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE
-2	glab	kolch	Yes	Difficult to see whether you were testing English skills or IT skills or speed thinking?	0	2	English	£5
-3	plach	kolch	Yes	It was interesting!	0	2	English	£4.50
-4	glab	grirped	Yes		0	1	English	£4
-5	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE
-6	scrib	brame	Yes		0	1	english	$4
-7	juints	scrib	Yes		0	1	English	£5
-8	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE
-9	trafes	scorcs	Yes		0	2	English	£4.00
-10	twad	glab	Yes		0	2	english	
-11	twell	gwigs	Yes	the sentances that were possibly'good english' were still maddening to read	0	0	english	£4
-12	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE
-13	squalf	twell	Yes	the words on a blank white screen made it slightly difficult to look at 	0	1	English	£4.50
-14	duilts	scrib	Yes	It made it hard to read because the words came up so quickly. Maybe this was part of the challenge. But I definitely made some mistakes because of this, whereas if I had more time to read it I would've known the answers.	0	1	english	£5
-15	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE
-16	snurts	jite	Yes	The speed at which the words flashed up on the screen was hard to follow at times. 	0	2	English	£4.50
-17	ghoice	hafs	Yes		0	0	English	£4
-18	duilts	thomps	Yes	I would be willing to contribute any further studies if I was asked and meet the researchers specifications/conditions. 	0	2	English	£4.50
-19	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE
+0	physs	fonns	Yes		0	2	English	
+1	yunt	joids	Yes		0	1	English	£4.30
+2	twell	ghoice	Yes		0	2	English	£4.50
+3	trunce	rhould	Yes	I find it more difficult than I would have imagined. 	0	1	English	£3.50
+4	irv	crooch	Yes	Grammatically, many were inaccurate due to the lack of commas that should have been used. However I appreciate this is an American study, so i'm not sure if the grammar rules are consistent with the UK.	0	0	English	£5
+5	thomps	therv	Yes	Found it very hard with the words coming up one by one very quickly. Became more intuition of the sentence rather than thought.	0	0	English	£5
+6	glab	kolch	Yes	Difficult to see whether you were testing English skills or IT skills or speed thinking?	0	2	English	£5
+7	plach	kolch	Yes	It was interesting!	0	2	English	£4.50
+8	glab	grirped	Yes		0	1	English	£4
+9	olm	brirk	Yes	It feels like this was actually looking at sexism at least on some level; or maybe that was just a product of randomised sentences 	0	2	English 	£5
+10	cref	fict	Yes	Quite interesting to complete. I believe the speed of the text may have some influence and wonder if the speed remained constant throughout the task. 	0	1	English	£5
+11	duilts	milbed	Yes		0	1	Greek	$5
+12	scrib	brame	Yes		0	1	english	$4
+13	juints	scrib	Yes		0	1	English	£5
+14	fruith	trafes	Yes	It was not mentioned if we can rest between the sentences or not. I think mentioning that we can pause would have made a difference as the test is quite eye-tiring.	0	1	Romanian	3£
+15	trafes	scorcs	Yes		0	2	English	£4.00
+16	twad	glab	Yes		0	2	english	
+17	twell	gwigs	Yes	the sentances that were possibly'good english' were still maddening to read	0	0	english	£4
+18	rhould	gwigs	Yes		0	2		4.50 pounds
+19	squalf	twell	Yes	the words on a blank white screen made it slightly difficult to look at 	0	1	English	£4.50
+20	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE
+21	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE	NO_VALUE
+22	duilts	scrib	Yes	It made it hard to read because the words came up so quickly. Maybe this was part of the challenge. But I definitely made some mistakes because of this, whereas if I had more time to read it I would've known the answers.	0	1	english	£5
+23	gwigs	twawls	Yes		0	2	English	7$
+24	scrib	praife	Yes	i was wondering if this was for a piece of AI software	0	2	English	£4.50
+25	snurts	jite	Yes	The speed at which the words flashed up on the screen was hard to follow at times. 	0	2	English	£4.50
+26	ghoice	hafs	Yes		0	0	English	£4
+27	duilts	thomps	Yes	I would be willing to contribute any further studies if I was asked and meet the researchers specifications/conditions. 	0	2	English	£4.50
+28	brame	jaund	Yes	Loved it. I really felt like I was contributing something worthwhile to your project. It was fun for me also. Thanks!	0	2	English	£5
