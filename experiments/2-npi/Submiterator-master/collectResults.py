@@ -21,7 +21,7 @@ with open("/afs/.ir.stanford.edu/users/m/h/mhahn2/cgi-bin/experiments/serverByTr
                   url = data["experiment"]["ProlificURL"]
               else:
                   url = data["ProlificURL"]
-              if "1-npi" in url and "preview=1" not in url and "PROLIFIC_PID" in url:
+              if "2-npi" in url and "preview=1" not in url and "PROLIFIC_PID" in url:
                   if "trial" in data:
                       trialsDataPerURL[url].append(data["trial"])
                   else:
